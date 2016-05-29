@@ -1,0 +1,280 @@
+/* Colours: */
+
+$white: #FFFFFF;
+$alabaster: #FAFAFA;
+$wild-sand: #F4F4F4;
+$mercury: #E5E5E5;
+$alto: #DBDBDB;
+$silver-chalice: #ACACAC;
+$grey: #808080;
+$mine-shaft: #323232;
+$astral: #327DA0;
+
+.white-bg {
+	background: $white;
+}
+
+.grey-bg {
+	background: $alabaster;
+}
+
+
+/* Mixins */
+
+@mixin all-text {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+
+@mixin all-caps {
+	@include sans-serif;
+	letter-spacing: 1.4px;
+	text-transform: uppercase;
+}
+
+@mixin extra-padding {
+	padding-bottom: 96px;
+	@media screen and (max-width: 480px) {
+		padding-bottom: 32px;
+	}
+}
+
+@mixin sans-serif {
+	@include all-text;
+	font-family: sofia-pro, 'Avenir Next', 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
+}
+
+/* @mixin serif {
+	@include all-text;
+	font-family: "freight-text-pro", Georgia, serif;
+} */
+
+@mixin hover {
+	transition: 0.3s ease;
+	opacity: 0.8;
+}
+
+@mixin hover-btn {
+	transition: 0.3s ease;
+	opacity: 1;
+	background-color: $mine-shaft;
+	color:$white;
+	border: 1px solid $mine-shaft;
+}
+
+/* Typography: */
+
+/* SIZES
+
+H1
+font-size: 56px;
+font-size: 32px;
+
+H2
+font-size: 24px;
+font-size: 14px;
+
+H3
+font-size: 24px;
+font-size: 18px;
+
+*/
+
+h1 {
+	@include sans-serif;
+	font-size: 56px;
+	color: $mine-shaft;
+	font-weight: 100;
+	@media screen and (max-width: 480px) {
+		font-size: 32px;
+		font-weight: 300;
+	}
+}
+
+h2 {
+	@include sans-serif;
+	font-size: 24px;
+	color: $grey;
+	font-weight: 200;
+	margin: 6px 0px 30px 0px;
+	@media screen and (max-width: 480px) {
+		font-size: 14px;
+		font-weight: 200;
+	}
+}
+
+h3 {
+	@include sans-serif;
+	font-size: 24px;
+	color: $mine-shaft;
+	font-weight: 400;
+	color: $mine-shaft;
+	@media screen and (max-width: 480px) {
+		font-size: 18px;
+	}
+}
+
+.lead {
+	h1,h2 {
+		@include all-caps;
+	}
+}
+
+.contact {
+	@include all-caps;
+	font-size: 14px;
+	font-weight: 200;
+	color: $grey;
+	padding-top: 40px;
+	@media screen and (max-width: 480px) {
+		font-weight: 200;
+		padding-top: 30px;
+	}
+	.label {
+		font-weight: 600;
+		color: $mine-shaft;
+		font-size: 14px;
+		padding-left: 0px;
+		@media screen and (max-width: 480px) {
+			font-size: 14px;
+		}
+	}
+	a {
+		padding-right: 20px;
+		text-decoration: none;
+		color: $grey;
+		&:hover {
+			color: $mine-shaft;	
+		}
+	}
+}
+
+.extra-padding {
+	@include extra-padding;
+}
+
+
+.container p {
+	@include sans-serif;
+	padding-top: 10px;
+	font-size: 20px;
+	font-weight: 200;
+	@media screen and (max-width: 480px) {
+		font-size: 16px;
+	}
+	a {
+		color: $grey;
+		text-decoration: none;
+		&:hover{
+			color:$mine-shaft;
+		}
+	}
+}
+
+
+/* Elements */
+
+.col-sm-10 { // this gives more space on mobile
+	@media screen and (max-width: 480px) {
+		padding-left:30px;
+		padding-right:30px;
+	}
+}
+
+.img-rounded {
+	border-radius: 4px; // overwrites the original 6px
+}
+
+.img-shadow {
+	box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.50);
+}
+
+.img-icon {
+	margin: 6px;
+	height: 30px;
+	border-radius: 15px;
+}
+
+.btn {
+	@include sans-serif;
+	font-weight:600;
+	letter-spacing: 1.2px;
+	background: $white;
+	color: $mine-shaft;
+	border: 1px solid $mine-shaft;
+	border-radius: 1px;
+	width: 120px;
+	height: 30px;
+	margin-right: 6px;
+	padding-top:2px;
+	&:hover {
+		@include hover-btn;
+	}
+	a {
+		text-decoration: none;	
+	}	
+}
+
+
+/* Animation */
+
+.come-in {
+  transform: translateY(150px);
+  animation: come-in 2s ease forwards;
+}
+
+@keyframes come-in {
+  to { transform: translateY(0); }
+}
+
+/* Structure */
+
+html, body {
+  height: 100%;
+}
+
+.jumbotron.vertical-center {
+  margin-bottom: 0;
+}
+
+.vertical-center {
+  min-height: 100%;
+  min-height: 100vh; 
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex; 
+
+    -webkit-box-align : center;
+  -webkit-align-items : center;
+       -moz-box-align : center;
+       -ms-flex-align : center;
+          align-items : center;
+
+  width: 100%;
+  
+         -webkit-box-pack : center;
+            -moz-box-pack : center;
+            -ms-flex-pack : center;
+  -webkit-justify-content : center;
+          justify-content : center;
+}
+
+.footer {
+	height:80px;
+	a {
+		text-decoration: none;
+		&:hover {
+			@include hover;
+		}
+		&:visited { // I'm trying to disabled the active state on iPad after clicking on links, work in progress...
+			text-decoration: none; 
+			decoration: none;
+			opacity:1 !important;
+		}
+	}
+	img {
+		@extend .img-icon;
+	} 
+}
