@@ -19,7 +19,7 @@ $color-yellow: yellow;
 }
 @mixin sans-serif {
 	@include all-text;
-	font-family: 'Sofia Pro', 'Avenir Next', 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
+	font-family: 'sofia-pro', 'Avenir Next', 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
 }
 @mixin link {
 	color: $color-grey-90;
