@@ -33,7 +33,7 @@ $(window).scroll(function(event) {
   $(".img-responsive").each(function(i, el) {
     var el = $(el);
     if (el.visible(true)) {
-      el.addClass("come-in"); 
+      el.addClass("slidein"); 
     } 
   });
 
@@ -55,7 +55,7 @@ win.scroll(function(event) {
   allMods.each(function(i, el) {
     var el = $(el);
     if (el.visible(true)) {
-      el.addClass("come-in"); 
+      el.addClass("slidein"); 
     } 
   });
   
