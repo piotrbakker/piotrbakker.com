@@ -1,23 +1,15 @@
 /* Colours: */
 
-$white: #FFFFFF;
-$alabaster: #FAFAFA;
-$wild-sand: #F4F4F4;
-$mercury: #E5E5E5;
-$alto: #DBDBDB;
-$silver-chalice: #ACACAC;
-$grey: #808080;
-$mine-shaft: #323232;
-$astral: #327DA0;
-
-.white-bg {
-	background: $white;
-}
-
-.grey-bg {
-	background: $alabaster;
-}
-
+$color-grey-05: #F4F4F4;
+$color-grey-15: #DBDBDB;
+$color-grey-30: #ACACAC;
+$color-grey-50: #808080;
+$color-grey-80: #2C2C2C;
+$color-grey-90: #222222;
+$color-white: #FFFFFF;
+$color-blue: #4A90E2;
+$color-red: #D0021B;
+$color-yellow: yellow;
 
 /* Mixins */
 
@@ -25,256 +17,232 @@ $astral: #327DA0;
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizeLegibility;
 }
-
-@mixin all-caps {
-	@include sans-serif;
-	letter-spacing: 1.4px;
-	text-transform: uppercase;
-}
-
-@mixin extra-padding {
-	padding-bottom: 96px;
-	@media screen and (max-width: 480px) {
-		padding-bottom: 32px;
-	}
-}
-
 @mixin sans-serif {
 	@include all-text;
-	font-family: sofia-pro, 'Avenir Next', 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
+	font-family: 'Sofia Pro', 'Avenir Next', 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
 }
-
-/* @mixin serif {
-	@include all-text;
-	font-family: "freight-text-pro", Georgia, serif;
-} */
-
-@mixin hover {
-	transition: 0.3s ease;
-	opacity: 0.8;
-}
-
-@mixin hover-btn {
-	transition: 0.3s ease;
-	opacity: 1;
-	background-color: $mine-shaft;
-	color:$white;
-	border: 1px solid $mine-shaft;
+@mixin link {
+	color: $color-grey-90;
+  text-decoration: none;
+	&:hover{
+		transition: 0.3s ease;
+    color: $color-blue;
+    text-decoration: none;
+	}
 }
 
 /* Typography: */
 
-/* SIZES
-
-H1
-font-size: 56px;
-font-size: 32px;
-
-H2
-font-size: 24px;
-font-size: 14px;
-
-H3
-font-size: 24px;
-font-size: 18px;
-
-*/
-
 h1 {
-	@include sans-serif;
-	font-size: 56px;
-	color: $mine-shaft;
-	font-weight: 100;
-	@media screen and (max-width: 480px) {
-		font-size: 32px;
-		font-weight: 300;
-	}
+  @include sans-serif;
+  color: $color-grey-90;
+  //font-family: SofiaProUltraLight;
+  font-weight: 100;
+	font-size: 76px;
+  line-height: 81px;
+	margin: 27px 0px 0px 0px;
+  @media screen and (max-width: 992px) {
+  	font-size: 47px;
+  	line-height: 54px;
+  }
 }
-
 h2 {
-	@include sans-serif;
-	font-size: 24px;
-	color: $grey;
-	font-weight: 200;
-	margin: 6px 0px 30px 0px;
-	@media screen and (max-width: 480px) {
-		font-size: 14px;
-		font-weight: 200;
-	}
+  @include sans-serif;
+  //font-family: SofiaProExtraLight;
+  font-weight: 200;
+	font-size: 29px;
+	line-height: 45px;
+	margin: 27px 0px 27px 0px;
+  @media screen and (max-width: 992px) {
+    //font-family: SofiaProBold;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    margin: 27px 0px 9px 0px;
+  }
 }
-
 h3 {
 	@include sans-serif;
-	font-size: 24px;
-	color: $mine-shaft;
-	font-weight: 400;
-	color: $mine-shaft;
-	@media screen and (max-width: 480px) {
-		font-size: 18px;
-	}
+  //font-family: SofiaProBold;
+  font-weight: 600;
+	font-size: 29px;
+	line-height: 54px;
+	margin: 27px 0px 27px 0px;
 }
-
-.lead {
-	h1,h2 {
-		@include all-caps;
-	}
-}
-
-.contact {
-	@include all-caps;
-	font-size: 14px;
-	font-weight: 200;
-	color: $grey;
-	padding-top: 40px;
-	@media screen and (max-width: 480px) {
-		font-weight: 200;
-		padding-top: 30px;
-	}
-	.label {
-		font-weight: 600;
-		color: $mine-shaft;
-		font-size: 14px;
-		padding-left: 0px;
-		@media screen and (max-width: 480px) {
-			font-size: 14px;
-		}
-	}
-	a {
-		padding-right: 20px;
-		text-decoration: none;
-		color: $grey;
-		&:hover {
-			color: $mine-shaft;	
-		}
-	}
-}
-
-.extra-padding {
-	@include extra-padding;
-}
-
-
-.container p {
+p {
 	@include sans-serif;
-	padding-top: 10px;
-	font-size: 20px;
-	font-weight: 200;
-	@media screen and (max-width: 480px) {
-		font-size: 16px;
-	}
-	a {
-		color: $grey;
-		text-decoration: none;
-		&:hover{
-			color:$mine-shaft;
-		}
-	}
+  //font-family: SofiaProExtraLight;
+  font-weight: 200;
+  color: $color-grey-90;
+	font-size: 18px;
+  line-height: 27px;
+  margin: 0px 0px 27px 0px;
 }
-
-
-/* Elements */
-
-.col-sm-10 { // this gives more space on mobile
-	@media screen and (max-width: 480px) {
-		padding-left:30px;
-		padding-right:30px;
+a {
+ @include link;
+}
+p > a {
+  //font-family: SofiaProRegular;
+  font-weight: 400;
+}
+li > a {
+  color: $color-grey-50;
+	&:hover{
+    color: $color-blue
 	}
 }
-
-.img-rounded {
-	border-radius: 4px; // overwrites the original 6px
+.list-contact-details {
+  @include all-text;
+  @include sans-serif;
+  //font-family: SofiaProLight;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 36px; //To add vertical space between email and phone number on mobile
+  padding: 0px 0px 0px 0px;
+  list-style-type: none;
+  li {
+    margin: 0px 27px 0px 0px;
+    @media screen and (min-width: 640px) {
+    	display: inline; // On small devices inline doesn't work as the phone number breaks half way
+    }
+  }
 }
-
-.img-shadow {
-	box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.50);
+.label-contact {
+  //font-family: SofiaProBold;
+	font-weight: 600;
+  color: $color-grey-90;
+  margin: 0px 18px 0px 0px;
 }
-
-.img-icon {
-	margin: 6px;
-	height: 30px;
-	border-radius: 15px;
+.list-buttons {
+  padding: 0px 0px 0px 0px;
+  margin: 27px 0px 27px 0px;;
+  list-style-type: none;
+  li {
+    display: inline-block;
+    margin: 0px 8px 0px 0px;
+    @media screen and (min-width: 640px) {
+      margin: 0px 8px 8px 0px;
+    }
+  }
 }
-
-.btn {
-	@include sans-serif;
-	font-weight:600;
-	letter-spacing: 1.2px;
-	background: $white;
-	color: $mine-shaft;
-	border: 1px solid $mine-shaft;
+.button {
+  @include all-text;
+  @include sans-serif;
+  display: inline-block;
+  //font-family: SofiaProBold;
+  font-weight: 600;
+  font-size: 14px;
+	//letter-spacing: 1.2px;
+	background: $color-white;
+	color: $color-grey-90;
+	border: 1px solid $color-grey-90;
 	border-radius: 1px;
 	width: 120px;
-	height: 30px;
-	margin-right: 6px;
-	padding-top:2px;
-	&:hover {
-		@include hover-btn;
-	}
+	height: 32px;
+  padding: 6px 0px 0px 0px;
+  margin: 0px 0px 9px 0px;
 	a {
-		text-decoration: none;	
+		text-decoration: none;
 	}	
+	&:hover{
+		transition: 0.3s ease;
+    text-decoration: none;
+  	background-color: $color-grey-90;
+  	color: $color-white;
+  }  
 }
-
+.social-button {
+  display: inline-block;
+	margin: 0 8px 0 8px;
+  padding-top: 6px;
+  width: 36px;
+	height: 36px;
+	border-radius: 24px;
+	background: $color-white;
+	color: $color-grey-90;
+	border: 1px solid $color-grey-90;
+	&:hover{
+		transition: 0.3s ease;
+    text-decoration: none;
+  	background-color: $color-grey-90;
+  	color: $color-white;
+  }  
+}
 
 /* Animation */
 
-.come-in {
+/* .slidein {
   transform: translateY(150px);
-  animation: come-in 2s ease forwards;
+  animation: slidein 2s ease forwards;
 }
 
-@keyframes come-in {
+@keyframes slidein {
   to { transform: translateY(0); }
-}
+} */
 
 /* Structure */
+
+// Themes
+.background-white {
+	background: $color-white;
+}
+
+.background-grey {
+	background: lighten($color-grey-05, 2% );
+}
+
+// Layout
 
 html, body {
   height: 100%;
 }
 
-.jumbotron.vertical-center {
-  margin-bottom: 0;
-}
-
 .vertical-center {
-  min-height: 100%;
-  min-height: 100vh; 
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex; 
-
-    -webkit-box-align : center;
-  -webkit-align-items : center;
-       -moz-box-align : center;
-       -ms-flex-align : center;
-          align-items : center;
-
-  width: 100%;
-  
-         -webkit-box-pack : center;
-            -moz-box-pack : center;
-            -ms-flex-pack : center;
-  -webkit-justify-content : center;
-          justify-content : center;
+  min-height: 100%;  // Fallback for browsers do NOT support vh unit
+  min-height: 100vh; // These two lines are counted as one :-)
+  display: flex;
+  align-items: center;
 }
 
-.footer {
-	height:80px;
-	a {
-		text-decoration: none;
-		&:hover {
-			@include hover;
-		}
-		&:visited { // I'm trying to disabled the active state on iPad after clicking on links, work in progress...
-			text-decoration: none; 
-			decoration: none;
-			opacity:1 !important;
-		}
+.container { // The 12 column layout is too wide and this makes it a bit more narrow.
+  padding: 0 63px 0 63px;
+  @media screen and (max-width: 992px) {
+    padding: 0 9px 0 9px;
+  }
+  @media screen and (max-width: 768px) {
+		margin-left: 18px;
+		margin-right: 18px;
+  }
+}
+.section-lead {
+	h1,h2,.list-contact-details {
+  	letter-spacing: 1.4px;
+  	//text-transform: uppercase;
 	}
-	img {
-		@extend .img-icon;
-	} 
+  h2 {
+    //font-family: SofiaProExtraLight;
+    font-weight: 200;
+    color: $color-grey-50;
+    margin: 0px 0px 27px 0px;
+  }
+}
+.section-header {
+  margin: 54px 0px 72px 0px;
+}
+.section-content {
+  margin-top: 54px;
+  margin-bottom: 72px;
+  .section-description {
+    padding: 0 45px 0 45px;
+    @media screen and (max-width: 992px) {
+      padding: 0 18px 0 18px;
+    }
+  }
+}
+.image-mask {
+  box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.50);
+  border-radius: 4px;
+}
+.footer {
+	height: 90px;
 }
