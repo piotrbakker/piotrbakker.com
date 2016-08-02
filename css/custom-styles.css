@@ -148,7 +148,6 @@ li > a {
 @keyframes slidein {
   to { transform: translateY(0); }
 } */
-/* Structure */
 .background-white {
   background: #FFFFFF; }
 
