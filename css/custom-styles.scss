@@ -1,5 +1,6 @@
 // Colours
 $color-grey-05: #F9F9F9;
+$color-grey-10: #EDEDED;
 $color-grey-15: #DBDBDB;
 $color-grey-30: #ACACAC;
 $color-grey-50: #808080;
@@ -95,12 +96,11 @@ $color-magenta: #EC058E;
 .bodyCopy--disabled {
   color: $color-grey-50;
 }
-.buttonType {
+.buttonText {
   @include allText;
   @include sans-serif;
+  font-size: 1.125rem;
   font-weight: 900;
-  font-size: 1rem;
-  text-transform: uppercase;
 }
 
 //Sections
@@ -110,6 +110,10 @@ $color-magenta: #EC058E;
 }
 .sectionHero {
   margin-top: 12%;
+
+  @media (max-width: 768px) {
+    margin-bottom: 8%;
+  }
 }
 .sectionBody {
   margin-bottom: 8%;
@@ -119,12 +123,33 @@ $color-magenta: #EC058E;
 }
 .sectionPadding--left {
 
-    @media (min-width: 992px) {
-      padding-right: 4%;
+  @media (min-width: 992px) {
+    padding-right: 4%;
   }
 }
 
 //Componenets
+.buttonStyle__primary {
+  background-color: $color-white;
+  border: 0.0625rem solid $color-grey-10;
+  box-shadow: 0 0.125rem 0.125rem 0 rgba(0,0,0,0.10);
+  border-radius: 0.375rem;
+
+  &:hover {
+    background-color: $color-white;
+    border: 0.0625rem solid $color-grey-05;
+    box-shadow: 0 0.25rem 0.25rem 0 rgba(0,0,0,0.12);
+  }
+
+  &:active {
+    background-color: $color-white !important;
+    border: 0.0625rem solid $color-grey-05 !important;
+  }
+
+  &:visited {
+    background-color: $color-white;
+  }
+}
 .img__avatar {
   width: 5rem;
 }
