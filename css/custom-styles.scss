@@ -1,9 +1,12 @@
 // Colours
-$color-grey-05: #F9F9F9;
-$color-grey-10: #EDEDED;
-$color-grey-15: #DBDBDB;
-$color-grey-30: #ACACAC;
-$color-grey-50: #808080;
+$color-grey-10: #F5F5F5;
+$color-grey-20: #EEEEEE;
+$color-grey-30: #E0E0E0;
+$color-grey-40: #BDBDBD;
+$color-grey-60: #757575;
+$color-grey-80: #424242;
+$color-grey-85: #212121;
+$color-grey-90: #121212;
 $color-white: #FFFFFF;
 $color-magenta: #EC058E;
 
@@ -19,20 +22,41 @@ $color-magenta: #EC058E;
   font-family: freight-text-pro, serif;
 }
 
+//Dark Theme
+body {
+
+  @media (prefers-color-scheme: dark) {
+    background: $color-grey-90;
+  }
+}
+@mixin darkMode__textNormal {
+  @media (prefers-color-scheme: dark) {
+    color: $color-grey-30;
+  }
+}
+@mixin darkMode__textDimmed {
+  @media (prefers-color-scheme: dark) {
+    color: $color-grey-40;
+  }
+}
+
 //Typography
 .header__h1 {
   @include allText;
   @include sans-serif;
+  @include darkMode__textNormal;
   font-weight: 900;
 }
 .header__h2 {
   @include allText;
   @include sans-serif;
+  @include darkMode__textNormal;
   font-weight: 900;
 }
 .header__h4 {
   @include allText;
   @include sans-serif;
+  @include darkMode__textNormal;
   font-weight: 900;
 }
 .header__link {
@@ -58,6 +82,7 @@ $color-magenta: #EC058E;
 .bodyCopy {
   @include allText;
   @include serif;
+  @include darkMode__textDimmed;
   font-size: 1.25rem;
   font-weight: 500;
 }
@@ -94,7 +119,7 @@ $color-magenta: #EC058E;
   }
 }
 .bodyCopy--disabled {
-  color: $color-grey-50;
+  color: $color-grey-60;
 }
 .buttonText {
   @include allText;
@@ -127,27 +152,57 @@ $color-magenta: #EC058E;
     padding-right: 4%;
   }
 }
+.sectionDivider {
+  background: $color-grey-10;
+
+  @media (prefers-color-scheme: dark) {
+    background: $color-grey-80;
+  }
+}
 
 //Componenets
 .buttonStyle__primary {
   background-color: $color-white;
-  border: 0.0625rem solid $color-grey-10;
+  border: 0.0625rem solid $color-grey-20;
   box-shadow: 0 0.125rem 0.125rem 0 rgba(0,0,0,0.10);
   border-radius: 0.375rem;
 
   &:hover {
     background-color: $color-white;
-    border: 0.0625rem solid $color-grey-05;
+    border: 0.0625rem solid $color-grey-10;
     box-shadow: 0 0.25rem 0.25rem 0 rgba(0,0,0,0.12);
   }
 
   &:active {
     background-color: $color-white !important;
-    border: 0.0625rem solid $color-grey-05 !important;
+    border: 0.0625rem solid $color-grey-10 !important;
   }
 
   &:visited {
     background-color: $color-white;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    background-color: $color-grey-85;
+    border-color: $color-grey-80;
+    box-shadow: 0 0.125rem 0.125rem 0 rgba(255,255,255,0.02);
+    color: $color-white;
+
+    &:hover {
+      background-color: $color-grey-85;
+      border-color: $color-grey-60;
+      box-shadow: 0 0.25rem 0.25rem 0 rgba(255,255,255,0.06);
+      color: $color-white;
+    }
+
+    &:active {
+      background-color: $color-grey-85 !important;
+      border-color: $color-grey-60 !important;
+    }
+
+    &:visited {
+      background-color: $color-grey-85;
+    }
   }
 }
 .img__avatar {
