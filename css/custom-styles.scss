@@ -232,6 +232,7 @@ body {
     justify-content: center;
     opacity: 0;
     animation: toast__slideDown 3s normal cubic-bezier(0, 1.4, 1, 1);
+    animation-delay: 0.5s;
   }
 }
 .toastLabel {
@@ -255,7 +256,7 @@ body {
     opacity: 1;
     transform: translateY(2rem);
   }
-
+  
   100% {
     transform: translateY(-4rem);
   }
