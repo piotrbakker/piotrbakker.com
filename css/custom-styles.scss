@@ -21,14 +21,6 @@ $color-magenta: #EC058E;
 @mixin serif {
   font-family: freight-text-pro, serif;
 }
-
-//Dark Theme
-body {
-
-  @media (prefers-color-scheme: dark) {
-    background: $color-grey-90;
-  }
-}
 @mixin darkMode__textNormal {
   @media (prefers-color-scheme: dark) {
     color: $color-grey-30;
@@ -37,6 +29,45 @@ body {
 @mixin darkMode__textDimmed {
   @media (prefers-color-scheme: dark) {
     color: $color-grey-40;
+  }
+}
+
+//Layout
+body {
+  background: $color-white;
+
+  @media (prefers-color-scheme: dark) {
+    background: $color-grey-90;
+  }
+}
+.sectionBody {
+  padding-bottom: 8%;
+}
+.sectionHero {
+  padding-top: 12%;
+
+  @media (max-width: 768px) {
+    margin-bottom: 8%;
+  }
+}
+.sectionContent {
+  margin-top: 8%;
+}
+.sectionPadding {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.sectionPadding--left {
+
+  @media (min-width: 992px) {
+    padding-right: 4%;
+  }
+}
+.sectionDivider {
+  background: $color-grey-10;
+
+  @media (prefers-color-scheme: dark) {
+    background: $color-grey-80;
   }
 }
 
@@ -126,38 +157,20 @@ body {
   @include sans-serif;
   font-size: 1.125rem;
   font-weight: 900;
-}
-
-//Sections
-.sectionPadding {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-.sectionHero {
-  margin-top: 12%;
-
-  @media (max-width: 768px) {
-    margin-bottom: 8%;
-  }
-}
-.sectionBody {
-  margin-bottom: 8%;
-}
-.sectionContent {
-  margin-top: 8%;
-}
-.sectionPadding--left {
-
-  @media (min-width: 992px) {
-    padding-right: 4%;
-  }
-}
-.sectionDivider {
-  background: $color-grey-10;
+  color: $color-grey-90;
 
   @media (prefers-color-scheme: dark) {
-    background: $color-grey-80;
+    color: $color-white;
   }
+}
+.toastText {
+  @include allText;
+  @include sans-serif;
+  font-size: 1rem;
+
+    @media (prefers-color-scheme: dark) {
+      color: $color-white;
+    }
 }
 
 //Componenets
@@ -171,11 +184,12 @@ body {
     background-color: $color-white;
     border: 0.0625rem solid $color-grey-10;
     box-shadow: 0 0.25rem 0.25rem 0 rgba(0,0,0,0.12);
+    color: $color-grey-90;
   }
 
   &:active {
-    background-color: $color-white !important;
-    border: 0.0625rem solid $color-grey-10 !important;
+    background-color: $color-white;
+    border: 0.0625rem solid $color-grey-10;
   }
 
   &:visited {
@@ -183,28 +197,66 @@ body {
   }
 
   @media (prefers-color-scheme: dark) {
-    background-color: $color-grey-85;
+    background-color: $color-grey-90;
     border-color: $color-grey-80;
-    box-shadow: 0 0.125rem 0.125rem 0 rgba(255,255,255,0.02);
-    color: $color-white;
+    box-shadow: 0 0.125rem 0.125rem 0 rgba(0,0,0,0.24);
 
     &:hover {
-      background-color: $color-grey-85;
+      background-color: $color-grey-90;
       border-color: $color-grey-60;
-      box-shadow: 0 0.25rem 0.25rem 0 rgba(255,255,255,0.06);
+      box-shadow: 0 0.25rem 0.25rem 0 rgba(0,0,0,0.32);
       color: $color-white;
     }
 
     &:active {
-      background-color: $color-grey-85 !important;
-      border-color: $color-grey-60 !important;
+      background-color: $color-grey-90;
+      border-color: $color-grey-60;
     }
 
     &:visited {
-      background-color: $color-grey-85;
+      background-color: $color-grey-90;
     }
   }
 }
 .img__avatar {
   width: 5rem;
+}
+.toast {
+  display: none;
+  position: relative;
+  z-index: 1000;
+
+  @media (prefers-color-scheme: dark) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    opacity: 0;
+    animation: toast__slideDown 3s normal cubic-bezier(0, 1.4, 1, 1);
+  }
+}
+.toastLabel {
+
+  @media (prefers-color-scheme: dark) {
+    position: absolute;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    background-color: rgba(33,33,33,0.20);
+    border: 0.0625rem solid rgba(66,66,66,0.80);
+    border-radius: 2rem;
+  }
+}
+
+//Animation
+@keyframes toast__slideDown {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 1;
+    transform: translateY(2rem);
+  }
+
+  100% {
+    transform: translateY(-4rem);
+  }
 }
