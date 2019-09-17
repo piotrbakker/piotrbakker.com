@@ -109,6 +109,26 @@ body {
     color: $color-magenta;
     opacity: 1;
   }
+
+  @media (prefers-color-scheme: dark) {
+    color: scale-color($color-magenta, $saturation: -40%);
+
+    &:hover {
+      color: scale-color($color-magenta, $saturation: -40%);
+      opacity: 0.64;
+      text-decoration: none;
+    }
+
+    &:active {
+      color: scale-color($color-magenta, $saturation: -40%);
+      opacity: 0.64;
+    }
+
+    &:visited {
+      color: scale-color($color-magenta, $saturation: -40%);
+      opacity: 1;
+    }
+  }
 }
 .bodyCopy {
   @include allText;
@@ -130,7 +150,6 @@ body {
 }
 .bodyCopy__link {
   color: $color-magenta;
-  font-weight: 900;
   opacity: 1;
 
   &:hover {
@@ -148,9 +167,32 @@ body {
     color: $color-magenta;
     opacity: 1;
   }
+
+  @media (prefers-color-scheme: dark) {
+    color: scale-color($color-magenta, $saturation: -40%);
+
+    &:hover {
+      color: scale-color($color-magenta, $saturation: -40%);
+      opacity: 0.64;
+      text-decoration: none;
+    }
+
+    &:active {
+      color: scale-color($color-magenta, $saturation: -40%);
+      opacity: 0.64;
+    }
+
+    &:visited {
+      color: scale-color($color-magenta, $saturation: -40%);
+      opacity: 1;
+    }
+  }
 }
 .bodyCopy--disabled {
   color: $color-grey-60;
+}
+.bodyCopy--bold {
+  font-weight: 900;
 }
 .buttonText {
   @include allText;
@@ -256,7 +298,7 @@ body {
     opacity: 1;
     transform: translateY(2rem);
   }
-  
+
   100% {
     transform: translateY(-4rem);
   }

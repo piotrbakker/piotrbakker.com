@@ -97,6 +97,24 @@ body {
   color: #EC058E;
   opacity: 1;
 }
+@media (prefers-color-scheme: dark) {
+  .header__link {
+    color: #be3385;
+  }
+  .header__link:hover {
+    color: #be3385;
+    opacity: 0.64;
+    text-decoration: none;
+  }
+  .header__link:active {
+    color: #be3385;
+    opacity: 0.64;
+  }
+  .header__link:visited {
+    color: #be3385;
+    opacity: 1;
+  }
+}
 
 .bodyCopy {
   -webkit-font-smoothing: antialiased;
@@ -128,7 +146,6 @@ body {
 
 .bodyCopy__link {
   color: #EC058E;
-  font-weight: 900;
   opacity: 1;
 }
 .bodyCopy__link:hover {
@@ -144,9 +161,31 @@ body {
   color: #EC058E;
   opacity: 1;
 }
+@media (prefers-color-scheme: dark) {
+  .bodyCopy__link {
+    color: #be3385;
+  }
+  .bodyCopy__link:hover {
+    color: #be3385;
+    opacity: 0.64;
+    text-decoration: none;
+  }
+  .bodyCopy__link:active {
+    color: #be3385;
+    opacity: 0.64;
+  }
+  .bodyCopy__link:visited {
+    color: #be3385;
+    opacity: 1;
+  }
+}
 
 .bodyCopy--disabled {
   color: #757575;
+}
+
+.bodyCopy--bold {
+  font-weight: 900;
 }
 
 .buttonText {
