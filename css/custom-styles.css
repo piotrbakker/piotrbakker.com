@@ -3,7 +3,7 @@ body {
 }
 @media (prefers-color-scheme: dark) {
   body {
-    background: #121212;
+    background: #111111;
   }
 }
 
@@ -36,11 +36,11 @@ body {
 }
 
 .sectionDivider {
-  background: #F5F5F5;
+  background: #EAEAEA;
 }
 @media (prefers-color-scheme: dark) {
   .sectionDivider {
-    background: #424242;
+    background: #666666;
   }
 }
 
@@ -52,7 +52,7 @@ body {
 }
 @media (prefers-color-scheme: dark) {
   .header__h1 {
-    color: #E0E0E0;
+    color: #EAEAEA;
   }
 }
 
@@ -64,7 +64,7 @@ body {
 }
 @media (prefers-color-scheme: dark) {
   .header__h2 {
-    color: #E0E0E0;
+    color: #EAEAEA;
   }
 }
 
@@ -76,42 +76,42 @@ body {
 }
 @media (prefers-color-scheme: dark) {
   .header__h4 {
-    color: #E0E0E0;
+    color: #EAEAEA;
   }
 }
 
 .header__link {
-  color: #EC058E;
+  color: #FF0099;
   opacity: 1;
 }
 .header__link:hover {
-  color: #EC058E;
+  color: #FF0099;
   opacity: 0.64;
   text-decoration: none;
 }
 .header__link:active {
-  color: #EC058E;
+  color: #FF0099;
   opacity: 0.64;
 }
 .header__link:visited {
-  color: #EC058E;
+  color: #FF0099;
   opacity: 1;
 }
 @media (prefers-color-scheme: dark) {
   .header__link {
-    color: #be3385;
+    color: #cc338f;
   }
   .header__link:hover {
-    color: #be3385;
+    color: #cc338f;
     opacity: 0.64;
     text-decoration: none;
   }
   .header__link:active {
-    color: #be3385;
+    color: #cc338f;
     opacity: 0.64;
   }
   .header__link:visited {
-    color: #be3385;
+    color: #cc338f;
     opacity: 1;
   }
 }
@@ -125,7 +125,7 @@ body {
 }
 @media (prefers-color-scheme: dark) {
   .bodyCopy {
-    color: #BDBDBD;
+    color: #CCCCCC;
   }
 }
 
@@ -145,43 +145,43 @@ body {
 }
 
 .bodyCopy__link {
-  color: #EC058E;
+  color: #FF0099;
   opacity: 1;
 }
 .bodyCopy__link:hover {
-  color: #EC058E;
+  color: #FF0099;
   opacity: 0.64;
   text-decoration: none;
 }
 .bodyCopy__link:active {
-  color: #EC058E;
+  color: #FF0099;
   opacity: 0.64;
 }
 .bodyCopy__link:visited {
-  color: #EC058E;
+  color: #FF0099;
   opacity: 1;
 }
 @media (prefers-color-scheme: dark) {
   .bodyCopy__link {
-    color: #be3385;
+    color: #cc338f;
   }
   .bodyCopy__link:hover {
-    color: #be3385;
+    color: #cc338f;
     opacity: 0.64;
     text-decoration: none;
   }
   .bodyCopy__link:active {
-    color: #be3385;
+    color: #cc338f;
     opacity: 0.64;
   }
   .bodyCopy__link:visited {
-    color: #be3385;
+    color: #cc338f;
     opacity: 1;
   }
 }
 
 .bodyCopy--disabled {
-  color: #757575;
+  color: #999999;
 }
 
 .bodyCopy--bold {
@@ -194,7 +194,7 @@ body {
   font-family: sofia-pro, sans-serif;
   font-size: 1.125rem;
   font-weight: 900;
-  color: #121212;
+  color: #333333;
 }
 @media (prefers-color-scheme: dark) {
   .buttonText {
@@ -216,41 +216,41 @@ body {
 
 .buttonStyle__primary {
   background-color: #FFFFFF;
-  border: 0.0625rem solid #EEEEEE;
+  border: 0.0625rem solid #EAEAEA;
   box-shadow: 0 0.125rem 0.125rem 0 rgba(0, 0, 0, 0.1);
   border-radius: 0.375rem;
 }
 .buttonStyle__primary:hover {
   background-color: #FFFFFF;
-  border: 0.0625rem solid #F5F5F5;
+  border: 0.0625rem solid #EAEAEA;
   box-shadow: 0 0.25rem 0.25rem 0 rgba(0, 0, 0, 0.12);
-  color: #121212;
+  color: #333333;
 }
 .buttonStyle__primary:active {
   background-color: #FFFFFF;
-  border: 0.0625rem solid #F5F5F5;
+  border: 0.0625rem solid #EAEAEA;
 }
 .buttonStyle__primary:visited {
   background-color: #FFFFFF;
 }
 @media (prefers-color-scheme: dark) {
   .buttonStyle__primary {
-    background-color: #121212;
-    border-color: #424242;
+    background-color: #111111;
+    border-color: #666666;
     box-shadow: 0 0.125rem 0.125rem 0 rgba(0, 0, 0, 0.24);
   }
   .buttonStyle__primary:hover {
-    background-color: #121212;
-    border-color: #757575;
+    background-color: #111111;
+    border-color: #999999;
     box-shadow: 0 0.25rem 0.25rem 0 rgba(0, 0, 0, 0.32);
     color: #FFFFFF;
   }
   .buttonStyle__primary:active {
-    background-color: #121212;
-    border-color: #757575;
+    background-color: #111111;
+    border-color: #999999;
   }
   .buttonStyle__primary:visited {
-    background-color: #121212;
+    background-color: #111111;
   }
 }
 
