@@ -63,7 +63,8 @@ body {
 }
 .sectionDivider {
   background: $greyscale-080;
-  
+  opacity:1;
+
   @media (prefers-color-scheme: dark) {
     background: $greyscale-600;
   }

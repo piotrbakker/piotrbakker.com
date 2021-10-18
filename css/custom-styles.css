@@ -37,6 +37,7 @@ body {
 
 .sectionDivider {
   background: #EAEAEA;
+  opacity: 1;
 }
 @media (prefers-color-scheme: dark) {
   .sectionDivider {
