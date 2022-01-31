@@ -4,6 +4,7 @@ $greyscale-080: #EAEAEA;
 $greyscale-200: #CCCCCC;
 $greyscale-400: #999999;
 $greyscale-600: #666666;
+$greyscale-500: #808080;
 $greyscale-800: #333333;
 $greyscale-900: #111111;
 $hue-magenta: #FF0099;
@@ -63,6 +64,7 @@ body {
 }
 .sectionDivider {
   background: $greyscale-080;
+
   opacity:1;
 
   @media (prefers-color-scheme: dark) {
@@ -188,7 +190,7 @@ body {
   }
 }
 .bodyCopy--disabled {
-  color: $greyscale-400;
+  color: $greyscale-500;
 }
 .bodyCopy--bold {
   font-weight: 900;
