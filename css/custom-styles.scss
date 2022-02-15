@@ -3,8 +3,8 @@ $greyscale-000: #FFFFFF;
 $greyscale-080: #EAEAEA;
 $greyscale-200: #CCCCCC;
 $greyscale-400: #999999;
-$greyscale-600: #666666;
 $greyscale-500: #808080;
+$greyscale-600: #666666;
 $greyscale-800: #333333;
 $greyscale-900: #111111;
 $hue-magenta: #FF0099;
@@ -190,7 +190,11 @@ body {
   }
 }
 .bodyCopy--disabled {
-  color: $greyscale-500;
+  color: $greyscale-600;
+
+  @media (prefers-color-scheme: dark) {
+    color: $greyscale-500;
+  }
 }
 .bodyCopy--bold {
   font-weight: 900;

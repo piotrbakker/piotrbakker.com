@@ -182,7 +182,12 @@ body {
 }
 
 .bodyCopy--disabled {
-  color: #808080;
+  color: #666666;
+}
+@media (prefers-color-scheme: dark) {
+  .bodyCopy--disabled {
+    color: #808080;
+  }
 }
 
 .bodyCopy--bold {
