@@ -36,12 +36,12 @@ body {
 }
 
 .sectionDivider {
-  background: #EAEAEA;
+  color: #CCCCCC;
   opacity: 1;
 }
 @media (prefers-color-scheme: dark) {
   .sectionDivider {
-    background: #666666;
+    color: #666666;
   }
 }
 
