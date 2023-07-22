@@ -220,6 +220,12 @@ body {
   }
 }
 
+.bullet-list-plain {
+  list-style-type: none;
+  margin: 0 0 1rem 0;
+  padding: 0;
+}
+
 .buttonStyle__primary {
   background-color: #FFFFFF;
   border: 0.0625rem solid #EAEAEA;
