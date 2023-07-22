@@ -224,6 +224,19 @@ body {
   margin: 0 0 1rem 0;
   padding: 0;
 }
+.description-list-plain {
+  dt {
+    font-weight: 400;
+    &:nth-child(n+2) {
+      margin: 1rem 0 0 0;
+    }
+  }
+  dd {
+    margin: 0;
+    padding: 0;
+  }
+}
+
 //Componenets
 .buttonStyle__primary {
   background-color: $greyscale-000;
