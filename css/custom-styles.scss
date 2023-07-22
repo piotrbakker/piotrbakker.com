@@ -219,7 +219,11 @@ body {
       color: $greyscale-000;
     }
 }
-
+.bullet-list-plain {
+  list-style-type: none;
+  margin: 0 0 1rem 0;
+  padding: 0;
+}
 //Componenets
 .buttonStyle__primary {
   background-color: $greyscale-000;
