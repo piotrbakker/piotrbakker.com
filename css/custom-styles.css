@@ -281,43 +281,4 @@ body {
   width: 6rem;
 }
 
-.toast {
-  display: none;
-  position: relative;
-  z-index: 1000;
-}
-@media (prefers-color-scheme: dark) {
-  .toast {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    opacity: 0;
-    animation: toast__slideDown 3s normal cubic-bezier(0, 1.4, 1, 1);
-    animation-delay: 0.5s;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  .toastLabel {
-    position: absolute;
-    padding: 0.5rem 1rem 0.5rem 1rem;
-    background-color: rgba(33, 33, 33, 0.2);
-    border: 0.0625rem solid rgba(66, 66, 66, 0.8);
-    border-radius: 2rem;
-  }
-}
-
-@keyframes toast__slideDown {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 1;
-    transform: translateY(2rem);
-  }
-  100% {
-    transform: translateY(-4rem);
-  }
-}
-
 /*# sourceMappingURL=custom-styles.css.map */
