@@ -46,10 +46,15 @@ body {
 }
 
 .header__h1 {
-  -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
-  font-family: sofia-pro, sans-serif;
+  color: #111111;
+  color: #111111;
   font-weight: 900;
+  font-family: sofia-pro, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  .header__h1 {
+    color: #CCCCCC;
+  }
 }
 @media (prefers-color-scheme: dark) {
   .header__h1 {
@@ -58,10 +63,15 @@ body {
 }
 
 .header__h2 {
-  -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
-  font-family: sofia-pro, sans-serif;
+  color: #111111;
+  color: #111111;
   font-weight: 900;
+  font-family: sofia-pro, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  .header__h2 {
+    color: #CCCCCC;
+  }
 }
 @media (prefers-color-scheme: dark) {
   .header__h2 {
@@ -70,10 +80,15 @@ body {
 }
 
 .header__h4 {
-  -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
-  font-family: sofia-pro, sans-serif;
+  color: #111111;
+  color: #111111;
   font-weight: 900;
+  font-family: sofia-pro, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  .header__h4 {
+    color: #CCCCCC;
+  }
 }
 @media (prefers-color-scheme: dark) {
   .header__h4 {
@@ -119,7 +134,11 @@ body {
 
 .bodyCopy {
   -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
+  color: #111111;
   font-family: freight-text-pro, serif;
   font-size: 1.25rem;
   font-weight: 500;
@@ -131,18 +150,26 @@ body {
 }
 
 .bodyCopy__lead {
-  -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
+  color: #111111;
   font-family: freight-text-pro, serif;
   font-size: 1.375rem;
   font-weight: 500;
 }
+@media (prefers-color-scheme: dark) {
+  .bodyCopy__lead {
+    color: #CCCCCC;
+  }
+}
 
 .bodyCopy__fineprint {
-  -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
+  color: #111111;
   font-family: freight-text-pro, serif;
   font-size: 1rem;
+}
+@media (prefers-color-scheme: dark) {
+  .bodyCopy__fineprint {
+    color: #CCCCCC;
+  }
 }
 
 .bodyCopy__link {
@@ -195,12 +222,16 @@ body {
 }
 
 .buttonText {
-  -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
+  color: #111111;
   font-family: sofia-pro, sans-serif;
   font-size: 1.125rem;
   font-weight: 900;
   color: #333333;
+}
+@media (prefers-color-scheme: dark) {
+  .buttonText {
+    color: #CCCCCC;
+  }
 }
 @media (prefers-color-scheme: dark) {
   .buttonText {
