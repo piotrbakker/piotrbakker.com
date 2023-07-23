@@ -210,15 +210,6 @@ body {
     color: $greyscale-000;
   }
 }
-.toastText {
-  @include allText;
-  @include sans-serif;
-  font-size: 1rem;
-
-    @media (prefers-color-scheme: dark) {
-      color: $greyscale-000;
-    }
-}
 .bullet-list-plain {
   list-style-type: none;
   margin: 0 0 1rem 0;

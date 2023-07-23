@@ -208,18 +208,6 @@ body {
   }
 }
 
-.toastText {
-  -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
-  font-family: sofia-pro, sans-serif;
-  font-size: 1rem;
-}
-@media (prefers-color-scheme: dark) {
-  .toastText {
-    color: #FFFFFF;
-  }
-}
-
 .bullet-list-plain {
   list-style-type: none;
   margin: 0 0 1rem 0;
