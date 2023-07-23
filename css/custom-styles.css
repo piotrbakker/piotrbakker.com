@@ -161,17 +161,6 @@ body {
   }
 }
 
-.bodyCopy__fineprint {
-  color: #111111;
-  font-family: freight-text-pro, serif;
-  font-size: 1rem;
-}
-@media (prefers-color-scheme: dark) {
-  .bodyCopy__fineprint {
-    color: #CCCCCC;
-  }
-}
-
 .bodyCopy__link {
   color: #FF0099;
   opacity: 1;
