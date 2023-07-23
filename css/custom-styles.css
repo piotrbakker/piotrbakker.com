@@ -132,7 +132,7 @@ body {
   }
 }
 
-.bodyCopy {
+.text-normal {
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
   -o-font-smoothing: antialiased;
@@ -144,69 +144,69 @@ body {
   font-weight: 500;
 }
 @media (prefers-color-scheme: dark) {
-  .bodyCopy {
+  .text-normal {
     color: #CCCCCC;
   }
 }
 
-.bodyCopy__lead {
+.text-leading {
   color: #111111;
   font-family: freight-text-pro, serif;
   font-size: 1.375rem;
   font-weight: 500;
 }
 @media (prefers-color-scheme: dark) {
-  .bodyCopy__lead {
+  .text-leading {
     color: #CCCCCC;
   }
 }
 
-.bodyCopy__link {
+.text-linked {
   color: #FF0099;
   opacity: 1;
 }
-.bodyCopy__link:hover {
+.text-linked:hover {
   color: #FF0099;
   opacity: 0.64;
   text-decoration: none;
 }
-.bodyCopy__link:active {
+.text-linked:active {
   color: #FF0099;
   opacity: 0.64;
 }
-.bodyCopy__link:visited {
+.text-linked:visited {
   color: #FF0099;
   opacity: 1;
 }
 @media (prefers-color-scheme: dark) {
-  .bodyCopy__link {
+  .text-linked {
     color: #cc338f;
   }
-  .bodyCopy__link:hover {
+  .text-linked:hover {
     color: #cc338f;
     opacity: 0.64;
     text-decoration: none;
   }
-  .bodyCopy__link:active {
+  .text-linked:active {
     color: #cc338f;
     opacity: 0.64;
   }
-  .bodyCopy__link:visited {
+  .text-linked:visited {
     color: #cc338f;
     opacity: 1;
   }
 }
 
-.bodyCopy--disabled {
+.text-dimmed {
   color: #666666;
 }
 @media (prefers-color-scheme: dark) {
-  .bodyCopy--disabled {
+  .text-dimmed {
     color: #808080;
   }
 }
 
-.bodyCopy--bold {
+.text-bolded {
   font-weight: 900;
 }
 
