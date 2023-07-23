@@ -45,53 +45,19 @@ body {
   }
 }
 
-.heading-1 {
+.heading-normal {
   color: #111111;
   color: #111111;
   font-weight: 900;
   font-family: sofia-pro, sans-serif;
 }
 @media (prefers-color-scheme: dark) {
-  .heading-1 {
+  .heading-normal {
     color: #CCCCCC;
   }
 }
 @media (prefers-color-scheme: dark) {
-  .heading-1 {
-    color: #EAEAEA;
-  }
-}
-
-.heading-2 {
-  color: #111111;
-  color: #111111;
-  font-weight: 900;
-  font-family: sofia-pro, sans-serif;
-}
-@media (prefers-color-scheme: dark) {
-  .heading-2 {
-    color: #CCCCCC;
-  }
-}
-@media (prefers-color-scheme: dark) {
-  .heading-2 {
-    color: #EAEAEA;
-  }
-}
-
-.heading-4 {
-  color: #111111;
-  color: #111111;
-  font-weight: 900;
-  font-family: sofia-pro, sans-serif;
-}
-@media (prefers-color-scheme: dark) {
-  .heading-4 {
-    color: #CCCCCC;
-  }
-}
-@media (prefers-color-scheme: dark) {
-  .heading-4 {
+  .heading-normal {
     color: #EAEAEA;
   }
 }
