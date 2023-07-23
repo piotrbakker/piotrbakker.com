@@ -47,30 +47,15 @@ body {
     background: $greyscale-900;
   }
 }
-.sectionBody {
-  padding-bottom: 8%;
-}
-.sectionHero {
-  padding-top: 12%;
+.page-layout-landing {
+  margin-top: 12%;
+  margin-bottom: 8%;
 
-  @media (max-width: 768px) {
-    margin-bottom: 8%;
+  @media (max-width: 992px) {
+      margin-top: 8%;
   }
 }
-.sectionContent {
-  margin-top: 8%;
-}
-.sectionPadding {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-.sectionPadding--left {
-
-  @media (min-width: 992px) {
-    padding-right: 4%;
-  }
-}
-.sectionDivider {
+.page-break-line {
   color: $greyscale-200;
 
   opacity:1;
