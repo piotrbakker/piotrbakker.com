@@ -189,17 +189,6 @@ body {
 .text-bolded {
   font-weight: 900;
 }
-.buttonText {
-  @include shared-text-normal;
-  @include sans-serif;
-  font-size: 1.125rem;
-  font-weight: 900;
-  color: $greyscale-800;
-
-  @media (prefers-color-scheme: dark) {
-    color: $greyscale-000;
-  }
-}
 .bullet-list-plain {
   list-style-type: none;
   margin: 0 0 1rem 0;
@@ -218,8 +207,19 @@ body {
   }
 }
 
-//Componenets
-.buttonStyle__primary {
+//Controls
+.button-label-normal {
+  @include shared-text-normal;
+  @include sans-serif;
+  font-size: 1.125rem;
+  font-weight: 900;
+  color: $greyscale-800;
+
+  @media (prefers-color-scheme: dark) {
+    color: $greyscale-000;
+  }
+}
+.button-style-primary {
   background-color: $greyscale-000;
   border: 0.0625rem solid $greyscale-080;
   box-shadow: 0 0.125rem 0.125rem 0 rgba(0,0,0,0.10);
@@ -263,6 +263,8 @@ body {
     }
   }
 }
+
+//Assets
 .img__avatar {
   width: 6rem;
 }
