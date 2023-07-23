@@ -10,25 +10,33 @@ $greyscale-900: #111111;
 $hue-magenta: #FF0099;
 
 // Mixins
-@mixin allText {
+@mixin shared-text {
   -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
+}
+@mixin shared-text-normal {
+  color: $greyscale-900;
+
+  @media (prefers-color-scheme: dark) {
+    color: $greyscale-200;
+  }
+}
+@mixin shared-header-normal {
+  color: $greyscale-900;
+  font-weight: 900;
+
+  @media (prefers-color-scheme: dark) {
+    color: $greyscale-080;
+  }
 }
 @mixin sans-serif {
   font-family: sofia-pro, sans-serif;
 }
 @mixin serif {
   font-family: freight-text-pro, serif;
-}
-@mixin darkMode__textNormal {
-  @media (prefers-color-scheme: dark) {
-    color: $greyscale-080;
-  }
-}
-@mixin darkMode__textDimmed {
-  @media (prefers-color-scheme: dark) {
-    color: $greyscale-200;
-  }
 }
 
 //Layout
@@ -74,22 +82,19 @@ body {
 
 //Typography
 .header__h1 {
-  @include allText;
+  @include shared-text-normal;
+  @include shared-header-normal;
   @include sans-serif;
-  @include darkMode__textNormal;
-  font-weight: 900;
 }
 .header__h2 {
-  @include allText;
+  @include shared-text-normal;
+  @include shared-header-normal;
   @include sans-serif;
-  @include darkMode__textNormal;
-  font-weight: 900;
 }
 .header__h4 {
-  @include allText;
+  @include shared-text-normal;
+  @include shared-header-normal;
   @include sans-serif;
-  @include darkMode__textNormal;
-  font-weight: 900;
 }
 .header__link {
   color: $hue-magenta;
@@ -132,20 +137,20 @@ body {
   }
 }
 .bodyCopy {
-  @include allText;
+  @include shared-text;
+  @include shared-text-normal;
   @include serif;
-  @include darkMode__textDimmed;
   font-size: 1.25rem;
   font-weight: 500;
 }
 .bodyCopy__lead {
-  @include allText;
+  @include shared-text-normal;
   @include serif;
   font-size: 1.375rem;
   font-weight: 500;
 }
 .bodyCopy__fineprint {
-  @include allText;
+  @include shared-text-normal;
   @include serif;
   font-size: 1rem;
 }
@@ -200,7 +205,7 @@ body {
   font-weight: 900;
 }
 .buttonText {
-  @include allText;
+  @include shared-text-normal;
   @include sans-serif;
   font-size: 1.125rem;
   font-weight: 900;
