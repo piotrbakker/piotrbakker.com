@@ -81,17 +81,7 @@ body {
 }
 
 //Typography
-.heading-1 {
-  @include shared-text-normal;
-  @include shared-header-normal;
-  @include sans-serif;
-}
-.heading-2 {
-  @include shared-text-normal;
-  @include shared-header-normal;
-  @include sans-serif;
-}
-.heading-4 {
+.heading-normal {
   @include shared-text-normal;
   @include shared-header-normal;
   @include sans-serif;
