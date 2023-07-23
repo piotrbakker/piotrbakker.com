@@ -81,22 +81,22 @@ body {
 }
 
 //Typography
-.header__h1 {
+.heading-1 {
   @include shared-text-normal;
   @include shared-header-normal;
   @include sans-serif;
 }
-.header__h2 {
+.heading-2 {
   @include shared-text-normal;
   @include shared-header-normal;
   @include sans-serif;
 }
-.header__h4 {
+.heading-4 {
   @include shared-text-normal;
   @include shared-header-normal;
   @include sans-serif;
 }
-.header__link {
+.heading-linked {
   color: $hue-magenta;
   opacity: 1;
 
