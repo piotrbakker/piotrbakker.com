@@ -176,18 +176,21 @@ body {
 }
 
 // Lists
-.bullet-list-plain {
+.list-normal {
+  @extend .text-normal;
+}
+.list-plain {
   list-style-type: none;
   margin: 0 0 1rem 0;
   padding: 0;
 }
-.bullet-list-linked {
+.list-linked {
   a {
     @extend .text-linked;
     @extend .text-bolded;
   }
 }
-.bullet-list-horizontal {
+.list-horizontal {
   list-style-type: none;
   margin: 0;
   padding: 0;

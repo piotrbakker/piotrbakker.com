@@ -81,7 +81,7 @@ body {
   }
 }
 
-.text-normal {
+.text-normal, .list-normal {
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
   -o-font-smoothing: antialiased;
@@ -93,7 +93,7 @@ body {
   font-weight: 500;
 }
 @media (prefers-color-scheme: dark) {
-  .text-normal {
+  .text-normal, .list-normal {
     color: #CCCCCC;
   }
 }
@@ -110,37 +110,37 @@ body {
   }
 }
 
-.text-linked, .bullet-list-linked a {
+.text-linked, .list-linked a {
   color: #FF0099;
   opacity: 1;
 }
-.text-linked:hover, .bullet-list-linked a:hover {
+.text-linked:hover, .list-linked a:hover {
   color: #FF0099;
   opacity: 0.64;
   text-decoration: none;
 }
-.text-linked:active, .bullet-list-linked a:active {
+.text-linked:active, .list-linked a:active {
   color: #FF0099;
   opacity: 0.64;
 }
-.text-linked:visited, .bullet-list-linked a:visited {
+.text-linked:visited, .list-linked a:visited {
   color: #FF0099;
   opacity: 1;
 }
 @media (prefers-color-scheme: dark) {
-  .text-linked, .bullet-list-linked a {
+  .text-linked, .list-linked a {
     color: #cc338f;
   }
-  .text-linked:hover, .bullet-list-linked a:hover {
+  .text-linked:hover, .list-linked a:hover {
     color: #cc338f;
     opacity: 0.64;
     text-decoration: none;
   }
-  .text-linked:active, .bullet-list-linked a:active {
+  .text-linked:active, .list-linked a:active {
     color: #cc338f;
     opacity: 0.64;
   }
-  .text-linked:visited, .bullet-list-linked a:visited {
+  .text-linked:visited, .list-linked a:visited {
     color: #cc338f;
     opacity: 1;
   }
@@ -155,30 +155,30 @@ body {
   }
 }
 
-.text-bolded, .bullet-list-linked a {
+.text-bolded, .list-linked a {
   font-weight: 900;
 }
 
-.bullet-list-plain {
+.list-plain {
   list-style-type: none;
   margin: 0 0 1rem 0;
   padding: 0;
 }
 
-.bullet-list-horizontal {
+.list-horizontal {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-.bullet-list-horizontal li {
+.list-horizontal li {
   display: inline;
 }
-.bullet-list-horizontal li:nth-child(n+2):before {
+.list-horizontal li:nth-child(n+2):before {
   content: "· ";
   color: #666666;
 }
 @media (prefers-color-scheme: dark) {
-  .bullet-list-horizontal li:nth-child(n+2):before {
+  .list-horizontal li:nth-child(n+2):before {
     color: #808080;
   }
 }
