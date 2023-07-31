@@ -176,12 +176,10 @@ body {
 }
 
 // Lists
-.list-normal {
-  @extend .text-normal;
-}
+
 .list-plain {
   list-style-type: none;
-  margin: 0 0 1rem 0;
+  margin: 0;
   padding: 0;
 }
 .list-linked {
@@ -191,17 +189,16 @@ body {
   }
 }
 .list-horizontal {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
   li {
-    display: inline;
-    &:nth-child(n+2) {
-      &:before {
-        content: "\00B7\00a0";
-        color: $grayscale-600;
-        @media (prefers-color-scheme: dark) {
-          color: $grayscale-500;
+    @media (min-width: 576px) {
+      display: inline;
+      &:nth-child(n+2) {
+        &:before {
+          content: "\00B7\00a0";
+          color: $grayscale-600;
+          @media (prefers-color-scheme: dark) {
+            color: $grayscale-500;
+          }
         }
       }
     }
