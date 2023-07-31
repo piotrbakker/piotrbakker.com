@@ -1,12 +1,12 @@
 // Fills
-$greyscale-000: #FFFFFF;
-$greyscale-080: #EAEAEA;
-$greyscale-200: #CCCCCC;
-$greyscale-400: #999999;
-$greyscale-500: #808080;
-$greyscale-600: #666666;
-$greyscale-800: #333333;
-$greyscale-900: #111111;
+$grayscale-000: #FFFFFF;
+$grayscale-080: #EAEAEA;
+$grayscale-200: #CCCCCC;
+$grayscale-400: #999999;
+$grayscale-500: #808080;
+$grayscale-600: #666666;
+$grayscale-800: #333333;
+$grayscale-900: #111111;
 $hue-magenta: #FF0099;
 
 // Mixins
@@ -18,18 +18,18 @@ $hue-magenta: #FF0099;
   text-rendering: optimizeLegibility;
 }
 @mixin shared-text-normal {
-  color: $greyscale-900;
+  color: $grayscale-900;
 
   @media (prefers-color-scheme: dark) {
-    color: $greyscale-200;
+    color: $grayscale-200;
   }
 }
 @mixin shared-header-normal {
-  color: $greyscale-900;
+  color: $grayscale-900;
   font-weight: 900;
 
   @media (prefers-color-scheme: dark) {
-    color: $greyscale-080;
+    color: $grayscale-080;
   }
 }
 @mixin sans-serif {
@@ -41,10 +41,10 @@ $hue-magenta: #FF0099;
 
 // Layout
 body {
-  background: $greyscale-000;
+  background: $grayscale-000;
 
   @media (prefers-color-scheme: dark) {
-    background: $greyscale-900;
+    background: $grayscale-900;
   }
 }
 .page-layout-landing {
@@ -56,12 +56,12 @@ body {
   }
 }
 .page-break-line {
-  color: $greyscale-200;
+  color: $grayscale-200;
 
   opacity:1;
 
   @media (prefers-color-scheme: dark) {
-    color: $greyscale-600;
+    color: $grayscale-600;
   }
 }
 
@@ -165,10 +165,10 @@ body {
   }
 }
 .text-dimmed {
-  color: $greyscale-600;
+  color: $grayscale-600;
 
   @media (prefers-color-scheme: dark) {
-    color: $greyscale-500;
+    color: $grayscale-500;
   }
 }
 .text-bolded {
@@ -199,9 +199,9 @@ body {
     &:nth-child(n+2) {
       &:before {
         content: "\00B7\00a0";
-        color: $greyscale-600;
+        color: $grayscale-600;
         @media (prefers-color-scheme: dark) {
-          color: $greyscale-500;
+          color: $grayscale-500;
         }
       }
     }
@@ -226,53 +226,53 @@ body {
   @include sans-serif;
   font-size: 1.125rem;
   font-weight: 900;
-  color: $greyscale-800;
+  color: $grayscale-800;
 
   @media (prefers-color-scheme: dark) {
-    color: $greyscale-000;
+    color: $grayscale-000;
   }
 }
 .button-style-primary {
-  background-color: $greyscale-000;
-  border: 0.0625rem solid $greyscale-080;
+  background-color: $grayscale-000;
+  border: 0.0625rem solid $grayscale-080;
   box-shadow: 0 0.125rem 0.125rem 0 rgba(0,0,0,0.10);
   border-radius: 0.375rem;
 
   &:hover {
-    background-color: $greyscale-000;
-    border: 0.0625rem solid $greyscale-080;
+    background-color: $grayscale-000;
+    border: 0.0625rem solid $grayscale-080;
     box-shadow: 0 0.25rem 0.25rem 0 rgba(0,0,0,0.12);
-    color: $greyscale-800;
+    color: $grayscale-800;
   }
 
   &:active {
-    background-color: $greyscale-000;
-    border: 0.0625rem solid $greyscale-080;
+    background-color: $grayscale-000;
+    border: 0.0625rem solid $grayscale-080;
   }
 
   &:visited {
-    background-color: $greyscale-000;
+    background-color: $grayscale-000;
   }
 
   @media (prefers-color-scheme: dark) {
-    background-color: $greyscale-900;
-    border-color: $greyscale-600;
+    background-color: $grayscale-900;
+    border-color: $grayscale-600;
     box-shadow: 0 0.125rem 0.125rem 0 rgba(0,0,0,0.24);
 
     &:hover {
-      background-color: $greyscale-900;
-      border-color: $greyscale-400;
+      background-color: $grayscale-900;
+      border-color: $grayscale-400;
       box-shadow: 0 0.25rem 0.25rem 0 rgba(0,0,0,0.32);
-      color: $greyscale-000;
+      color: $grayscale-000;
     }
 
     &:active {
-      background-color: $greyscale-900;
-      border-color: $greyscale-400;
+      background-color: $grayscale-900;
+      border-color: $grayscale-400;
     }
 
     &:visited {
-      background-color: $greyscale-900;
+      background-color: $grayscale-900;
     }
   }
 }
