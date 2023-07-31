@@ -50,16 +50,13 @@ body {
 .page-layout-landing {
   margin-top: 12%;
   margin-bottom: 8%;
-
   @media (max-width: 992px) {
-      margin-top: 8%;
+    margin-top: 8%;
   }
 }
 .page-break-line {
   color: $grayscale-200;
-
   opacity:1;
-
   @media (prefers-color-scheme: dark) {
     color: $grayscale-600;
   }
@@ -74,37 +71,30 @@ body {
 .heading-linked {
   color: $hue-magenta;
   opacity: 1;
-
   &:hover {
     color: $hue-magenta;
     opacity: 0.64;
     text-decoration: none;
   }
-
   &:active {
     color: $hue-magenta;
     opacity: 0.64;
   }
-
   &:visited {
     color: $hue-magenta;
     opacity: 1;
   }
-
   @media (prefers-color-scheme: dark) {
     color: scale-color($hue-magenta, $saturation: -40%);
-
     &:hover {
       color: scale-color($hue-magenta, $saturation: -40%);
       opacity: 0.64;
       text-decoration: none;
     }
-
     &:active {
       color: scale-color($hue-magenta, $saturation: -40%);
       opacity: 0.64;
     }
-
     &:visited {
       color: scale-color($hue-magenta, $saturation: -40%);
       opacity: 1;
@@ -127,37 +117,30 @@ body {
 .text-linked {
   color: $hue-magenta;
   opacity: 1;
-
   &:hover {
     color: $hue-magenta;
     opacity: 0.64;
     text-decoration: none;
   }
-
   &:active {
     color: $hue-magenta;
     opacity: 0.64;
   }
-
   &:visited {
     color: $hue-magenta;
     opacity: 1;
   }
-
   @media (prefers-color-scheme: dark) {
     color: scale-color($hue-magenta, $saturation: -40%);
-
     &:hover {
       color: scale-color($hue-magenta, $saturation: -40%);
       opacity: 0.64;
       text-decoration: none;
     }
-
     &:active {
       color: scale-color($hue-magenta, $saturation: -40%);
       opacity: 0.64;
     }
-
     &:visited {
       color: scale-color($hue-magenta, $saturation: -40%);
       opacity: 1;
@@ -166,7 +149,6 @@ body {
 }
 .text-dimmed {
   color: $grayscale-600;
-
   @media (prefers-color-scheme: dark) {
     color: $grayscale-500;
   }
@@ -224,7 +206,6 @@ body {
   font-size: 1.125rem;
   font-weight: 900;
   color: $grayscale-800;
-
   @media (prefers-color-scheme: dark) {
     color: $grayscale-000;
   }
@@ -234,40 +215,33 @@ body {
   border: 0.0625rem solid $grayscale-080;
   box-shadow: 0 0.125rem 0.125rem 0 rgba(0,0,0,0.10);
   border-radius: 0.375rem;
-
   &:hover {
     background-color: $grayscale-000;
     border: 0.0625rem solid $grayscale-080;
     box-shadow: 0 0.25rem 0.25rem 0 rgba(0,0,0,0.12);
     color: $grayscale-800;
   }
-
   &:active {
     background-color: $grayscale-000;
     border: 0.0625rem solid $grayscale-080;
   }
-
   &:visited {
     background-color: $grayscale-000;
   }
-
   @media (prefers-color-scheme: dark) {
     background-color: $grayscale-900;
     border-color: $grayscale-600;
     box-shadow: 0 0.125rem 0.125rem 0 rgba(0,0,0,0.24);
-
     &:hover {
       background-color: $grayscale-900;
       border-color: $grayscale-400;
       box-shadow: 0 0.25rem 0.25rem 0 rgba(0,0,0,0.32);
       color: $grayscale-000;
     }
-
     &:active {
       background-color: $grayscale-900;
       border-color: $grayscale-400;
     }
-
     &:visited {
       background-color: $grayscale-900;
     }
