@@ -159,6 +159,10 @@ body {
   font-weight: 900;
 }
 
+.text-monospaced {
+  font-family: "Inconsolata", monospace;
+}
+
 .list-plain {
   list-style-type: none;
   margin: 0;

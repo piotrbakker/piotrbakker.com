@@ -38,6 +38,9 @@ $hue-magenta: #FF0099;
 @mixin serif {
   font-family: freight-text-pro, serif;
 }
+@mixin monospace {
+  font-family: 'Inconsolata', monospace;
+}
 
 // Layout
 body {
@@ -156,7 +159,9 @@ body {
 .text-bolded {
   font-weight: 900;
 }
-
+.text-monospaced {
+  @include monospace;
+}
 // Lists
 .list-plain {
   list-style-type: none;
