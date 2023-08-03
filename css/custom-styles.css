@@ -253,4 +253,8 @@ body {
   }
 }
 
+.content-screenshot {
+  box-shadow: 0 0 2rem #00000012;
+}
+
 /*# sourceMappingURL=custom-styles.css.map */
