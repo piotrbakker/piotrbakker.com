@@ -255,10 +255,14 @@ body {
 }
 
 // Content
-.content-screenshot {
+.content-screenshot-shadow {
   box-shadow: 0 0 2rem #00000012;
   @media (prefers-color-scheme: dark) {
     box-shadow: 0 0 2rem #FFFFFF12;
+  }
+}
+.content-screenshot-brightness {
+  @media (prefers-color-scheme: dark) {
     filter: brightness(80%);
   }
 }
