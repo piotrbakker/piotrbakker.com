@@ -264,7 +264,7 @@ body {
 }
 @media (prefers-color-scheme: dark) {
   .content-screenshot {
-    box-shadow: 0 0 2rem #FFFFFF08;
+    box-shadow: 0 0 2rem #FFFFFF12;
     filter: brightness(80%);
   }
 }
