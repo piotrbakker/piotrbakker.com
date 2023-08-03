@@ -259,12 +259,17 @@ body {
   }
 }
 
-.content-screenshot {
+.content-screenshot-shadow {
   box-shadow: 0 0 2rem #00000012;
 }
 @media (prefers-color-scheme: dark) {
-  .content-screenshot {
+  .content-screenshot-shadow {
     box-shadow: 0 0 2rem #FFFFFF12;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .content-screenshot-brightness {
     filter: brightness(80%);
   }
 }
