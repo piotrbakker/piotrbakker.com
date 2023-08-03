@@ -160,6 +160,7 @@ body {
   font-weight: 900;
 }
 .text-monospaced {
+  @include shared-text-normal;
   @include monospace;
 }
 
