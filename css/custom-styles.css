@@ -160,7 +160,13 @@ body {
 }
 
 .text-monospaced {
+  color: #111111;
   font-family: "Inconsolata", monospace;
+}
+@media (prefers-color-scheme: dark) {
+  .text-monospaced {
+    color: #CCCCCC;
+  }
 }
 
 .list-plain {
