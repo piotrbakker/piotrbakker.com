@@ -256,5 +256,19 @@ body {
 .content-screenshot {
   box-shadow: 0 0 2rem #00000012;
 }
+@media (prefers-color-scheme: dark) {
+  .content-screenshot {
+    box-shadow: 0 0 2rem #FFFFFF08;
+    filter: brightness(80%);
+  }
+}
+
+.content-background-white {
+  background-color: #FFFFFF;
+}
+
+.content-background-black {
+  background-color: #000;
+}
 
 /*# sourceMappingURL=custom-styles.css.map */
