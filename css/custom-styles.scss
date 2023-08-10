@@ -272,6 +272,12 @@ body {
 .content-background-black {
   background-color: #000;
 }
+.content-background-scheme {
+  background-color: $grayscale-000;
+  @media (prefers-color-scheme: dark) {
+    background-color: #000;
+  }
+}
 .content-background-dotted {
   background: linear-gradient(90deg, $grayscale-000 (1.25rem - 0.0625rem), transparent 1%) center, linear-gradient($grayscale-000 (1.25rem - 0.0625rem), transparent 1%) center, $hue-magenta;
   background-size: 1.25rem 1.25rem;
