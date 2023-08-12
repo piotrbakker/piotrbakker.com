@@ -304,4 +304,13 @@ body {
   }
 }
 
+.content-background-outlined {
+  border-color: #CCCCCC;
+}
+@media (prefers-color-scheme: dark) {
+  .content-background-outlined {
+    border-color: #333333;
+  }
+}
+
 /*# sourceMappingURL=custom-styles.css.map */
