@@ -111,6 +111,12 @@ body {
   font-size: 1.25rem;
   font-weight: 500;
 }
+.text-serif {
+  @include shared-text;
+  @include shared-text-normal;
+  @include serif;
+  font-weight: 500;
+}
 .text-leading {
   @include shared-text-normal;
   @include serif;
