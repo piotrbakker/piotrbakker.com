@@ -185,6 +185,12 @@ body {
   }
 }
 
+.link-icon {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+}
+
 .list-plain {
   list-style-type: none;
   margin: 0;
