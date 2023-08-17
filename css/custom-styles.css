@@ -28,6 +28,10 @@ body {
   }
 }
 
+.page-break-dashed {
+  border-style: dashed;
+}
+
 .heading-normal {
   color: #111111;
   color: #111111;

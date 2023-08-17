@@ -64,6 +64,9 @@ body {
     color: $grayscale-600;
   }
 }
+.page-break-dashed {
+  border-style: dashed;
+}
 
 // Typography
 .heading-normal {
