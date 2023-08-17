@@ -1,6 +1,6 @@
 @charset "UTF-8";
 body {
-  background: #FFFFFF;
+  background: #FCFCFC;
 }
 @media (prefers-color-scheme: dark) {
   body {
@@ -318,9 +318,9 @@ body {
 }
 
 .content-background-dotted {
-  background: linear-gradient(90deg, #FFFFFF 1.1875rem, transparent 1%) center, linear-gradient(#FFFFFF 1.1875rem, transparent 1%) center, #FF0099;
+  background: linear-gradient(90deg, #FCFCFC 1.1875rem, transparent 1%) center, linear-gradient(#FCFCFC 1.1875rem, transparent 1%) center, #FF0099;
   background-size: 1.25rem 1.25rem;
-  box-shadow: inset 0 0 8rem #FFFFFF;
+  box-shadow: inset 0 0 8rem #FCFCFC;
 }
 @media (prefers-color-scheme: dark) {
   .content-background-dotted {
