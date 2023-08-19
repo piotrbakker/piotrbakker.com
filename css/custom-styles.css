@@ -192,7 +192,29 @@ body {
 .link-icon {
   display: inline-flex;
   align-items: center;
+  font-size: 1.0625rem;
   text-decoration: none;
+  opacity: 1;
+}
+.link-icon:hover {
+  opacity: 0.64;
+}
+.link-icon:active {
+  opacity: 0.64;
+}
+.link-icon:visited {
+  opacity: 1;
+}
+@media (prefers-color-scheme: dark) {
+  .link-icon:hover {
+    opacity: 0.64;
+  }
+  .link-icon:active {
+    opacity: 0.64;
+  }
+  .link-icon:visited {
+    opacity: 1;
+  }
 }
 
 .list-plain {
