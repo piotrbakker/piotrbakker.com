@@ -9,6 +9,7 @@ $grayscale-600: #666666;
 $grayscale-800: #333333;
 $grayscale-900: #111111;
 $hue-magenta: #FF0099;
+$hue-light-blue: #6666FF;
 
 // Mixins
 @mixin shared-text {
@@ -180,24 +181,34 @@ body {
   align-items: center;
   font-size: 1.0625rem;
   text-decoration: none;
+  color: $hue-light-blue;
   opacity: 1;
   &:hover {
+    color: $hue-light-blue;
     opacity: 0.64;
+    text-decoration: none;
   }
   &:active {
+    color: $hue-light-blue;
     opacity: 0.64;
   }
   &:visited {
+    color: $hue-light-blue;
     opacity: 1;
   }
   @media (prefers-color-scheme: dark) {
+    color: scale-color($hue-light-blue, $saturation: -40%);
     &:hover {
+      color: scale-color($hue-light-blue, $saturation: -40%);
       opacity: 0.64;
+      text-decoration: none;
     }
     &:active {
+      color: scale-color($hue-light-blue, $saturation: -40%);
       opacity: 0.64;
     }
     &:visited {
+      color: scale-color($hue-light-blue, $saturation: -40%);
       opacity: 1;
     }
   }

@@ -194,25 +194,37 @@ body {
   align-items: center;
   font-size: 1.0625rem;
   text-decoration: none;
+  color: #6666FF;
   opacity: 1;
 }
 .link-icon:hover {
+  color: #6666FF;
   opacity: 0.64;
+  text-decoration: none;
 }
 .link-icon:active {
+  color: #6666FF;
   opacity: 0.64;
 }
 .link-icon:visited {
+  color: #6666FF;
   opacity: 1;
 }
 @media (prefers-color-scheme: dark) {
+  .link-icon {
+    color: #8585e0;
+  }
   .link-icon:hover {
+    color: #8585e0;
     opacity: 0.64;
+    text-decoration: none;
   }
   .link-icon:active {
+    color: #8585e0;
     opacity: 0.64;
   }
   .link-icon:visited {
+    color: #8585e0;
     opacity: 1;
   }
 }
