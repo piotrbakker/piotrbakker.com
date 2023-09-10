@@ -287,11 +287,11 @@ body {
 }
 
 .content-screenshot-shadow {
-  box-shadow: 0 0 2rem #00000012;
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.0705882353);
 }
 @media (prefers-color-scheme: dark) {
   .content-screenshot-shadow {
-    box-shadow: 0 0 2rem #FFFFFF12;
+    box-shadow: 0 0 2rem rgba(255, 255, 255, 0.0705882353);
   }
 }
 
@@ -346,6 +346,10 @@ body {
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
   overflow: hidden;
+}
+
+.content-mask-gradient {
+  mask-image: linear-gradient(to top, transparent 0%, #FCFCFC 16%);
 }
 
 /*# sourceMappingURL=custom-styles.css.map */

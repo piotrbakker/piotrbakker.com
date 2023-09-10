@@ -339,3 +339,6 @@ body {
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
+.content-mask-gradient {
+  mask-image: linear-gradient(to top, transparent 0%, $grayscale-010 16%);
+}
