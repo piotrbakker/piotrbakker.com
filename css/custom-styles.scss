@@ -1,6 +1,7 @@
 // Fills
 $grayscale-000: #FFFFFF;
 $grayscale-010: #FCFCFC;
+$grayscale-040: #F5F5F5;
 $grayscale-080: #EAEAEA;
 $grayscale-200: #CCCCCC;
 $grayscale-400: #999999;
@@ -46,7 +47,7 @@ $hue-light-blue: #6666FF;
 
 // Layout
 body {
-  background: $grayscale-010;
+  background: $grayscale-040;
 
   @media (prefers-color-scheme: dark) {
     background: $grayscale-900;
@@ -316,9 +317,9 @@ body {
   }
 }
 .content-background-dotted {
-  background: linear-gradient(90deg, $grayscale-010 (1.25rem - 0.0625rem), transparent 1%) center, linear-gradient($grayscale-010 (1.25rem - 0.0625rem), transparent 1%) center, $hue-magenta;
+  background: linear-gradient(90deg, $grayscale-040 (1.25rem - 0.0625rem), transparent 1%) center, linear-gradient($grayscale-040 (1.25rem - 0.0625rem), transparent 1%) center, $hue-magenta;
   background-size: 1.25rem 1.25rem;
-  box-shadow: inset 0 0 8rem $grayscale-010;
+  box-shadow: inset 0 0 8rem $grayscale-040;
 
   @media (prefers-color-scheme: dark) {
     background: linear-gradient(90deg, $grayscale-900 (1.25rem - 0.0625rem), transparent 1%) center, linear-gradient($grayscale-900 (1.25rem - 0.0625rem), transparent 1%) center, $grayscale-600;
