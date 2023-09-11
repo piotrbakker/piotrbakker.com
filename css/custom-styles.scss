@@ -341,4 +341,7 @@ body {
 }
 .content-mask-gradient {
   mask-image: linear-gradient(to top, transparent 0%, $grayscale-010 16%);
+  @media (prefers-color-scheme: dark) {
+    mask-image: linear-gradient(to top, transparent 0%, $grayscale-900 16%);
+  }
 }
