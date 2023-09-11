@@ -351,5 +351,10 @@ body {
 .content-mask-gradient {
   mask-image: linear-gradient(to top, transparent 0%, #FCFCFC 16%);
 }
+@media (prefers-color-scheme: dark) {
+  .content-mask-gradient {
+    mask-image: linear-gradient(to top, transparent 0%, #111111 16%);
+  }
+}
 
 /*# sourceMappingURL=custom-styles.css.map */
