@@ -332,7 +332,7 @@ body {
 }
 
 .content-background-outlined {
-  border-color: #CCCCCC;
+  border-color: #FFFFFF;
 }
 @media (prefers-color-scheme: dark) {
   .content-background-outlined {
