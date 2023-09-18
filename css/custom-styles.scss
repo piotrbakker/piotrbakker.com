@@ -80,6 +80,7 @@ body {
 .heading-linked {
   color: $hue-magenta;
   opacity: 1;
+  text-decoration: none;
   &:hover {
     color: $hue-magenta;
     opacity: 0.64;
