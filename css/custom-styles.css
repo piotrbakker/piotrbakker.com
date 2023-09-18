@@ -52,6 +52,7 @@ body {
 .heading-linked {
   color: #FF0099;
   opacity: 1;
+  text-decoration: none;
 }
 .heading-linked:hover {
   color: #FF0099;
