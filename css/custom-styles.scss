@@ -115,6 +115,9 @@ body {
   @include shared-text;
   @include shared-text-normal;
 }
+.text-sans-serif {
+  @include sans-serif;
+}
 .text-serif {
   @include serif;
 }

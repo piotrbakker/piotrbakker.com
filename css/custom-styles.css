@@ -100,6 +100,10 @@ body {
   }
 }
 
+.text-sans-serif {
+  font-family: sofia-pro, sans-serif;
+}
+
 .text-serif {
   font-family: freight-text-pro, serif;
 }
