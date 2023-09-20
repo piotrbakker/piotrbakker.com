@@ -1,14 +1,14 @@
 // Fills
-$grayscale-000: #FFFFFF;
-$grayscale-010: #FCFCFC;
-$grayscale-040: #F5F5F5;
-$grayscale-080: #EAEAEA;
-$grayscale-200: #CCCCCC;
-$grayscale-400: #999999;
-$grayscale-500: #808080;
-$grayscale-600: #666666;
-$grayscale-800: #333333;
-$grayscale-900: #111111;
+$grayscale-0000: #FFFFFF;
+$grayscale-0010: #FCFCFC;
+$grayscale-0040: #F5F5F5;
+$grayscale-0080: #EAEAEA;
+$grayscale-0200: #CCCCCC;
+$grayscale-0400: #999999;
+$grayscale-0500: #808080;
+$grayscale-0600: #666666;
+$grayscale-0800: #333333;
+$grayscale-0900: #111111;
 $hue-magenta: #FF0099;
 $hue-light-blue: #6666FF;
 
@@ -21,18 +21,18 @@ $hue-light-blue: #6666FF;
   text-rendering: optimizeLegibility;
 }
 @mixin shared-text-normal {
-  color: $grayscale-900;
+  color: $grayscale-0900;
 
   @media (prefers-color-scheme: dark) {
-    color: $grayscale-200;
+    color: $grayscale-0200;
   }
 }
 @mixin shared-header-normal {
-  color: $grayscale-900;
+  color: $grayscale-0900;
   font-weight: 900;
 
   @media (prefers-color-scheme: dark) {
-    color: $grayscale-080;
+    color: $grayscale-0080;
   }
 }
 @mixin sans-serif {
@@ -47,10 +47,10 @@ $hue-light-blue: #6666FF;
 
 // Layout
 body {
-  background: $grayscale-040;
+  background: $grayscale-0040;
 
   @media (prefers-color-scheme: dark) {
-    background: $grayscale-900;
+    background: $grayscale-0900;
   }
 }
 .page-layout-landing {
@@ -61,10 +61,10 @@ body {
   }
 }
 .page-break-line {
-  color: $grayscale-200;
+  color: $grayscale-0200;
   opacity:1;
   @media (prefers-color-scheme: dark) {
-    color: $grayscale-600;
+    color: $grayscale-0600;
   }
 }
 .page-break-dashed {
@@ -152,9 +152,9 @@ body {
   }
 }
 .text-dimmed {
-  color: $grayscale-600;
+  color: $grayscale-0600;
   @media (prefers-color-scheme: dark) {
-    color: $grayscale-500;
+    color: $grayscale-0500;
   }
 }
 .text-bolded {
@@ -222,9 +222,9 @@ body {
       &:nth-child(n+2) {
         &:before {
           content: "\00B7\00a0";
-          color: $grayscale-600;
+          color: $grayscale-0600;
           @media (prefers-color-scheme: dark) {
-            color: $grayscale-500;
+            color: $grayscale-0500;
           }
         }
       }
@@ -249,45 +249,45 @@ body {
   @include sans-serif;
   font-size: 1.125rem;
   font-weight: 900;
-  color: $grayscale-800;
+  color: $grayscale-0800;
   @media (prefers-color-scheme: dark) {
-    color: $grayscale-000;
+    color: $grayscale-0000;
   }
 }
 .button-style-primary {
-  background-color: $grayscale-000;
-  border: 0.0625rem solid $grayscale-080;
+  background-color: $grayscale-0000;
+  border: 0.0625rem solid $grayscale-0080;
   box-shadow: 0 0.125rem 0.125rem 0 rgba(0,0,0,0.10);
   border-radius: 0.375rem;
   &:hover {
-    background-color: $grayscale-000;
-    border: 0.0625rem solid $grayscale-080;
+    background-color: $grayscale-0000;
+    border: 0.0625rem solid $grayscale-0080;
     box-shadow: 0 0.25rem 0.25rem 0 rgba(0,0,0,0.12);
-    color: $grayscale-800;
+    color: $grayscale-0800;
   }
   &:active {
-    background-color: $grayscale-000;
-    border: 0.0625rem solid $grayscale-080;
+    background-color: $grayscale-0000;
+    border: 0.0625rem solid $grayscale-0080;
   }
   &:visited {
-    background-color: $grayscale-000;
+    background-color: $grayscale-0000;
   }
   @media (prefers-color-scheme: dark) {
-    background-color: $grayscale-900;
-    border-color: $grayscale-600;
+    background-color: $grayscale-0900;
+    border-color: $grayscale-0600;
     box-shadow: 0 0.125rem 0.125rem 0 rgba(0,0,0,0.24);
     &:hover {
-      background-color: $grayscale-900;
-      border-color: $grayscale-400;
+      background-color: $grayscale-0900;
+      border-color: $grayscale-0400;
       box-shadow: 0 0.25rem 0.25rem 0 rgba(0,0,0,0.32);
-      color: $grayscale-000;
+      color: $grayscale-0000;
     }
     &:active {
-      background-color: $grayscale-900;
-      border-color: $grayscale-400;
+      background-color: $grayscale-0900;
+      border-color: $grayscale-0400;
     }
     &:visited {
-      background-color: $grayscale-900;
+      background-color: $grayscale-0900;
     }
   }
 }
@@ -305,32 +305,32 @@ body {
   }
 }
 .content-background-white {
-  background-color: $grayscale-000;
+  background-color: $grayscale-0000;
 }
 .content-background-black {
   background-color: #000;
 }
 .content-background-scheme {
-  background-color: $grayscale-000;
+  background-color: $grayscale-0000;
   @media (prefers-color-scheme: dark) {
     background-color: #000;
   }
 }
 .content-background-dotted {
-  background: linear-gradient(90deg, $grayscale-040 (1.25rem - 0.0625rem), transparent 1%) center, linear-gradient($grayscale-040 (1.25rem - 0.0625rem), transparent 1%) center, $hue-magenta;
+  background: linear-gradient(90deg, $grayscale-0040 (1.25rem - 0.0625rem), transparent 1%) center, linear-gradient($grayscale-0040 (1.25rem - 0.0625rem), transparent 1%) center, $hue-magenta;
   background-size: 1.25rem 1.25rem;
-  box-shadow: inset 0 0 8rem $grayscale-040;
+  box-shadow: inset 0 0 8rem $grayscale-0040;
 
   @media (prefers-color-scheme: dark) {
-    background: linear-gradient(90deg, $grayscale-900 (1.25rem - 0.0625rem), transparent 1%) center, linear-gradient($grayscale-900 (1.25rem - 0.0625rem), transparent 1%) center, $grayscale-600;
+    background: linear-gradient(90deg, $grayscale-0900 (1.25rem - 0.0625rem), transparent 1%) center, linear-gradient($grayscale-0900 (1.25rem - 0.0625rem), transparent 1%) center, $grayscale-0600;
     background-size: 1.25rem 1.25rem;
-    box-shadow: inset 0 0 8rem $grayscale-900;
+    box-shadow: inset 0 0 8rem $grayscale-0900;
   }
 }
 .content-background-outlined {
-  border-color: $grayscale-000;
+  border-color: $grayscale-0000;
   @media (prefers-color-scheme: dark) {
-    border-color: $grayscale-800;
+    border-color: $grayscale-0800;
   }
 }
 .content-text-truncated {
@@ -341,8 +341,8 @@ body {
   overflow: hidden;
 }
 .content-mask-gradient {
-  mask-image: linear-gradient(to top, transparent 0%, $grayscale-010 16%);
+  mask-image: linear-gradient(to top, transparent 0%, $grayscale-0010 16%);
   @media (prefers-color-scheme: dark) {
-    mask-image: linear-gradient(to top, transparent 0%, $grayscale-900 16%);
+    mask-image: linear-gradient(to top, transparent 0%, $grayscale-0900 16%);
   }
 }
