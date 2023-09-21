@@ -308,7 +308,7 @@ body {
 }
 
 .content-background-black {
-  background-color: #000;
+  background-color: #000000;
 }
 
 .content-background-scheme {
@@ -316,7 +316,7 @@ body {
 }
 @media (prefers-color-scheme: dark) {
   .content-background-scheme {
-    background-color: #000;
+    background-color: #000000;
   }
 }
 
