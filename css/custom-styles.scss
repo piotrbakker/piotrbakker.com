@@ -9,6 +9,7 @@ $grayscale-0500: #808080;
 $grayscale-0600: #666666;
 $grayscale-0800: #333333;
 $grayscale-0900: #111111;
+$grayscale-1000: #000000;
 $hue-magenta: #FF0099;
 $hue-light-blue: #6666FF;
 
@@ -311,12 +312,12 @@ body {
   background-color: $grayscale-0000;
 }
 .content-background-black {
-  background-color: #000;
+  background-color: $grayscale-1000;
 }
 .content-background-scheme {
   background-color: $grayscale-0000;
   @media (prefers-color-scheme: dark) {
-    background-color: #000;
+    background-color: $grayscale-1000;
   }
 }
 .content-background-dotted {
