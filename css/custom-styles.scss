@@ -300,6 +300,14 @@ body {
   }
 }
 
+// Containers
+.container-background-primary {
+  background-color: $hue-grayish-red;
+  @media (prefers-color-scheme: dark) {
+    background-color: $grayscale-0900;
+  }
+}
+
 // Content
 .content-screenshot-shadow {
   box-shadow: 0 0 2rem #00000012;
@@ -352,5 +360,14 @@ body {
   mask-image: linear-gradient(to top, transparent 0%, $grayscale-0010 16%);
   @media (prefers-color-scheme: dark) {
     mask-image: linear-gradient(to top, transparent 0%, $grayscale-0900 16%);
+  }
+}
+.content-radius-top-left {
+  border-top-left-radius: 2rem;
+  @media (max-width: 576px) {
+    border-top-left-radius: 1rem;
+  }
+  @media (max-width: 768px) {
+    border-top-left-radius: 1.5rem;
   }
 }

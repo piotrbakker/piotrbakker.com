@@ -288,6 +288,15 @@ body {
   }
 }
 
+.container-background-primary {
+  background-color: #F5E6E8;
+}
+@media (prefers-color-scheme: dark) {
+  .container-background-primary {
+    background-color: #111111;
+  }
+}
+
 .content-screenshot-shadow {
   box-shadow: 0 0 2rem rgba(0, 0, 0, 0.0705882353);
 }
@@ -356,6 +365,20 @@ body {
 @media (prefers-color-scheme: dark) {
   .content-mask-gradient {
     mask-image: linear-gradient(to top, transparent 0%, #111111 16%);
+  }
+}
+
+.content-radius-top-left {
+  border-top-left-radius: 2rem;
+}
+@media (max-width: 576px) {
+  .content-radius-top-left {
+    border-top-left-radius: 1rem;
+  }
+}
+@media (max-width: 768px) {
+  .content-radius-top-left {
+    border-top-left-radius: 1.5rem;
   }
 }
 
