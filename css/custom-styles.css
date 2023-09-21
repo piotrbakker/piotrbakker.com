@@ -4,7 +4,7 @@ body {
 }
 @media (prefers-color-scheme: dark) {
   body {
-    background: #111111;
+    background: #000000;
   }
 }
 
@@ -327,9 +327,9 @@ body {
 }
 @media (prefers-color-scheme: dark) {
   .content-background-dotted {
-    background: linear-gradient(90deg, #111111 1.1875rem, transparent 1%) center, linear-gradient(#111111 1.1875rem, transparent 1%) center, #666666;
+    background: linear-gradient(90deg, #000000 1.1875rem, transparent 1%) center, linear-gradient(#000000 1.1875rem, transparent 1%) center, #666666;
     background-size: 1.25rem 1.25rem;
-    box-shadow: inset 0 0 8rem #111111;
+    box-shadow: inset 0 0 8rem #000000;
   }
 }
 
