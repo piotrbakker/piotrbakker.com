@@ -51,7 +51,7 @@ body {
   background: $grayscale-0040;
 
   @media (prefers-color-scheme: dark) {
-    background: $grayscale-0900;
+    background: $grayscale-1000;
   }
 }
 .page-layout-landing {
@@ -326,9 +326,9 @@ body {
   box-shadow: inset 0 0 8rem $grayscale-0040;
 
   @media (prefers-color-scheme: dark) {
-    background: linear-gradient(90deg, $grayscale-0900 (1.25rem - 0.0625rem), transparent 1%) center, linear-gradient($grayscale-0900 (1.25rem - 0.0625rem), transparent 1%) center, $grayscale-0600;
+    background: linear-gradient(90deg, $grayscale-1000 (1.25rem - 0.0625rem), transparent 1%) center, linear-gradient($grayscale-1000 (1.25rem - 0.0625rem), transparent 1%) center, $grayscale-0600;
     background-size: 1.25rem 1.25rem;
-    box-shadow: inset 0 0 8rem $grayscale-0900;
+    box-shadow: inset 0 0 8rem $grayscale-1000;
   }
 }
 .content-background-outlined {
