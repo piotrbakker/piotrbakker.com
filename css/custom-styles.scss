@@ -37,6 +37,9 @@ $hue-light-blue: #6666FF;
     color: $grayscale-0080;
   }
 }
+@mixin sans-serif-ui {
+  font-family: 'Outfit', sans-serif;
+}
 @mixin sans-serif {
   font-family: sofia-pro, sans-serif;
 }
@@ -118,7 +121,7 @@ body {
   @include shared-text-normal;
 }
 .text-sans-serif {
-  @include sans-serif;
+  @include sans-serif-ui;
 }
 .text-serif {
   @include serif;
@@ -251,9 +254,9 @@ body {
 // Controls
 .button-label-normal {
   @include shared-text-normal;
-  @include sans-serif;
+  @include sans-serif-ui;
   font-size: 1.125rem;
-  font-weight: 900;
+  font-weight: 600;
   color: $grayscale-0800;
   @media (prefers-color-scheme: dark) {
     color: $grayscale-0000;
