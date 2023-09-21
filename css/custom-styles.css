@@ -101,7 +101,7 @@ body {
 }
 
 .text-sans-serif {
-  font-family: sofia-pro, sans-serif;
+  font-family: "Outfit", sans-serif;
 }
 
 .text-serif {
@@ -232,9 +232,9 @@ body {
 
 .button-label-normal {
   color: #111111;
-  font-family: sofia-pro, sans-serif;
+  font-family: "Outfit", sans-serif;
   font-size: 1.125rem;
-  font-weight: 900;
+  font-weight: 600;
   color: #333333;
 }
 @media (prefers-color-scheme: dark) {
