@@ -10,9 +10,21 @@ $grayscale-0600: #666666;
 $grayscale-0800: #333333;
 $grayscale-0900: #111111;
 $grayscale-1000: #000000;
-$hue-grayish-red: #F5E6E8;
 $hue-magenta: #FF0099;
 $hue-light-blue: #6666FF;
+$hue-soft-red: #F5E6E8;
+$hue-soft-orange: #F5ECE6;
+$hue-soft-yellow: #fffdf8;
+$hue-soft-green: #EFF5E6;
+$hue-soft-blue: #E6EFF5;
+$hue-soft-pink: #F5E6EF;
+$hue-soft-magenta: #F3E6F5;
+$hue-soft-violet: #f6f2ff;
+$gradient-soft-1: linear-gradient(160deg, $hue-soft-red 0%, $hue-soft-blue 100%);
+$gradient-soft-2: linear-gradient(160deg, $hue-soft-green 0%, $hue-soft-pink 100%);
+$gradient-soft-3: linear-gradient(160deg, $hue-soft-pink 0%, $hue-soft-red 100%);
+$gradient-soft-4: linear-gradient(160deg, $hue-soft-blue 0%, $hue-soft-green 100%);
+$gradient-soft-5: linear-gradient(160deg, $hue-soft-orange 0%, $hue-soft-magenta 100%);
 
 // Mixins
 @mixin shared-text {
@@ -301,13 +313,31 @@ body {
 }
 
 // Containers
-.container-background-primary {
-  background-color: $hue-grayish-red;
+.container-bg-soft-1 {
+  background: $gradient-soft-1;
   @media (prefers-color-scheme: dark) {
-    background-color: $grayscale-0900;
   }
 }
-
+.container-bg-soft-2 {
+  background: $gradient-soft-2;
+  @media (prefers-color-scheme: dark) {
+  }
+}
+.container-bg-soft-3 {
+  background: $gradient-soft-3;
+  @media (prefers-color-scheme: dark) {
+  }
+}
+.container-bg-soft-4 {
+  background: $gradient-soft-4;
+  @media (prefers-color-scheme: dark) {
+  }
+}
+.container-bg-soft-5 {
+  background: $gradient-soft-5;
+  @media (prefers-color-scheme: dark) {
+  }
+}
 // Content
 .content-screenshot-shadow {
   box-shadow: 0 0 2rem #00000012;
