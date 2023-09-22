@@ -8,6 +8,7 @@ $grayscale-0400: #999999;
 $grayscale-0500: #808080;
 $grayscale-0600: #666666;
 $grayscale-0800: #333333;
+$grayscale-0850: #1F1F1F;
 $grayscale-0900: #111111;
 $grayscale-1000: #000000;
 $hue-magenta: #FF0099;
@@ -20,6 +21,7 @@ $hue-soft-blue: #E6EFF5;
 $hue-soft-pink: #F5E6EF;
 $hue-soft-magenta: #F3E6F5;
 $hue-soft-violet: #f6f2ff;
+$gradient-grayscale: linear-gradient(160deg, $grayscale-0850 0%, $grayscale-0900 100%);
 $gradient-soft-1: linear-gradient(160deg, $hue-soft-red 0%, $hue-soft-blue 100%);
 $gradient-soft-2: linear-gradient(160deg, $hue-soft-green 0%, $hue-soft-pink 100%);
 $gradient-soft-3: linear-gradient(160deg, $hue-soft-pink 0%, $hue-soft-red 100%);
@@ -316,28 +318,34 @@ body {
 .container-bg-soft-1 {
   background: $gradient-soft-1;
   @media (prefers-color-scheme: dark) {
+    background: $gradient-grayscale;
   }
 }
 .container-bg-soft-2 {
   background: $gradient-soft-2;
   @media (prefers-color-scheme: dark) {
+    background: $gradient-grayscale;
   }
 }
 .container-bg-soft-3 {
   background: $gradient-soft-3;
   @media (prefers-color-scheme: dark) {
+    background: $gradient-grayscale;
   }
 }
 .container-bg-soft-4 {
   background: $gradient-soft-4;
   @media (prefers-color-scheme: dark) {
+    background: $gradient-grayscale;
   }
 }
 .container-bg-soft-5 {
   background: $gradient-soft-5;
   @media (prefers-color-scheme: dark) {
+    background: $gradient-grayscale;
   }
 }
+
 // Content
 .content-screenshot-shadow {
   box-shadow: 0 0 2rem #00000012;

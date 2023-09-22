@@ -291,18 +291,48 @@ body {
 .container-bg-soft-1 {
   background: linear-gradient(160deg, #F5E6E8 0%, #E6EFF5 100%);
 }
+@media (prefers-color-scheme: dark) {
+  .container-bg-soft-1 {
+    background: linear-gradient(160deg, #1F1F1F 0%, #111111 100%);
+  }
+}
+
 .container-bg-soft-2 {
   background: linear-gradient(160deg, #EFF5E6 0%, #F5E6EF 100%);
 }
+@media (prefers-color-scheme: dark) {
+  .container-bg-soft-2 {
+    background: linear-gradient(160deg, #1F1F1F 0%, #111111 100%);
+  }
+}
+
 .container-bg-soft-3 {
   background: linear-gradient(160deg, #F5E6EF 0%, #F5E6E8 100%);
 }
+@media (prefers-color-scheme: dark) {
+  .container-bg-soft-3 {
+    background: linear-gradient(160deg, #1F1F1F 0%, #111111 100%);
+  }
+}
+
 .container-bg-soft-4 {
   background: linear-gradient(160deg, #E6EFF5 0%, #EFF5E6 100%);
 }
+@media (prefers-color-scheme: dark) {
+  .container-bg-soft-4 {
+    background: linear-gradient(160deg, #1F1F1F 0%, #111111 100%);
+  }
+}
+
 .container-bg-soft-5 {
   background: linear-gradient(160deg, #F5ECE6 0%, #F3E6F5 100%);
 }
+@media (prefers-color-scheme: dark) {
+  .container-bg-soft-5 {
+    background: linear-gradient(160deg, #1F1F1F 0%, #111111 100%);
+  }
+}
+
 .content-screenshot-shadow {
   box-shadow: 0 0 2rem rgba(0, 0, 0, 0.0705882353);
 }
