@@ -333,6 +333,19 @@ body {
   }
 }
 
+.container-bg-blurred {
+  background: rgba(245, 245, 245, 0.9);
+  backdrop-filter: blur(0.5rem);
+  -webkit-backdrop-filter: blur(0.5rem);
+  -moz-backdrop-filter: blur(0.5rem);
+  -o-backdrop-filter: blur(0.5rem);
+}
+@media (prefers-color-scheme: dark) {
+  .container-bg-blurred {
+    background: rgba(0, 0, 0, 0.9);
+  }
+}
+
 .content-screenshot-shadow {
   box-shadow: 0 0 2rem rgba(0, 0, 0, 0.0705882353);
 }
