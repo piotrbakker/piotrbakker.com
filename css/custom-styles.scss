@@ -43,6 +43,40 @@ $gradient-soft-5: linear-gradient(160deg, $hue-soft-orange 0%, $hue-soft-magenta
     color: $grayscale-0200;
   }
 }
+@mixin shared-text-linked {
+  text-decoration: none;
+  color: $hue-light-blue;
+  opacity: 1;
+  &:hover {
+    color: $hue-light-blue;
+    opacity: 0.64;
+    text-decoration: none;
+  }
+  &:active {
+    color: $hue-light-blue;
+    opacity: 0.64;
+  }
+  &:visited {
+    color: $hue-light-blue;
+    opacity: 1;
+  }
+  @media (prefers-color-scheme: dark) {
+    color: scale-color($hue-light-blue, $saturation: -40%);
+    &:hover {
+      color: scale-color($hue-light-blue, $saturation: -40%);
+      opacity: 0.64;
+      text-decoration: none;
+    }
+    &:active {
+      color: scale-color($hue-light-blue, $saturation: -40%);
+      opacity: 0.64;
+    }
+    &:visited {
+      color: scale-color($hue-light-blue, $saturation: -40%);
+      opacity: 1;
+    }
+  }
+}
 @mixin shared-header-normal {
   color: $grayscale-0900;
   font-weight: 900;
@@ -141,37 +175,7 @@ body {
   @include serif;
 }
 .text-linked {
-  color: $hue-magenta;
-  opacity: 1;
-  &:hover {
-    color: $hue-magenta;
-    opacity: 0.64;
-    text-decoration: none;
-  }
-  &:active {
-    color: $hue-magenta;
-    opacity: 0.64;
-  }
-  &:visited {
-    color: $hue-magenta;
-    opacity: 1;
-  }
-  @media (prefers-color-scheme: dark) {
-    color: scale-color($hue-magenta, $saturation: -40%);
-    &:hover {
-      color: scale-color($hue-magenta, $saturation: -40%);
-      opacity: 0.64;
-      text-decoration: none;
-    }
-    &:active {
-      color: scale-color($hue-magenta, $saturation: -40%);
-      opacity: 0.64;
-    }
-    &:visited {
-      color: scale-color($hue-magenta, $saturation: -40%);
-      opacity: 1;
-    }
-  }
+  @include shared-text-linked;
 }
 .text-dimmed {
   color: $grayscale-0600;
@@ -188,41 +192,10 @@ body {
 
 // Links
 .link-icon {
+  @include shared-text-linked;
   display: inline-flex;
   align-items: center;
   font-size: 1.0625rem;
-  text-decoration: none;
-  color: $hue-light-blue;
-  opacity: 1;
-  &:hover {
-    color: $hue-light-blue;
-    opacity: 0.64;
-    text-decoration: none;
-  }
-  &:active {
-    color: $hue-light-blue;
-    opacity: 0.64;
-  }
-  &:visited {
-    color: $hue-light-blue;
-    opacity: 1;
-  }
-  @media (prefers-color-scheme: dark) {
-    color: scale-color($hue-light-blue, $saturation: -40%);
-    &:hover {
-      color: scale-color($hue-light-blue, $saturation: -40%);
-      opacity: 0.64;
-      text-decoration: none;
-    }
-    &:active {
-      color: scale-color($hue-light-blue, $saturation: -40%);
-      opacity: 0.64;
-    }
-    &:visited {
-      color: scale-color($hue-light-blue, $saturation: -40%);
-      opacity: 1;
-    }
-  }
 }
 
 // Lists
