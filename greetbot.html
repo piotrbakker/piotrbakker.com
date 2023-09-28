@@ -67,6 +67,33 @@
             <li>Sign-up using a single landing page.</li>
             <li>Launch on Hacker News.</li>
           </ul>
+          <h3 class="mt-4 heading-normal">Conversational UI</h3>
+          <p class="fs-5 text-normal text-serif">Using a chat-based interface allowed us to avoid the myriad of peripheral requirements associated with web development, such as support for different screen sizes and browsers, and focus on functionality instead. The product being a Slack app also enabled us to tap into a large pool of software engineering teams and communities, already used to command-line interfaces.</p>
+          <p class="fs-5 text-normal text-serif">By using a simple dialogue tree we could guide users through a configuration process without forcing them to ever leave Slack. It was a user-centric strategy that also helped ensure high activation rates. We doubled-down on this approach, gradually expanding the dialogue tree to support more configuration options and account for a range of edge cases.</p>
+        </div>
+      </div>
+      <div class="row justify-content-center mt-2 mt-lg-4">
+        <div class="col p-4 p-lg-5 content-background-dotted">
+          <figure class="figure mb-5">
+            <picture>
+              <source srcset="assets/img/content-project-screenshot-greetbot-4.png" media="(prefers-color-scheme: dark)">
+              <img class="img-fluid rounded-3 content-background-scheme" alt="Wireframe of GreetBot’s conversational interface used for collaboration with the engineering team" src="assets/img/content-project-screenshot-greetbot-3.png">
+            </picture>
+            <figcaption class="figure-caption text-center mt-3 text-normal text-monospaced">Wireframe of GreetBot’s conversational interface used for collaboration with the engineering team.</figcaption>
+          </figure>
+          <figure class="figure">
+            <picture>
+              <source srcset="assets/img/content-project-screenshot-greetbot-6.png" media="(prefers-color-scheme: dark)">
+              <img class="img-fluid rounded-3 content-background-scheme" alt="Screenshot of GreetBot’s conversational interface on Slack." src="assets/img/content-project-screenshot-greetbot-5.png">
+            </picture>
+            <figcaption class="figure-caption text-center mt-3 text-normal text-monospaced">Screenshot of GreetBot’s conversational interface deployed in production (Slack desktop client).</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-10 pe-lg-5">
+          <h3 class="mt-4 heading-normal">Shift to a Web Interface</h3>
+          <p class="fs-5 text-normal text-serif">While conversational UI had its benefits, as the product matured and attracted a wider audience, we realized it also had significant drawbacks. Most importantly, it could be slow and tedious. Users could not always jump ahead, but had to patiently sit through the configuration process each time they wanted to make a change. This was especially painful for power users, that needed to interact with the app multiple times a day. On the back-end we also relied on Slack’s API, which could take several seconds before each command could be processed. As a result, in the fall of 2020 we made the decision to shift to a web interface.</p>
         </div>
       </div>
       <div class="row justify-content-center mt-2 mt-lg-4">
@@ -87,20 +114,6 @@
           </figure>
           <figure class="figure mb-5">
             <picture>
-              <source srcset="assets/img/content-project-screenshot-greetbot-4.png" media="(prefers-color-scheme: dark)">
-              <img class="img-fluid rounded-3 content-background-scheme" alt="Wireframe of GreetBot’s conversational interface used for collaboration with the engineering team" src="assets/img/content-project-screenshot-greetbot-3.png">
-            </picture>
-            <figcaption class="figure-caption text-center mt-3 text-normal text-monospaced">Wireframe of GreetBot’s conversational interface used for collaboration with the engineering team.</figcaption>
-          </figure>
-          <figure class="figure mb-5">
-            <picture>
-              <source srcset="assets/img/content-project-screenshot-greetbot-6.png" media="(prefers-color-scheme: dark)">
-              <img class="img-fluid rounded-3 content-background-scheme" alt="Screenshot of GreetBot’s conversational interface on Slack." src="assets/img/content-project-screenshot-greetbot-5.png">
-            </picture>
-            <figcaption class="figure-caption text-center mt-3 text-normal text-monospaced">Screenshot of GreetBot’s conversational interface deployed in production (Slack desktop client).</figcaption>
-          </figure>
-          <figure class="figure mb-5">
-            <picture>
               <source srcset="assets/img/content-project-screenshot-greetbot-8.png" media="(prefers-color-scheme: dark)">
               <img class="img-fluid rounded-3 content-mask-gradient" alt="Screenshots of GreetBot Pricing page desktop and mobile viewports" src="assets/img/content-project-screenshot-greetbot-7.png">
             </picture>
@@ -114,6 +127,7 @@
           </figure>
         </div>
       </div>
+
     </div>
   </main>
   <footer>
