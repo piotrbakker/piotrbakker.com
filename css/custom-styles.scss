@@ -376,6 +376,9 @@ body {
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
   overflow: hidden;
+  @media (max-width: 768px) {
+    display: none;
+  }
 }
 .content-mask-gradient {
   mask-image: linear-gradient(to top, transparent 0%, $grayscale-0010 16%);
