@@ -392,3 +392,23 @@ body {
     border-top-left-radius: 1.5rem;
   }
 }
+
+// Figures
+.figure-stacked {
+  @media (min-width: 992px) {
+    img {
+      position: relative;
+    }
+    img:nth-child(1) {
+      top: 2rem;
+    }
+    img:nth-child(2) {
+      top: -2rem;
+      left: 2rem;
+    }
+    figcaption {
+      position: relative;
+      top: -0.75rem;
+    }
+  }
+}

@@ -432,4 +432,21 @@ body {
   }
 }
 
+@media (min-width: 992px) {
+  .figure-stacked img {
+    position: relative;
+  }
+  .figure-stacked img:nth-child(1) {
+    top: 2rem;
+  }
+  .figure-stacked img:nth-child(2) {
+    top: -2rem;
+    left: 2rem;
+  }
+  .figure-stacked figcaption {
+    position: relative;
+    top: -0.75rem;
+  }
+}
+
 /*# sourceMappingURL=custom-styles.css.map */
