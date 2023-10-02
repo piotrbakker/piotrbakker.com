@@ -408,6 +408,11 @@ body {
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
+@media (max-width: 768px) {
+  .content-text-truncated {
+    display: none;
+  }
+}
 
 .content-mask-gradient {
   mask-image: linear-gradient(to top, transparent 0%, #FCFCFC 16%);
