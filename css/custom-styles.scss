@@ -27,6 +27,11 @@ $gradient-soft-2: linear-gradient(160deg, $hue-soft-green 0%, $hue-soft-pink 100
 $gradient-soft-3: linear-gradient(160deg, $hue-soft-pink 0%, $hue-soft-red 100%);
 $gradient-soft-4: linear-gradient(160deg, $hue-soft-blue 0%, $hue-soft-green 100%);
 $gradient-soft-5: linear-gradient(160deg, $hue-soft-orange 0%, $hue-soft-magenta 100%);
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+$breakpoint-xxl: 1400px;
 
 // Mixins
 @mixin shared-text {
@@ -109,7 +114,7 @@ body {
 .page-layout-landing {
   margin-top: 12%;
   margin-bottom: 8%;
-  @media (max-width: 992px) {
+  @media (max-width: $breakpoint-lg) {
     margin-top: 8%;
   }
 }
@@ -212,7 +217,7 @@ body {
 }
 .list-horizontal {
   li {
-    @media (min-width: 576px) {
+    @media (min-width: $breakpoint-sm) {
       display: inline;
       &:nth-child(n+2) {
         &:before {
@@ -376,7 +381,7 @@ body {
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
   overflow: hidden;
-  @media (max-width: 768px) {
+  @media (max-width: $breakpoint-md) {
     display: none;
   }
 }
@@ -388,17 +393,17 @@ body {
 }
 .content-radius-top-left {
   border-top-left-radius: 2rem;
-  @media (max-width: 576px) {
+  @media (max-width: $breakpoint-sm) {
     border-top-left-radius: 1rem;
   }
-  @media (max-width: 768px) {
+  @media (max-width: $breakpoint-md) {
     border-top-left-radius: 1.5rem;
   }
 }
 
 // Figures
 .figure-stacked {
-  @media (min-width: 992px) {
+  @media (min-width: $breakpoint-lg) {
     img {
       position: relative;
     }
