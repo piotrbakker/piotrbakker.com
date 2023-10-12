@@ -438,6 +438,66 @@ body {
 }
 
 @media (min-width: 992px) {
+  .border-radius-lg-1 {
+    border-radius: 0.125rem !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .border-radius-lg-2 {
+    border-radius: 0.25rem !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .border-radius-lg-3 {
+    border-radius: 0.5rem !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .border-radius-lg-4 {
+    border-radius: 1rem !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .border-radius-lg-5 {
+    border-radius: 2rem !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .border-radius-xl-1 {
+    border-radius: 0.125rem !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .border-radius-xl-2 {
+    border-radius: 0.25rem !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .border-radius-xl-3 {
+    border-radius: 0.5rem !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .border-radius-xl-4 {
+    border-radius: 1rem !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .border-radius-xl-5 {
+    border-radius: 2rem !important;
+  }
+}
+
+@media (min-width: 992px) {
   .figure-stacked img {
     position: relative;
   }
