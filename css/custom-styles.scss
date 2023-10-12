@@ -32,6 +32,11 @@ $breakpoint-md: 768px;
 $breakpoint-lg: 992px;
 $breakpoint-xl: 1200px;
 $breakpoint-xxl: 1400px;
+$radius-1: 0.125rem;
+$radius-2: 0.25rem;
+$radius-3: 0.5rem;
+$radius-4: 1rem;
+$radius-5: 2rem;
 
 // Mixins
 @mixin shared-text {
@@ -398,6 +403,58 @@ body {
   }
   @media (max-width: $breakpoint-md) {
     border-top-left-radius: 1.5rem;
+  }
+}
+
+// Borders
+.border-radius-lg-1 {
+  @media (min-width: $breakpoint-lg) {
+    border-radius: $radius-1 !important;
+  }
+}
+.border-radius-lg-2 {
+  @media (min-width: $breakpoint-lg) {
+    border-radius: $radius-2 !important;
+  }
+}
+.border-radius-lg-3 {
+  @media (min-width: $breakpoint-lg) {
+    border-radius: $radius-3 !important;
+  }
+}
+.border-radius-lg-4 {
+  @media (min-width: $breakpoint-lg) {
+    border-radius: $radius-4 !important;
+  }
+}
+.border-radius-lg-5 {
+  @media (min-width: $breakpoint-lg) {
+    border-radius: $radius-5 !important;
+  }
+}
+.border-radius-xl-1 {
+  @media (min-width: $breakpoint-xl) {
+    border-radius: $radius-1 !important;
+  }
+}
+.border-radius-xl-2 {
+  @media (min-width: $breakpoint-xl) {
+    border-radius: $radius-2 !important;
+  }
+}
+.border-radius-xl-3 {
+  @media (min-width: $breakpoint-xl) {
+    border-radius: $radius-3 !important;
+  }
+}
+.border-radius-xl-4 {
+  @media (min-width: $breakpoint-xl) {
+    border-radius: $radius-4 !important;
+  }
+}
+.border-radius-xl-5 {
+  @media (min-width: $breakpoint-xl) {
+    border-radius: $radius-5 !important;
   }
 }
 
