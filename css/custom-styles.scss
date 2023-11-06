@@ -361,12 +361,6 @@ body {
     display: none;
   }
 }
-.content-background-white {
-  background-color: $grayscale-0000;
-}
-.content-background-black {
-  background-color: $grayscale-1000;
-}
 .content-background-scheme {
   background-color: $grayscale-0000;
   @media (prefers-color-scheme: dark) {
