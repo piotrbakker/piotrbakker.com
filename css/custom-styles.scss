@@ -108,6 +108,18 @@ $radius-5: 2rem;
   font-family: 'Inconsolata', monospace;
 }
 
+// Scheme
+.d-dark-none {
+  @media (prefers-color-scheme: dark) {
+    display: none;
+  }
+}
+.d-light-none {
+  @media (prefers-color-scheme: light) {
+    display: none;
+  }
+}
+
 // Layout
 body {
   background: $grayscale-0040;
@@ -349,16 +361,6 @@ body {
 .content-screenshot-brightness {
   @media (prefers-color-scheme: dark) {
     filter: brightness(80%);
-  }
-}
-.content-screengrab-light {
-  @media (prefers-color-scheme: dark) {
-    display: none;
-  }
-}
-.content-screengrab-dark {
-  @media (prefers-color-scheme: light) {
-    display: none;
   }
 }
 .content-background-scheme {

@@ -1,4 +1,16 @@
 @charset "UTF-8";
+@media (prefers-color-scheme: dark) {
+  .d-dark-none {
+    display: none;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .d-light-none {
+    display: none;
+  }
+}
+
 body {
   background: #F5F5F5;
 }
@@ -359,18 +371,6 @@ body {
 @media (prefers-color-scheme: dark) {
   .content-screenshot-brightness {
     filter: brightness(80%);
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  .content-screengrab-light {
-    display: none;
-  }
-}
-
-@media (prefers-color-scheme: light) {
-  .content-screengrab-dark {
-    display: none;
   }
 }
 
