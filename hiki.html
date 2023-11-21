@@ -71,6 +71,29 @@
           <p class="fs-5 text-normal text-serif">We decided to build the product as a Slack add-on to enable teams to easily access and update their skill profiles without the need for context-switching. We believed that integrating the product with existing workflows this way would enable us to reduce friction and help drive product adoption as well as user engagement.</p>
           <h2 class="mt-4 heading-normal">A Word About Branding</h2>
           <p class="fs-5 text-normal text-serif">After some initial detours, we’ve landed on the name Hiki, which is Hawaiian for “to be able to.” It was also a play on the word “wiki,” intended to reflect the crowd-sourcing nature of the product. Most importantly, it was a short, easy to spell and pronounce name that felt fun and playful. Of course, the resemblance to the word “hickey” was not lost on us. But we thought the risqué connotation was worth it, as we were hoping the similarity would make the name more memorable and easier to recall.</p>
+          <h2 class="mt-4 heading-normal">Command-Line Interface</h2>
+          <p class="fs-5 text-normal text-serif">We decided to utilize a command-line interface as the form of user interaction with the product. At the time, Slack did not offer graphical user interface components to 3rd party apps, whereas a conversational interface based on a dialogue tree alone was hard to work with and relatively cumbersome to use. We thought that a command-line interface might offer a good compromise: be flexible enough to facilitate a wide range of functions, while also being intuitive enough to make for a compelling user experience.</p>
+          <p class="fs-5 text-normal text-serif">The syntax we settled on was <code class="code-normal text-monospaced">/hiki [tool] [@username] [parameter]</code>, where <code>/hiki</code> was the slash command used to tell Slack to activate the app, <code>tool</code> was one of Hiki’s pre-defined commands, while <code>parameter</code> referred to tags created by the user.</p>
+          <p class="fs-5 text-normal text-serif">In total there were 6 actions users could perform:</p>
+          <ul class="mb-3 fs-5 text-normal text-serif">
+            <li><code>/hiki tag @username +[skill]</code> to upvote a user’s skill</li>
+            <li><code>/hiki tag @username -[skill]</code> to downvote a user’s skill</li>
+            <li><code>/hiki list</code>	to list all of your team’s skills</li>
+            <li><code>/hiki list [skill]</code> to list everyone with a specific skill</li>
+            <li><code>/hiki list @username</code> to list skills of a specific user</li>
+            <li><code>/hiki help</code> to look up commands and get support</li>
+          </ul>
+          <p class="fs-5 text-normal text-serif">For example, you could tag a teammate with a skill using the command <code>/hiki tag @username +[skill]</code>. Commands like <code>/hiki list @username</code> allowed you to view tags associated with a specific person, while <code>/hiki list [skill]</code> returned a list of teammates with a particular skill. When typing commands to Hiki in a direct message you could omit the <code>/hiki</code> slash command from the syntax altoghether.</p>
+        </div>
+      </div>
+      <div class="row justify-content-center mt-2 mt-lg-4">
+        <div class="col p-4 p-lg-5 content-background-dotted">
+          <figure class="figure">
+            <picture>
+              <source srcset="assets/img/content-hiki-screenshot-github-dark.png" media="(prefers-color-scheme: dark)">
+              <img class="img-fluid rounded-3 content-mask-gradient" alt="Screenshot of Hiki’s command-line interface design guide on GitHub" src="assets/img/content-hiki-screenshot-github-light.png">
+            </picture>
+            <figcaption class="figure-caption text-center mt-3 text-normal text-monospaced">Screenshot of Hiki’s command-line interface design guide on GitHub.</figcaption>
         </div>
       </div>
       <div class="row justify-content-center">
