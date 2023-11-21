@@ -346,6 +346,15 @@ body {
   }
 }
 
+.container-bg-soft-6 {
+  background: linear-gradient(160deg, #F5E6EF 0%, #FFFDF8 100%);
+}
+@media (prefers-color-scheme: dark) {
+  .container-bg-soft-6 {
+    background: linear-gradient(160deg, #1F1F1F 0%, #111111 100%);
+  }
+}
+
 .container-bg-blurred {
   background: rgba(245, 245, 245, 0.9);
   backdrop-filter: blur(0.5rem);

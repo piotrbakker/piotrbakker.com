@@ -15,18 +15,19 @@ $hue-magenta: #FF0099;
 $hue-light-blue: #6666FF;
 $hue-soft-red: #F5E6E8;
 $hue-soft-orange: #F5ECE6;
-$hue-soft-yellow: #fffdf8;
+$hue-soft-yellow: #FFFDF8;
 $hue-soft-green: #EFF5E6;
 $hue-soft-blue: #E6EFF5;
 $hue-soft-pink: #F5E6EF;
 $hue-soft-magenta: #F3E6F5;
-$hue-soft-violet: #f6f2ff;
+$hue-soft-violet: #F6F2FF;
 $gradient-grayscale: linear-gradient(160deg, $grayscale-0850 0%, $grayscale-0900 100%);
 $gradient-soft-1: linear-gradient(160deg, $hue-soft-red 0%, $hue-soft-blue 100%);
 $gradient-soft-2: linear-gradient(160deg, $hue-soft-green 0%, $hue-soft-pink 100%);
 $gradient-soft-3: linear-gradient(160deg, $hue-soft-pink 0%, $hue-soft-red 100%);
 $gradient-soft-4: linear-gradient(160deg, $hue-soft-blue 0%, $hue-soft-green 100%);
 $gradient-soft-5: linear-gradient(160deg, $hue-soft-orange 0%, $hue-soft-magenta 100%);
+$gradient-soft-6: linear-gradient(160deg, $hue-soft-pink 0%, $hue-soft-yellow 100%);
 $breakpoint-sm: 576px;
 $breakpoint-md: 768px;
 $breakpoint-lg: 992px;
@@ -336,6 +337,12 @@ body {
 }
 .container-bg-soft-5 {
   background: $gradient-soft-5;
+  @media (prefers-color-scheme: dark) {
+    background: $gradient-grayscale;
+  }
+}
+.container-bg-soft-6 {
+  background: $gradient-soft-6;
   @media (prefers-color-scheme: dark) {
     background: $gradient-grayscale;
   }
