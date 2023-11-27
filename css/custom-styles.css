@@ -403,7 +403,7 @@ code {
 }
 @media (prefers-color-scheme: dark) {
   .content-background-scheme {
-    background-color: #000000;
+    background-color: #111111;
   }
 }
 
