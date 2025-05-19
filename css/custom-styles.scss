@@ -430,6 +430,18 @@ code {
     border-top-left-radius: 1.5rem;
   }
 }
+.image-style-app-logo {
+  max-width: 100%;
+  @media (max-width: $breakpoint-xl) {
+    width: 5rem;
+    height: 5rem;
+    border-style: solid;
+    border-color: $grayscale-0200;
+    @media (prefers-color-scheme: dark) {
+      border-color: $grayscale-0800;
+    }
+  }
+}
 
 // Borders
 .border-radius-lg-1 {
