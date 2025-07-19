@@ -1,0 +1,13 @@
+title: Piotr Bakker
+description: Product designer that helps technology companies make software people like to use.
+baseurl: ""
+url: "https://piotrbakker.com"
+
+markdown: kramdown
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor/
+  - _site/
