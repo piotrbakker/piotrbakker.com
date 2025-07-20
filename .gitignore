@@ -3,3 +3,7 @@
 
 # Jekyll
 _site/
+
+# Compiled CSS
+css/custom-styles.css
+css/custom-styles.css.map
