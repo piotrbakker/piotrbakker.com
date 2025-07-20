@@ -6,7 +6,7 @@
     {% assign page_key = 'index' %}
   {% endif %}
 
-  {% assign page_data = site.data.pages.pages[page_key] %}
+  {% assign page_data = site.data.pages[page_key] %}
 
   <title>{{ page_data.title | default: site.title }}</title>
   <meta name="keywords" content="{{ page_data.keywords | default: site.keywords }}">
