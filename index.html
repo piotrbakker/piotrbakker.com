@@ -9,12 +9,18 @@ layout: default
         <h1 class="display-2 heading-normal">Hello, this is Piotr&nbsp;&#128075;</h1>
         <p class="fs-4 text-normal text-serif">I’m a product designer and tool maker with 12 years of experience in the tech industry, striving to make software exciting and effortless to use. I specialize in multi-platform design (web, mobile, chat) and cross-functional collaboration, from ideation to technical implementation.</p>
         <ul class="list-inline mt-4">
-          <li class="list-inline-item me-3"><a href="https://www.linkedin.com/in/piotrbakker" target="_blank" class="text-sans-serif link-icon"><i class="ph-fill ph-linkedin-logo me-1"></i>LinkedIn</a></li>
-          <li class="list-inline-item me-3"><a href="https://apps.apple.com/us/developer/piotr-bakker/id1741809059" target="_blank" class="text-sans-serif link-icon"><i class="ph-bold ph-app-store-logo me-1"></i>App Store</a></li>
-          <li class="list-inline-item me-3"><a href="https://www.figma.com/@piotr" target="_blank" class="text-sans-serif link-icon"><i class="ph-bold ph-figma-logo me-1"></i>Figma</a></li>
-          <li class="list-inline-item me-3"><a href="https://github.com/piotrbakker" target="_blank" class="text-sans-serif link-icon"><i class="ph-bold ph-git-branch me-1"></i>GitHub</a></li>
-          <li class="list-inline-item me-3"><a href="https://piotrbakker.medium.com" target="_blank" class="text-sans-serif link-icon"><i class="ph-fill ph-medium-logo me-1"></i>Medium</a></li>
-          <li class="list-inline-item me-3"><a href="mailto:hello@piotrbakker.com?Subject=Hello Piotr &#128075;" class="text-sans-serif link-icon"><i class="ph-fill ph-envelope-simple me-1"></i> Email</a></li>
+          {% for link in site.data.links %}
+            <li class="list-inline-item me-3">
+              <a href="{{ link.url }}" target="_blank" class="text-sans-serif link-icon">
+                <i class="{{ link.icon }} me-1"></i>{{ link.name }}
+              </a>
+            </li>
+          {% endfor %}
+          <li class="list-inline-item me-3">
+            <a href="mailto:hello@piotrbakker.com?Subject=Hello Piotr &#128075;" class="text-sans-serif link-icon">
+              <i class="ph-fill ph-envelope-simple me-1"></i> Email
+            </a>
+          </li>
         </ul>
       </div>
     </div>

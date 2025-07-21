@@ -1,0 +1,19 @@
+- name: "LinkedIn"
+  url: "https://www.linkedin.com/in/piotrbakker"
+  icon: "ph-fill ph-linkedin-logo"
+
+- name: "App Store"
+  url: "https://apps.apple.com/us/developer/piotr-bakker/id1741809059"
+  icon: "ph-bold ph-app-store-logo"
+
+- name: "Figma"
+  url: "https://www.figma.com/@piotr"
+  icon: "ph-bold ph-figma-logo"
+
+- name: "GitHub"
+  url: "https://github.com/piotrbakker"
+  icon: "ph-bold ph-git-branch"
+
+- name: "Medium"
+  url: "https://piotrbakker.medium.com"
+  icon: "ph-fill ph-medium-logo"
