@@ -20,29 +20,48 @@ resume:
 greetbot:
   title: "Piotr Bakker &middot; Work &middot; Greet.Bot"
   description: "Greet.Bot Case Study &middot Chatbot for Onboarding New Employees on Slack."
-  keywords: "Conversational Interface Design, Product Management, Responsive Web Design, UX Writing"
+  keywords: >-
+    Conversational Interface Design,
+    Product Management,
+    Responsive Web Design,
+    UX Writing
 
 galactic-escape:
   title: "Piotr Bakker &middot; Work &middot; Galactic Escape"
   description: "Galactic Escape Case Study &middot Retro Side-scrolling Game for iOS and tvOS."
-  keywords: "Art Direction, Game Design, Graphic Design"
+  keywords: >-
+    Art Direction,
+    Game Design,
+    Graphic Design
 
 hiki:
   title: "Piotr Bakker &middot; Work &middot; Hiki.Team"
   description: "Hiki.Team Case Study &middot Slack-based Skill Directory for Distributed teams."
-  keywords: "Conversational Interface Design, Product Design, UX Writing"
+  keywords: >-
+    Conversational Interface Design,
+    Product Design,
+    UX Writing
 
 mixbook:
   title: "Piotr Bakker &middot; Work &middot; Mixbook.com"
   description: "Mixbook.com Case Study &middot Photo Book Editor Redesign."
-  keywords: "Design Systems, User Interface Design, Wireframe Design"
+  keywords: >-
+    Design Systems,
+    User Interface Design,
+    Wireframe Design
 
 rfcx:
   title: "Piotr Bakker &middot; Work &middot; Rainforest Connection"
   description: "RFCx.org Case Study &middot Real-time Rainforest Monitoring System."
-  keywords: "Design Systems, User Interface Design, Web Design"
+  keywords: >-
+    Design Systems,
+    User Interface Design,
+    Web Design
 
 wizehire:
   title: "Piotr Bakker &middot; Work &middot; Wizehire.com"
   description: "Wizehire.com Case Study &middot Hiring Platform for Small Businesses."
-  keywords: "Design Systems, User Interface Design, Web Design"
+  keywords: >-
+    Design Systems,
+    User Interface Design,
+    Web Design
