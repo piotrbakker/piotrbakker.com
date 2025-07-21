@@ -20,6 +20,8 @@ resume:
 greetbot:
   title: "Piotr Bakker &middot; Work &middot; Greet.Bot"
   description: "Greet.Bot Case Study &middot Chatbot for Onboarding New Employees on Slack."
+  role: "Co-founder & CEO"
+  timeframe: "2018–2022"
   keywords: >-
     Conversational Interface Design,
     Product Management,
@@ -29,6 +31,8 @@ greetbot:
 galactic-escape:
   title: "Piotr Bakker &middot; Work &middot; Galactic Escape"
   description: "Galactic Escape Case Study &middot Retro Side-scrolling Game for iOS and tvOS."
+  role: "Maker"
+  timeframe: "2016–2017"
   keywords: >-
     Art Direction,
     Game Design,
@@ -37,6 +41,8 @@ galactic-escape:
 hiki:
   title: "Piotr Bakker &middot; Work &middot; Hiki.Team"
   description: "Hiki.Team Case Study &middot Slack-based Skill Directory for Distributed teams."
+  role: "Maker"
+  timeframe: "2018–2020"
   keywords: >-
     Conversational Interface Design,
     Product Design,
@@ -45,6 +51,8 @@ hiki:
 mixbook:
   title: "Piotr Bakker &middot; Work &middot; Mixbook.com"
   description: "Mixbook.com Case Study &middot Photo Book Editor Redesign."
+  role: "UI/UX Designer"
+  timeframe: "2016–2020"
   keywords: >-
     Design Systems,
     User Interface Design,
@@ -53,6 +61,8 @@ mixbook:
 rfcx:
   title: "Piotr Bakker &middot; Work &middot; Rainforest Connection"
   description: "RFCx.org Case Study &middot Real-time Rainforest Monitoring System."
+  role: "UI/UX Designer"
+  timeframe: "2016–2017"
   keywords: >-
     Design Systems,
     User Interface Design,
@@ -61,6 +71,8 @@ rfcx:
 wizehire:
   title: "Piotr Bakker &middot; Work &middot; Wizehire.com"
   description: "Wizehire.com Case Study &middot Hiring Platform for Small Businesses."
+  role: "FreelanceProduct Designer"
+  timeframe: "2020–2022"
   keywords: >-
     Design Systems,
     User Interface Design,
