@@ -39,3 +39,30 @@ app_store:
     description: "Spelling alphabet transcriptions."
     icon_light: "assets/img/crater.tools/content.light-app-logo-codifier-1024@1x.png"
     icon_dark: "assets/img/crater.tools/content.dark-app-logo-codifier-1024@1x.png"
+
+# Systems
+systems:
+  - name: "Construct"
+    url: "https://www.figma.com/community/file/822440764002706075"
+    platform: "Figma"
+    description: "Grid-based, brutalist starter file for wireframe design systems."
+
+  - name: "Converse Kit"
+    url: "https://www.figma.com/community/file/822441601749957276"
+    platform: "Figma"
+    description: "Wireframe component library for Slack apps."
+
+  - name: "Ecstatic"
+    url: "https://github.com/piotrbakker/ecstatic"
+    platform: "GitHub"
+    description: "Framework for naming static files in product design."
+
+  - name: "Mainframe"
+    url: "https://github.com/piotrbakker/mainframe"
+    platform: "GitHub"
+    description: "Framework for organizing product design files in Figma."
+
+  - name: "Eventful"
+    url: "https://github.com/piotrbakker/eventful"
+    platform: "GitHub"
+    description: "Framework for naming shared calendar events."
