@@ -1,19 +1,41 @@
-- name: "LinkedIn"
-  url: "https://www.linkedin.com/in/piotrbakker"
-  icon: "ph-fill ph-linkedin-logo"
+# Professional Accounts
+accounts:
+  - name: "LinkedIn"
+    url: "https://www.linkedin.com/in/piotrbakker"
+    icon: "ph-fill ph-linkedin-logo"
 
-- name: "App Store"
-  url: "https://apps.apple.com/us/developer/piotr-bakker/id1741809059"
-  icon: "ph-bold ph-app-store-logo"
+  - name: "App Store"
+    url: "https://apps.apple.com/us/developer/piotr-bakker/id1741809059"
+    icon: "ph-bold ph-app-store-logo"
 
-- name: "Figma"
-  url: "https://www.figma.com/@piotr"
-  icon: "ph-bold ph-figma-logo"
+  - name: "Figma"
+    url: "https://www.figma.com/@piotr"
+    icon: "ph-bold ph-figma-logo"
 
-- name: "GitHub"
-  url: "https://github.com/piotrbakker"
-  icon: "ph-bold ph-git-branch"
+  - name: "GitHub"
+    url: "https://github.com/piotrbakker"
+    icon: "ph-bold ph-git-branch"
 
-- name: "Medium"
-  url: "https://piotrbakker.medium.com"
-  icon: "ph-fill ph-medium-logo"
+  - name: "Medium"
+    url: "https://piotrbakker.medium.com"
+    icon: "ph-fill ph-medium-logo"
+
+# App Store
+app_store:
+  - name: "Calmetric"
+    url: "https://apps.apple.com/app/id6744656593"
+    description: "Calendar year metrics."
+    icon_light: "assets/img/crater.tools/content.light-app-logo-calmetric-1024@1x.png"
+    icon_dark: "assets/img/crater.tools/content.dark-app-logo-calmetric-1024@1x.png"
+
+  - name: "Conversions"
+    url: "https://apps.apple.com/app/id6741049598"
+    description: "Simple unit conversions."
+    icon_light: "assets/img/crater.tools/content.light-app-logo-conversions-1024@1x.png"
+    icon_dark: "assets/img/crater.tools/content.dark-app-logo-conversions-1024@1x.png"
+
+  - name: "Codifier"
+    url: "https://apps.apple.com/app/id6737922796"
+    description: "Spelling alphabet transcriptions."
+    icon_light: "assets/img/crater.tools/content.light-app-logo-codifier-1024@1x.png"
+    icon_dark: "assets/img/crater.tools/content.dark-app-logo-codifier-1024@1x.png"

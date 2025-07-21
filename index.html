@@ -9,7 +9,7 @@ layout: default
         <h1 class="display-2 heading-normal">Hello, this is Piotr&nbsp;&#128075;</h1>
         <p class="fs-4 text-normal text-serif">I’m a product designer and tool maker with 12 years of experience in the tech industry, striving to make software exciting and effortless to use. I specialize in multi-platform design (web, mobile, chat) and cross-functional collaboration, from ideation to technical implementation.</p>
         <ul class="list-inline mt-4">
-          {% for link in site.data.links %}
+          {% for link in site.data.links.accounts %}
             <li class="list-inline-item me-3">
               <a href="{{ link.url }}" target="_blank" class="text-sans-serif link-icon">
                 <i class="{{ link.icon }} me-1"></i>{{ link.name }}
@@ -144,51 +144,23 @@ layout: default
       <div class="row justify-content-center mt-2 mt-lg-4">
         <div class="col py-4 py-lg-5">
           <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 g-lg-5">
-            <div class="col">
-              <div class="card h-100 p-2 p-lg-3 rounded-4 content-background-scheme content-background-outlined">
-                <div class="card-body">
-                  <picture>
-                    <source srcset="assets/img/crater.tools/content.dark-app-logo-calmetric-1024@1x.png" media="(prefers-color-scheme: dark)">
-                    <img class="card-img-top border-1 rounded-4 mb-3 image-style-app-logo" alt="Calmetric App Icon" src="assets/img/crater.tools/content.light-app-logo-calmetric-1024@1x.png">
-                  </picture>
-                  <h2 class="card-title heading-normal">Calmetric</h2>
-                  <p class="card-text fs-5 text-normal text-serif text-dimmed">Calendar year metrics.</p>
-                </div>
-                <div class="card-footer border-0 content-background-scheme">
-                  <a href="https://apps.apple.com/app/id6744656593" class="text-sans-serif link-icon" target="_blank">View on the App Store<i class="ph-bold ph-arrow-up-right ms-1"></i></a>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card h-100 p-2 p-lg-3 rounded-4 content-background-scheme content-background-outlined">
-                <div class="card-body">
-                  <picture>
-                    <source srcset="assets/img/crater.tools/content.dark-app-logo-conversions-1024@1x.png" media="(prefers-color-scheme: dark)">
-                    <img class="card-img-top border-1 rounded-4 mb-3 image-style-app-logo" alt="Conversions App Icon" src="assets/img/crater.tools/content.light-app-logo-conversions-1024@1x.png">
-                  </picture>
-                  <h2 class="card-title heading-normal">Conversions</h2>
-                  <p class="card-text fs-5 text-normal text-serif text-dimmed">Simple unit conversions.</p>
-                </div>
-                <div class="card-footer border-0 content-background-scheme">
-                  <a href="https://apps.apple.com/app/id6741049598" class="text-sans-serif link-icon" target="_blank">View on the App Store<i class="ph-bold ph-arrow-up-right ms-1"></i></a>
+            {% for app in site.data.links.app_store %}
+              <div class="col">
+                <div class="card h-100 p-2 p-lg-3 rounded-4 content-background-scheme content-background-outlined">
+                  <div class="card-body">
+                    <picture>
+                      <source srcset="{{ app.icon_dark }}" media="(prefers-color-scheme: dark)">
+                      <img class="card-img-top border-1 rounded-4 mb-3 image-style-app-logo" alt="{{ app.name }} App Icon" src="{{ app.icon_light }}">
+                    </picture>
+                    <h2 class="card-title heading-normal">{{ app.name }}</h2>
+                    <p class="card-text fs-5 text-normal text-serif text-dimmed">{{ app.description }}</p>
+                  </div>
+                  <div class="card-footer border-0 content-background-scheme">
+                    <a href="{{ app.url }}" class="text-sans-serif link-icon" target="_blank">View on the App Store<i class="ph-bold ph-arrow-up-right ms-1"></i></a>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="col">
-              <div class="card h-100 p-2 p-lg-3 rounded-4 content-background-scheme content-background-outlined">
-                <div class="card-body">
-                <picture>
-                  <source srcset="assets/img/crater.tools/content.dark-app-logo-codifier-1024@1x.png" media="(prefers-color-scheme: dark)">
-                  <img class="card-img-top border-1 rounded-4 mb-3 image-style-app-logo" alt="Calmetric App Icon" src="assets/img/crater.tools/content.light-app-logo-codifier-1024@1x.png">
-                </picture>
-                  <h2 class="card-title heading-normal">Codifier</h2>
-                  <p class="card-text fs-5 text-normal text-serif text-dimmed">Spelling alphabet transcriptions.</p>
-                </div>
-                <div class="card-footer border-0 content-background-scheme">
-                  <a href="https://apps.apple.com/app/id6737922796" class="text-sans-serif link-icon" target="_blank">View on the App Store<i class="ph-bold ph-arrow-up-right ms-1"></i></a>
-                </div>
-              </div>
-            </div>
+            {% endfor %}
           </div>
         </div>
       </div>
