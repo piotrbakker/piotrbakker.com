@@ -224,12 +224,6 @@ body {
     border-color: $grayscale-0800;
   }
 }
-.content-mask-gradient {
-  mask-image: linear-gradient(to top, transparent 0%, $grayscale-0010 16%);
-  @media (prefers-color-scheme: dark) {
-    mask-image: linear-gradient(to top, transparent 0%, $grayscale-0900 16%);
-  }
-}
 .content-radius-top-left {
   border-top-left-radius: 2rem;
   @media (max-width: $breakpoint-sm) {
@@ -237,6 +231,12 @@ body {
   }
   @media (max-width: $breakpoint-md) {
     border-top-left-radius: 1.5rem;
+  }
+}
+.image-mask-gradient {
+  mask-image: linear-gradient(to top, transparent 0%, $grayscale-0010 16%);
+  @media (prefers-color-scheme: dark) {
+    mask-image: linear-gradient(to top, transparent 0%, $grayscale-0900 16%);
   }
 }
 .image-style-app-logo {
