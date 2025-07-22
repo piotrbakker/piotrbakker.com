@@ -196,11 +196,6 @@ body {
     box-shadow: 0 0 2rem #FFFFFF12;
   }
 }
-.content-screenshot-brightness {
-  @media (prefers-color-scheme: dark) {
-    filter: brightness(80%);
-  }
-}
 .content-background-scheme {
   background-color: $grayscale-0000;
   @media (prefers-color-scheme: dark) {
@@ -231,6 +226,11 @@ body {
   }
   @media (max-width: $breakpoint-md) {
     border-top-left-radius: 1.5rem;
+  }
+}
+.image-brightness-dimmed {
+  @media (prefers-color-scheme: dark) {
+    filter: brightness(80%);
   }
 }
 .image-mask-gradient {
