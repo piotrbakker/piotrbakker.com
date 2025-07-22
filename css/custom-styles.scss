@@ -1,6 +1,9 @@
 ---
 ---
 
+// Import mixins
+@import 'mixins';
+
 // Fills
 $grayscale-0000: #FFFFFF;
 $grayscale-0010: #FCFCFC;
@@ -41,76 +44,6 @@ $radius-2: 0.25rem;
 $radius-3: 0.5rem;
 $radius-4: 1rem;
 $radius-5: 2rem;
-
-// Mixins
-@mixin shared-text {
-  -webkit-font-smoothing: antialiased;
-  -moz-font-smoothing: antialiased;
-  -o-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
-}
-@mixin shared-text-normal {
-  color: $grayscale-0900;
-
-  @media (prefers-color-scheme: dark) {
-    color: $grayscale-0200;
-  }
-}
-@mixin shared-text-linked {
-  text-decoration: none;
-  color: $hue-light-blue;
-  opacity: 1;
-  &:hover {
-    color: $hue-light-blue;
-    opacity: 0.64;
-    text-decoration: none;
-  }
-  &:active {
-    color: $hue-light-blue;
-    opacity: 0.64;
-  }
-  &:visited {
-    color: $hue-light-blue;
-    opacity: 1;
-  }
-  @media (prefers-color-scheme: dark) {
-    color: scale-color($hue-light-blue, $saturation: -40%);
-    &:hover {
-      color: scale-color($hue-light-blue, $saturation: -40%);
-      opacity: 0.64;
-      text-decoration: none;
-    }
-    &:active {
-      color: scale-color($hue-light-blue, $saturation: -40%);
-      opacity: 0.64;
-    }
-    &:visited {
-      color: scale-color($hue-light-blue, $saturation: -40%);
-      opacity: 1;
-    }
-  }
-}
-@mixin shared-header-normal {
-  color: $grayscale-0900;
-  font-weight: 900;
-
-  @media (prefers-color-scheme: dark) {
-    color: $grayscale-0080;
-  }
-}
-@mixin sans-serif-ui {
-  font-family: 'Outfit', sans-serif;
-}
-@mixin sans-serif {
-  font-family: sofia-pro, sans-serif;
-}
-@mixin serif {
-  font-family: freight-text-pro, serif;
-}
-@mixin monospace {
-  font-family: 'Inconsolata', monospace;
-}
 
 // Scheme
 .d-dark-none {
