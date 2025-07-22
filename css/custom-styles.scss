@@ -190,12 +190,6 @@ body {
 }
 
 // Content
-.content-screenshot-shadow {
-  box-shadow: 0 0 2rem #00000012;
-  @media (prefers-color-scheme: dark) {
-    box-shadow: 0 0 2rem #FFFFFF12;
-  }
-}
 .content-background-scheme {
   background-color: $grayscale-0000;
   @media (prefers-color-scheme: dark) {
