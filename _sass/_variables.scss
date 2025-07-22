@@ -1,0 +1,50 @@
+// Colors - Grayscale
+$grayscale-0000: #FFFFFF;
+$grayscale-0010: #FCFCFC;
+$grayscale-0040: #F5F5F5;
+$grayscale-0080: #EAEAEA;
+$grayscale-0200: #CCCCCC;
+$grayscale-0400: #999999;
+$grayscale-0500: #808080;
+$grayscale-0600: #666666;
+$grayscale-0800: #333333;
+$grayscale-0850: #1F1F1F;
+$grayscale-0900: #111111;
+$grayscale-1000: #000000;
+
+// Colors - Brand
+$hue-magenta: #FF0099;
+$hue-light-blue: #6666FF;
+
+// Colors - Soft Tints
+$hue-soft-red: #F5E6E8;
+$hue-soft-orange: #F5ECE6;
+$hue-soft-yellow: #FFFDF8;
+$hue-soft-green: #EFF5E6;
+$hue-soft-blue: #E6EFF5;
+$hue-soft-pink: #F5E6EF;
+$hue-soft-magenta: #F3E6F5;
+$hue-soft-violet: #F6F2FF;
+
+// Gradients
+$gradient-grayscale: linear-gradient(160deg, $grayscale-0850 0%, $grayscale-0900 100%);
+$gradient-soft-1: linear-gradient(160deg, $hue-soft-red 0%, $hue-soft-blue 100%);
+$gradient-soft-2: linear-gradient(160deg, $hue-soft-green 0%, $hue-soft-pink 100%);
+$gradient-soft-3: linear-gradient(160deg, $hue-soft-pink 0%, $hue-soft-red 100%);
+$gradient-soft-4: linear-gradient(160deg, $hue-soft-blue 0%, $hue-soft-green 100%);
+$gradient-soft-5: linear-gradient(160deg, $hue-soft-orange 0%, $hue-soft-magenta 100%);
+$gradient-soft-6: linear-gradient(160deg, $hue-soft-pink 0%, $hue-soft-yellow 100%);
+
+// Breakpoints
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+$breakpoint-xxl: 1400px;
+
+// Border Radius
+$radius-1: 0.125rem;
+$radius-2: 0.25rem;
+$radius-3: 0.5rem;
+$radius-4: 1rem;
+$radius-5: 2rem;
