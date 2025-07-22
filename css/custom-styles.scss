@@ -202,8 +202,8 @@ body {
     border-color: $grayscale-0800;
   }
 }
-// Content
 
+// Content
 .content-background-dotted {
   background: linear-gradient(90deg, $grayscale-0040 (1.25rem - 0.0625rem), transparent 1%) center, linear-gradient($grayscale-0040 (1.25rem - 0.0625rem), transparent 1%) center, $hue-magenta;
   background-size: 1.25rem 1.25rem;
