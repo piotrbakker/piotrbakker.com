@@ -18,32 +18,6 @@
   }
 }
 
-// Layout
-body {
-  background: $grayscale-0040;
-
-  @media (prefers-color-scheme: dark) {
-    background: $grayscale-1000;
-  }
-}
-.page-layout-landing {
-  margin-top: 12%;
-  margin-bottom: 8%;
-  @media (max-width: $breakpoint-lg) {
-    margin-top: 8%;
-  }
-}
-.page-break-line {
-  color: $grayscale-0200;
-  opacity:1;
-  @media (prefers-color-scheme: dark) {
-    color: $grayscale-0600;
-  }
-}
-.page-break-dashed {
-  border-style: dashed;
-}
-
 // Links
 .link-icon {
   @include shared-text-linked;
