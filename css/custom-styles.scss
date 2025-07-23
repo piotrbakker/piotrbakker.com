@@ -8,6 +8,14 @@
 @import 'components';
 @import 'utilities';
 
+body {
+  background: $grayscale-0040;
+
+  @media (prefers-color-scheme: dark) {
+    background: $grayscale-1000;
+  }
+}
+
 // Containers
 .container-bg-soft-1 {
   background: $gradient-soft-1;
