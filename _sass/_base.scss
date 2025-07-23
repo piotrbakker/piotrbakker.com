@@ -1,0 +1,8 @@
+// Base Element Styles
+body {
+  background: $grayscale-0040;
+
+  @media (prefers-color-scheme: dark) {
+    background: $grayscale-1000;
+  }
+}
