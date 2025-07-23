@@ -1,0 +1,130 @@
+// Links
+.link-icon {
+  @include shared-text-linked;
+  display: inline-flex;
+  align-items: center;
+  font-size: 1.0625rem;
+}
+
+// Lists
+.list-plain {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.list-linked {
+  a {
+    @extend .text-linked;
+    @extend .text-bolded;
+  }
+}
+.list-horizontal {
+  li {
+    @media (min-width: $breakpoint-sm) {
+      display: inline;
+      &:nth-child(n+2) {
+        &:before {
+          content: "\00B7\00a0";
+          color: $grayscale-0600;
+          @media (prefers-color-scheme: dark) {
+            color: $grayscale-0500;
+          }
+        }
+      }
+    }
+  }
+}
+.description-list-plain {
+  dt {
+    &:nth-child(n+2) {
+      margin: 1rem 0 0 0;
+    }
+  }
+  dd {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+// Controls
+.button-label-normal {
+  @include shared-text-normal;
+  @include sans-serif-ui;
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: $grayscale-0800;
+  @media (prefers-color-scheme: dark) {
+    color: $grayscale-0000;
+  }
+}
+.button-style-primary {
+  background-color: $grayscale-0000;
+  border: 0.0625rem solid $grayscale-0080;
+  box-shadow: 0 0.125rem 0.125rem 0 rgba(0,0,0,0.10);
+  border-radius: 0.375rem;
+  &:hover {
+    background-color: $grayscale-0000;
+    border: 0.0625rem solid $grayscale-0080;
+    box-shadow: 0 0.25rem 0.25rem 0 rgba(0,0,0,0.12);
+    color: $grayscale-0800;
+  }
+  &:active {
+    background-color: $grayscale-0000;
+    border: 0.0625rem solid $grayscale-0080;
+  }
+  &:visited {
+    background-color: $grayscale-0000;
+  }
+  @media (prefers-color-scheme: dark) {
+    background-color: $grayscale-0900;
+    border-color: $grayscale-0600;
+    box-shadow: 0 0.125rem 0.125rem 0 rgba(0,0,0,0.24);
+    &:hover {
+      background-color: $grayscale-0900;
+      border-color: $grayscale-0400;
+      box-shadow: 0 0.25rem 0.25rem 0 rgba(0,0,0,0.32);
+      color: $grayscale-0000;
+    }
+    &:active {
+      background-color: $grayscale-0900;
+      border-color: $grayscale-0400;
+    }
+    &:visited {
+      background-color: $grayscale-0900;
+    }
+  }
+}
+
+// Cards
+.card-bg-primary {
+  background-color: $grayscale-0000;
+  @media (prefers-color-scheme: dark) {
+    background-color: $grayscale-0900;
+  }
+}
+.card-border-primary {
+  border-color: $grayscale-0000;
+  @media (prefers-color-scheme: dark) {
+    border-color: $grayscale-0800;
+  }
+}
+
+// Figures
+.figure-stacked {
+  @media (min-width: $breakpoint-lg) {
+    img {
+      position: relative;
+    }
+    img:nth-child(1) {
+      top: 2rem;
+    }
+    img:nth-child(2) {
+      top: -2rem;
+      left: 2rem;
+    }
+    figcaption {
+      position: relative;
+      top: -0.75rem;
+    }
+  }
+}
