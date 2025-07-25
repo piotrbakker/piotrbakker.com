@@ -3,9 +3,10 @@ Image Grid Include
 - images: array of image objects (src, alt, optional dark_src)
 - caption: figure caption (optional)
 - grid_classes: column classes (default: "col-12 col-md-4")
+- margin_bottom: bottom margin class (optional, e.g. "mb-5")
 {% endcomment %}
 
-<figure class="figure">
+<figure class="figure{% if include.margin_bottom %} {{ include.margin_bottom }}{% endif %}">
   <div class="row gx-4 gx-xl-5 gy-4 gy-xl-5">
     {% for image in include.images %}
       <div class="{{ include.grid_classes | default: 'col-12 col-md-4' }}">
