@@ -53,69 +53,10 @@ layout: default
     <div class="row justify-content-center mt-2 mt-lg-4">
       <div class="col">
         <div class="p-4 p-lg-5 content-bg-dotted">
-          <div class="row justify-content-center">
-            <div class="col">
-              <figure class="figure">
-                <div class="row gx-4 gx-xl-5 gy-4 gy-xl-5">
-                  <div class="col-12 col-md-4">
-                    <picture>
-                      <source srcset="assets/img/wizehire.com/content.dark-wizehire-project-sketch-01.png" media="(prefers-color-scheme: dark)">
-                      <img class="img-fluid rounded-3" alt="Sketch showing a product feature" src="assets/img/wizehire.com/content.light-wizehire-project-sketch-01.png">
-                    </picture>
-                  </div>
-                  <div class="col-12 col-md-4">
-                    <picture>
-                      <source srcset="assets/img/wizehire.com/content.dark-wizehire-project-sketch-02.png" media="(prefers-color-scheme: dark)">
-                      <img class="img-fluid rounded-3" alt="Sketch showing a product feature" src="assets/img/wizehire.com/content.light-wizehire-project-sketch-02.png">
-                    </picture>
-                  </div>
-                  <div class="col-12 col-md-4">
-                    <picture>
-                      <source srcset="assets/img/wizehire.com/content.dark-wizehire-project-sketch-03.png" media="(prefers-color-scheme: dark)">
-                      <img class="img-fluid rounded-3" alt="Sketch showing a product feature" src="assets/img/wizehire.com/content.light-wizehire-project-sketch-03.png">
-                    </picture>
-                  </div>
-                  <div class="col-12 col-md-4">
-                    <picture>
-                      <source srcset="assets/img/wizehire.com/content.dark-wizehire-project-sketch-04.png" media="(prefers-color-scheme: dark)">
-                      <img class="img-fluid rounded-3" alt="Sketch showing a product feature" src="assets/img/wizehire.com/content.light-wizehire-project-sketch-04.png">
-                    </picture>
-                  </div>
-                  <div class="col=12 col-md-4">
-                    <picture>
-                      <source srcset="assets/img/wizehire.com/content.dark-wizehire-project-sketch-05.png" media="(prefers-color-scheme: dark)">
-                      <img class="img-fluid rounded-3" alt="Sketch showing a product feature" src="assets/img/wizehire.com/content.light-wizehire-project-sketch-05.png">
-                    </picture>
-                  </div>
-                  <div class="col-12 col-md-4">
-                    <picture>
-                      <source srcset="assets/img/wizehire.com/content.dark-wizehire-project-sketch-06.png" media="(prefers-color-scheme: dark)">
-                      <img class="img-fluid rounded-3" alt="Sketch showing a product feature" src="assets/img/wizehire.com/content.light-wizehire-project-sketch-06.png">
-                    </picture>
-                  </div>
-                  <div class="col-12 col-md-4">
-                    <picture>
-                      <source srcset="assets/img/wizehire.com/content.dark-wizehire-project-sketch-07.png" media="(prefers-color-scheme: dark)">
-                      <img class="img-fluid rounded-3" alt="Sketch showing a product feature" src="assets/img/wizehire.com/content.light-wizehire-project-sketch-07.png">
-                    </picture>
-                  </div>
-                  <div class="col-12 col-md-4">
-                    <picture>
-                      <source srcset="assets/img/wizehire.com/content.dark-wizehire-project-sketch-08.png" media="(prefers-color-scheme: dark)">
-                      <img class="img-fluid rounded-3" alt="Sketch showing a product feature" src="assets/img/wizehire.com/content.light-wizehire-project-sketch-08.png">
-                    </picture>
-                  </div>
-                  <div class="col-12 col-md-4">
-                    <picture>
-                      <source srcset="assets/img/wizehire.com/content.dark-wizehire-project-sketch-09.png" media="(prefers-color-scheme: dark)">
-                      <img class="img-fluid rounded-3" alt="Sketch showing a product feature" src="assets/img/wizehire.com/content.light-wizehire-project-sketch-09.png">
-                    </picture>
-                  </div>
-                </div>
-                <figcaption class="figure-caption text-center mt-3 text-normal text-monospaced">Early ideation sketches mapping out various user flows and product features.</figcaption>
-              </figure>
-            </div>
-          </div>
+          {% include image-grid.html
+             images=site.data.pages.wizehire.project_sketches
+             caption="Early ideation sketches mapping out various user flows and product features."
+             grid_classes="col-12 col-md-4" %}
         </div>
       </div>
     </div>
