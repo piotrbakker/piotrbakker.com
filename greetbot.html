@@ -114,10 +114,10 @@ layout: default
       <div class="col">
         <div class="p-4 p-lg-5 content-bg-dotted">
           {% include image-grid.html
-             images=site.data.pages.greetbot.project_sketches
-             caption="Early exploration sketches of various user flows and interactions."
-             grid_classes="col-12 col-md-4"
-             margin_bottom="mb-5" %}
+             columns="col-12 col-md-4"
+             margins="mb-5"
+             images=site.data.pages.greetbot.sketches
+             caption="Early exploration sketches of various user flows and interactions." %}
           <figure class="figure mb-5">
             <picture>
               <source srcset="assets/img/greet.bot/content.dark-greetbot-project-wireframe-02.png" media="(prefers-color-scheme: dark)">

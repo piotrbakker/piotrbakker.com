@@ -27,7 +27,7 @@ greetbot:
     Product Management,
     Responsive Web Design,
     UX&nbsp;Writing
-  project_sketches:
+  sketches:
     - src: "assets/img/greet.bot/content.light-greetbot-project-sketch-01.png"
       dark_src: "assets/img/greet.bot/content.dark-greetbot-project-sketch-01.png"
       alt: "Sketch showing a step in the GreetBot web app user flow"
@@ -105,7 +105,7 @@ wizehire:
     Design Systems,
     User Interface Design,
     Web Design
-  project_sketches:
+  sketches:
     - src: "assets/img/wizehire.com/content.light-wizehire-project-sketch-01.png"
       dark_src: "assets/img/wizehire.com/content.dark-wizehire-project-sketch-01.png"
       alt: "Sketch showing a product feature"
