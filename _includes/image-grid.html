@@ -1,0 +1,26 @@
+{% comment %}
+Image Grid Include
+- images: array of image objects (src, alt, optional dark_src)
+- caption: figure caption (optional)
+- grid_classes: column classes (default: "col-12 col-md-4")
+{% endcomment %}
+
+<figure class="figure">
+  <div class="row gx-4 gx-xl-5 gy-4 gy-xl-5">
+    {% for image in include.images %}
+      <div class="{{ include.grid_classes | default: 'col-12 col-md-4' }}">
+        {% if image.dark_src %}
+          <picture>
+            <source srcset="{{ image.dark_src }}" media="(prefers-color-scheme: dark)">
+            <img class="img-fluid rounded-3" alt="{{ image.alt }}" src="{{ image.src }}">
+          </picture>
+        {% else %}
+          <img class="img-fluid rounded-3" alt="{{ image.alt }}" src="{{ image.src }}">
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
+  {% if include.caption %}
+    <figcaption class="figure-caption text-center mt-3 text-normal text-monospaced">{{ include.caption }}</figcaption>
+  {% endif %}
+</figure>
