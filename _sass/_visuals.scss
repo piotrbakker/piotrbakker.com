@@ -1,38 +1,38 @@
 // Containers
-.container-bg-soft-1 {
-  background: $gradient-soft-1;
+.container-bg-gradient-dawn {
+  background: $gradient-dawn;
   @media (prefers-color-scheme: dark) {
-    background: $gradient-grayscale;
+    background: $gradient-midnight;
   }
 }
-.container-bg-soft-2 {
-  background: $gradient-soft-2;
+.container-bg-gradient-sunrise {
+  background: $gradient-sunrise;
   @media (prefers-color-scheme: dark) {
-    background: $gradient-grayscale;
+    background: $gradient-midnight;
   }
 }
-.container-bg-soft-3 {
-  background: $gradient-soft-3;
+.container-bg-gradient-morning {
+  background: $gradient-morning;
   @media (prefers-color-scheme: dark) {
-    background: $gradient-grayscale;
+    background: $gradient-midnight;
   }
 }
-.container-bg-soft-4 {
-  background: $gradient-soft-4;
+.container-bg-gradient-sunset {
+  background: $gradient-sunset;
   @media (prefers-color-scheme: dark) {
-    background: $gradient-grayscale;
+    background: $gradient-midnight;
   }
 }
-.container-bg-soft-5 {
-  background: $gradient-soft-5;
+.container-bg-gradient-twilight {
+  background: $gradient-twilight;
   @media (prefers-color-scheme: dark) {
-    background: $gradient-grayscale;
+    background: $gradient-midnight;
   }
 }
-.container-bg-soft-6 {
-  background: $gradient-soft-6;
+.container-bg-gradient-dusk {
+  background: $gradient-dusk;
   @media (prefers-color-scheme: dark) {
-    background: $gradient-grayscale;
+    background: $gradient-midnight;
   }
 }
 .container-bg-blurred {
