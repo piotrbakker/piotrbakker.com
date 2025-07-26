@@ -33,6 +33,10 @@ greetbot:
     heading: "Greet.Bot"
     role: "Co-founder & CEO"
     timeframe: "2018–2022"
+    cover:
+      src: "assets/img/greet.bot/content.light-greetbot-project-cover.png"
+      dark_src: "assets/img/greet.bot/content.dark-greetbot-project-cover.png"
+      alt: "Cropped screenshot of GreetBot’s landing page"
     sketches:
       - src: "assets/img/greet.bot/content.light-greetbot-project-sketch-01.png"
         dark_src: "assets/img/greet.bot/content.dark-greetbot-project-sketch-01.png"
@@ -74,6 +78,9 @@ galactic-escape:
     heading: "Galactic Escape tvOS&nbsp;App"
     role: "Maker"
     timeframe: "2016–2017"
+    cover:
+      src: "assets/img/galacticesc.com/content.galactic-escape-project-cover.png"
+      alt: "Cropped screenshot of Galactic Escape app icon and top shelf image on the Apple TV Home Screen"
 
 hiki:
   meta:
@@ -87,6 +94,9 @@ hiki:
     heading: "Hiki.Team"
     role: "Maker"
     timeframe: "2018–2020"
+    cover:
+      src: "assets/img/hiki.team/content.hiki-project-cover.png"
+      alt: "Cropped App Image from Hiki’s Slack App Directory listing"
 
 mixbook:
   meta:
@@ -100,6 +110,10 @@ mixbook:
     heading: "Mixbook.com"
     role: "UI/UX Designer"
     timeframe: "2016–2020"
+    cover:
+      src: "assets/img/mixbook.com/content.mixbook-project-cover.png"
+      alt: "Cropped screenshot of Mixbook’s user interface components"
+
 rfcx:
   meta:
     title: "Piotr Bakker &middot; Work &middot; Rainforest Connection"
@@ -112,6 +126,10 @@ rfcx:
       heading: "RFCx.org"
       role: "UI/UX Designer"
       timeframe: "2016–2017"
+      cover:
+        src: "assets/img/rfcx.org/content.light-rfcx-project-cover.png"
+        dark_src: "assets/img/rfcx.org/content.dark-rfcx-project-cover.png"
+        alt: "Cropped screenshot of RFCx’s incident dashboard"
 
 wizehire:
   meta:
@@ -125,6 +143,10 @@ wizehire:
     heading: "Wizehire.com"
     role: "Product Designer"
     timeframe: "2020–2022"
+    cover:
+      src: "assets/img/wizehire.com/content.light-wizehire-project-cover.png"
+      dark_src: "assets/img/wizehire.com/content.dark-wizehire-project-cover.png"
+      alt: "Cropped screenshot of Wizehire’s organization details page"
     sketches:
       - src: "assets/img/wizehire.com/content.light-wizehire-project-sketch-01.png"
         dark_src: "assets/img/wizehire.com/content.dark-wizehire-project-sketch-01.png"
