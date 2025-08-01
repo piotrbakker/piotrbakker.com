@@ -2,13 +2,15 @@
 layout: default
 ---
 
+{% assign hiki_project = site.data.projects | where: "id", "hiki" | first %}
+
 <main>
   <div class="container px-4 py-lg-5 mt-4 mb-4 mb-lg-5">
     <div class="row justify-content-center">
       <div class="col-md-10 col-xl-8 pe-lg-5">
         <a href="/" class="mb-2 text-sans-serif link-icon"><i class="ph-bold ph-caret-left me-1"></i>Back</a>
-        <h1 class="display-3 heading-normal">{{ site.data.pages.hiki.content.heading }}</h1>
-        <p class="mb-1 lead text-normal text-serif">{{ site.data.pages.hiki.content.role }} &middot; {{ site.data.pages.hiki.content.timeframe }}</p>
+        <h1 class="display-3 heading-normal">{{ hiki_project.heading }}</h1>
+        <p class="mb-1 lead text-normal text-serif">{{ hiki_project.role }} &middot; {{ hiki_project.timeframe }}</p>
         <p class="fs-5 text-normal text-serif text-dimmed">{{ site.data.pages.hiki.meta.keywords }}</p>
         <p class="fs-4 text-normal text-serif">Hiki was a Slack-based skill directory for distributed teams. I developed the concept, lead the design of its command-line interface, contributed to the HTML and Sass code base, wrote the website copy and created marketing materials. Despite a promising start the product did not attract enough users and was discontinued 18 months after release.</p>
         <h2 class="mt-4 heading-normal">Background</h2>
