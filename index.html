@@ -25,111 +25,130 @@ layout: default
       </div>
     </div>
   </div>
+
+  {% assign greetbot_project = site.data.projects | where: "id", "greetbot" | first %}
+
   <section id="project-greetbot" class="px-4 pt-4 p-md-0">
     <div class="container overflow-x-hidden g-0 mb-md-4 ps-4 ps-md-5 py-4 py-md-5 rounded-5 container-bg-gradient-dawn">
       <div class="row d-flex align-items-center">
         <div class="col-12 col-md-6 order-md-last">
           <picture>
-            <source srcset="{{ site.data.pages.greetbot.content.cover.dark_src }}" media="(prefers-color-scheme: dark)">
-            <img class="img-fluid image-mask-gradient image-radius-top-left" alt="{{ site.data.pages.greetbot.content.cover.alt }}" src="{{ site.data.pages.greetbot.content.cover.src }}">
+            <source srcset="{{ greetbot_project.cover.dark_src }}" media="(prefers-color-scheme: dark)">
+            <img class="img-fluid image-mask-gradient image-radius-top-left" alt="{{ greetbot_project.cover.alt }}" src="{{ greetbot_project.cover.src }}">
           </picture>
         </div>
         <div class="col-12 col-md-6 mt-4 mt-md-0 pe-4 px-lg-5">
-          <h2 class="display-4 heading-normal">{{ site.data.pages.greetbot.content.heading }}</h2>
-          <p class="mb-1 lead text-normal text-serif">{{ site.data.pages.greetbot.content.role }} &middot; {{ site.data.pages.greetbot.content.timeframe }}</p>
+          <h2 class="display-4 heading-normal">{{ greetbot_project.heading }}</h2>
+          <p class="mb-1 lead text-normal text-serif">{{ greetbot_project.role }} &middot; {{ greetbot_project.timeframe }}</p>
           <p class="fs-5 text-normal text-serif text-dimmed">{{ site.data.pages.greetbot.meta.keywords }}</p>
           <a href="/greetbot" class="text-sans-serif link-icon">Explore project<i class="ph-bold ph-caret-right ms-1"></i></a>
         </div>
       </div>
     </div>
   </section>
+
+  {% assign wizehire_project = site.data.projects | where: "id", "wizehire" | first %}
+
   <section id="project-wizehire" class="px-4 pt-4 p-md-0">
     <div class="container overflow-x-hidden g-0 mb-md-4 ps-4 ps-md-5 py-4 py-md-5 rounded-5 container-bg-gradient-morning">
       <div class="row d-flex align-items-center">
         <div class="col-12 col-md-6 order-md-last">
           <picture>
-            <source srcset="{{ site.data.pages.wizehire.content.cover.dark_src }}" media="(prefers-color-scheme: dark)">
-            <img class="img-fluid image-mask-gradient image-radius-top-left" alt="{{ site.data.pages.wizehire.content.cover.alt }}" src="{{ site.data.pages.wizehire.content.cover.src }}">
+            <source srcset="{{ wizehire_project.cover.dark_src  }}" media="(prefers-color-scheme: dark)">
+            <img class="img-fluid image-mask-gradient image-radius-top-left" alt="{{ wizehire_project.cover.alt  }}" src="{{ wizehire_project.cover.src  }}">
           </picture>
         </div>
         <div class="col-12 col-md-6 mt-4 mt-md-0 pe-4 px-lg-5">
-          <h2 class="display-4 heading-normal">{{ site.data.pages.wizehire.content.heading }}</h2>
-          <p class="mb-1 lead text-normal text-serif">{{ site.data.pages.wizehire.content.role }} &middot; {{ site.data.pages.wizehire.content.timeframe }}</p>
+          <h2 class="display-4 heading-normal">{{ wizehire_project.heading }}</h2>
+          <p class="mb-1 lead text-normal text-serif">{{ wizehire_project.role }} &middot; {{ wizehire_project.timeframe }}</p>
           <p class="fs-5 text-normal text-serif text-dimmed">{{ site.data.pages.wizehire.meta.keywords }}</p>
           <a href="/wizehire" class="text-sans-serif link-icon">Explore project<i class="ph-bold ph-caret-right ms-1"></i></a>
         </div>
       </div>
     </div>
   </section>
+
+  {% assign mixbook_project = site.data.projects | where: "id", "mixbook" | first %}
+
   <section id="project-mixbook" class="px-4 pt-4 p-md-0">
     <div class="container overflow-x-hidden g-0 mb-md-4 ps-4 ps-md-5 py-4 py-md-5 rounded-5 container-bg-gradient-sunset">
       <div class="row d-flex align-items-center">
         <div class="col-12 col-md-6 order-md-last">
           <picture>
-            <img class="img-fluid image-mask-gradient image-brightness-dimmed image-radius-top-left" alt="{{ site.data.pages.mixbook.content.cover.alt }}" src="{{ site.data.pages.mixbook.content.cover.src }}">
+            <img class="img-fluid image-mask-gradient image-brightness-dimmed image-radius-top-left" alt="{{ mixbook_project.cover.alt }}" src="{{ mixbook_project.cover.src }}">
           </picture>
         </div>
         <div class="col-12 col-md-6 mt-4 mt-md-0 pe-4 px-lg-5">
-          <h2 class="display-4 heading-normal">{{ site.data.pages.mixbook.content.heading }}</h2>
-          <p class="mb-1 lead text-normal text-serif">{{ site.data.pages.mixbook.content.role }} &middot; {{ site.data.pages.mixbook.content.timeframe }}</p>
+          <h2 class="display-4 heading-normal">{{ mixbook_project.heading }}</h2>
+          <p class="mb-1 lead text-normal text-serif">{{ mixbook_project.role }} &middot; {{ mixbook_project.timeframe }}</p>
           <p class="fs-5 text-normal text-serif text-dimmed">{{ site.data.pages.mixbook.meta.keywords }}</p>
           <a href="/mixbook" class="text-sans-serif link-icon">Explore project<i class="ph-bold ph-caret-right ms-1"></i></a>
         </div>
       </div>
     </div>
   </section>
+
+  {% assign hiki_project = site.data.projects | where: "id", "hiki" | first %}
+
   <section id="project-hiki" class="px-4 pt-4 p-md-0">
     <div class="container overflow-x-hidden g-0 mb-md-4 ps-4 ps-md-5 py-4 py-md-5 rounded-5 container-bg-gradient-sunrise">
       <div class="row d-flex align-items-center">
         <div class="col-12 col-md-6 order-md-last">
           <picture>
-            <img class="img-fluid image-mask-gradient image-brightness-dimmed image-radius-top-left" alt="{{ site.data.pages.hiki.content.cover.alt }}" src="{{ site.data.pages.hiki.content.cover.src }}">
+            <img class="img-fluid image-mask-gradient image-brightness-dimmed image-radius-top-left" alt="{{ hiki_project.cover.alt }}" src="{{ hiki_project.cover.src }}">
           </picture>
         </div>
         <div class="col-12 col-md-6 mt-4 mt-md-0 pe-4 px-lg-5">
-          <h2 class="display-4 heading-normal">{{ site.data.pages.hiki.content.heading }}</h2>
-          <p class="mb-1 lead text-normal text-serif">{{ site.data.pages.hiki.content.role }} &middot; {{ site.data.pages.hiki.content.timeframe }}</p>
+          <h2 class="display-4 heading-normal">{{ hiki_project.heading }}</h2>
+          <p class="mb-1 lead text-normal text-serif">{{ hiki_project.role }} &middot; {{ hiki_project.timeframe }}</p>
           <p class="fs-5 text-normal text-serif text-dimmed">{{ site.data.pages.hiki.meta.keywords }}</p>
           <a href="/hiki" class="text-sans-serif link-icon">Explore project<i class="ph-bold ph-caret-right ms-1"></i></a>
         </div>
       </div>
     </div>
   </section>
+
+  {% assign rfcx_project = site.data.projects | where: "id", "rfcx" | first %}
+
   <section id="project-rfcx" class="px-4 pt-4 p-md-0">
     <div class="container overflow-x-hidden g-0 mb-md-4 ps-4 ps-md-5 py-4 py-md-5 rounded-5 container-bg-gradient-twilight">
       <div class="row d-flex align-items-center">
         <div class="col-12 col-md-6 order-md-last">
           <picture>
-            <source srcset="{{ site.data.pages.rfcx.content.cover.dark_src }}" media="(prefers-color-scheme: dark)">
-            <img class="img-fluid image-mask-gradient image-radius-top-left" alt="{{ site.data.pages.rfcx.content.cover.alt }}" src="{{ site.data.pages.rfcx.content.cover.src }}">
+            <source srcset="{{ rfcx_project.cover.dark_src }}" media="(prefers-color-scheme: dark)">
+            <img class="img-fluid image-mask-gradient image-radius-top-left" alt="{{ rfcx_project.cover.alt }}" src="{{ rfcx_project.cover.src }}">
           </picture>
         </div>
         <div class="col-12 col-md-6 mt-4 mt-md-0 pe-4 px-lg-5">
-          <h2 class="display-4 heading-normal">{{ site.data.pages.rfcx.content.heading }}</h2>
-          <p class="mb-1 lead text-normal text-serif">{{ site.data.pages.rfcx.content.role }} &middot; {{ site.data.pages.rfcx.content.timeframe }}</p>
+          <h2 class="display-4 heading-normal">{{ rfcx_project.heading }}</h2>
+          <p class="mb-1 lead text-normal text-serif">{{ rfcx_project.role }} &middot; {{ rfcx_project.timeframe }}</p>
           <p class="fs-5 text-normal text-serif text-dimmed">{{ site.data.pages.rfcx.meta.keywords }}</p>
           <a href="/rfcx" class="text-sans-serif link-icon">Explore project<i class="ph-bold ph-caret-right ms-1"></i></a>
         </div>
       </div>
     </div>
   </section>
+
+  {% assign galactic-escape_project = site.data.projects | where: "id", "galactic-escape" | first %}
+
   <section id="project-galactic-escape" class="px-4 pt-4 p-md-0">
     <div class="container overflow-x-hidden g-0 mb-4 mb-lg-5 ps-4 ps-md-5 py-4 py-md-5 rounded-5 container-bg-gradient-dusk">
       <div class="row d-flex align-items-center">
         <div class="col-12 col-md-6 order-md-last">
           <picture>
-            <img class="img-fluid image-mask-gradient image-brightness-dimmed image-radius-top-left" alt="{{ site.data.pages.galactic-escape.content.cover.alt }}" src="{{ site.data.pages.galactic-escape.content.cover.src }}">
+            <img class="img-fluid image-mask-gradient image-brightness-dimmed image-radius-top-left" alt="{{ galactic-escape_project.cover.alt }}" src="{{ galactic-escape_project.cover.src }}">
           </picture>
         </div>
         <div class="col-12 col-md-6 mt-4 mt-md-0 pe-4 px-lg-5">
-          <h2 class="display-4 heading-normal">{{ site.data.pages.galactic-escape.content.heading }}</h2>
-          <p class="mb-1 lead text-normal text-serif">{{ site.data.pages.galactic-escape.content.role }} &middot; {{ site.data.pages.galactic-escape.content.timeframe }}</p>
+          <h2 class="display-4 heading-normal">{{ galactic-escape_project.heading }}</h2>
+          <p class="mb-1 lead text-normal text-serif">{{ galactic-escape_project.role }} &middot; {{ galactic-escape_project.timeframe }}</p>
           <p class="fs-5 text-normal text-serif text-dimmed">{{ site.data.pages.galactic-escape.meta.keywords }}</p>
           <a href="/galactic-escape" class="text-sans-serif link-icon">Explore project<i class="ph-bold ph-caret-right ms-1"></i></a>
         </div>
       </div>
     </div>
   </section>
+
   <section id="ios-development">
     <div class="container px-4 mb-4 mb-lg-5">
       <div class="row justify-content-center">
