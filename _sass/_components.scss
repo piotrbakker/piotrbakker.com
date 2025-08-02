@@ -131,3 +131,25 @@
     }
   }
 }
+
+// Tables
+.table {
+  @media (prefers-color-scheme: dark) {
+    --bs-border-color: $grayscale-0800;
+  }
+
+  th {
+    background: $grayscale-0040;
+
+    @media (prefers-color-scheme: dark) {
+      background: $grayscale-1000;
+    }
+  }
+
+  tbody td {
+    background: $grayscale-0040;
+
+    @media (prefers-color-scheme: dark) {
+      background: $grayscale-1000;
+    }
+}
