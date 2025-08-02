@@ -1,48 +1,63 @@
+@use 'variables' as *;
+
 // Containers
 .container-bg-gradient-dawn {
   background: $gradient-dawn;
+
   @media (prefers-color-scheme: dark) {
     background: $gradient-midnight;
   }
 }
+
 .container-bg-gradient-sunrise {
   background: $gradient-sunrise;
+
   @media (prefers-color-scheme: dark) {
     background: $gradient-midnight;
   }
 }
+
 .container-bg-gradient-morning {
   background: $gradient-morning;
+
   @media (prefers-color-scheme: dark) {
     background: $gradient-midnight;
   }
 }
+
 .container-bg-gradient-sunset {
   background: $gradient-sunset;
+
   @media (prefers-color-scheme: dark) {
     background: $gradient-midnight;
   }
 }
+
 .container-bg-gradient-twilight {
   background: $gradient-twilight;
+
   @media (prefers-color-scheme: dark) {
     background: $gradient-midnight;
   }
 }
+
 .container-bg-gradient-dusk {
   background: $gradient-dusk;
+
   @media (prefers-color-scheme: dark) {
     background: $gradient-midnight;
   }
 }
+
 .container-bg-blurred {
   background: rgba(245, 245, 245, 0.9);
   backdrop-filter: blur(0.5rem);
   -webkit-backdrop-filter: blur(0.5rem);
   -moz-backdrop-filter: blur(0.5rem);
   -o-backdrop-filter: blur(0.5rem);
+
   @media (prefers-color-scheme: dark) {
-      background: rgba(0, 0, 0, 0.9);
+    background: rgba(0, 0, 0, 0.9);
   }
 }
 
@@ -62,31 +77,39 @@
 // Images
 .image-radius-top-left {
   border-top-left-radius: 2rem;
+
   @media (max-width: $breakpoint-sm) {
     border-top-left-radius: 1rem;
   }
+
   @media (max-width: $breakpoint-md) {
     border-top-left-radius: 1.5rem;
   }
 }
+
 .image-brightness-dimmed {
   @media (prefers-color-scheme: dark) {
     filter: brightness(80%);
   }
 }
+
 .image-mask-gradient {
   mask-image: linear-gradient(to top, transparent 0%, $grayscale-0010 16%);
+
   @media (prefers-color-scheme: dark) {
     mask-image: linear-gradient(to top, transparent 0%, $grayscale-0900 16%);
   }
 }
+
 .image-style-app-logo {
   max-width: 100%;
+
   @media (max-width: $breakpoint-xl) {
     width: 5rem;
     height: 5rem;
     border-style: solid;
     border-color: $grayscale-0200;
+
     @media (prefers-color-scheme: dark) {
       border-color: $grayscale-0800;
     }
