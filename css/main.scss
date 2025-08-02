@@ -2,10 +2,10 @@
 ---
 
 // Imports
-@import 'variables';
-@import 'mixins';
-@import 'base';
-@import 'typography';
-@import 'components';
-@import 'utilities';
-@import 'visuals';
+@use 'variables';
+@use 'mixins';
+@use 'base';
+@use 'typography';
+@use 'components';
+@use 'utilities';
+@use 'visuals';

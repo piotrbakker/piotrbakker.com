@@ -1,8 +1,16 @@
+@use 'variables' as *;
+@use 'mixins' as *;
+
 // Headings
 .heading-normal {
-  @include shared-text-normal;
-  @include shared-header-normal;
-  @include sans-serif;
+  color: $grayscale-0900;
+  font-weight: 900;
+  font-family: sofia-pro, sans-serif;
+  @include shared-text;
+
+  @media (prefers-color-scheme: dark) {
+    color: $grayscale-0080;
+  }
 }
 
 // Code
@@ -13,6 +21,7 @@ code {
   font-size: 82%;
   color: $grayscale-1000;
   background-color: $grayscale-0080;
+
   @media (prefers-color-scheme: dark) {
     color: $grayscale-0080;
     background: $grayscale-0800;
@@ -21,36 +30,49 @@ code {
 
 // Styling
 .text-normal {
+  color: $grayscale-0900;
   @include shared-text;
-  @include shared-text-normal;
+
+  @media (prefers-color-scheme: dark) {
+    color: $grayscale-0200;
+  }
 }
+
 .text-sans-serif {
   @include sans-serif-ui;
 }
+
 .text-serif {
   @include serif;
 }
+
 .text-linked {
   @include shared-text-linked;
 }
+
 .text-dimmed {
   color: $grayscale-0600;
+
   @media (prefers-color-scheme: dark) {
     color: $grayscale-0500;
   }
 }
+
 .text-bolded {
   font-weight: 900;
 }
+
 .text-monospaced {
   @include monospace;
 }
+
 .text-truncated {
   display: -webkit-box;
   max-width: 100%;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
   overflow: hidden;
+
   @media (max-width: $breakpoint-md) {
     display: none;
   }
