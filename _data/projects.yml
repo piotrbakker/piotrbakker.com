@@ -2,6 +2,11 @@
   heading: "Greet.Bot"
   role: "Co-founder & CEO"
   timeframe: "2018–2022"
+  tags: >-
+    Conversational Interface Design,
+    Product Management,
+    Responsive Web Design,
+    UX&nbsp;Writing
   has_case_study: true
   cover:
     src: "assets/img/greet.bot/content.light-greetbot-project-cover.png"
@@ -40,6 +45,10 @@
   heading: "Wizehire.com"
   role: "Product Designer"
   timeframe: "2020–2022"
+  tags: >-
+    Design Systems,
+    User Interface Design,
+    Web Design
   has_case_study: true
   cover:
     src: "assets/img/wizehire.com/content.light-wizehire-project-cover.png"
@@ -78,6 +87,10 @@
   heading: "Hiki.Team"
   role: "Maker"
   timeframe: "2018–2020"
+  tags: >-
+    Conversational Interface Design,
+    Product Design,
+    UX&nbsp;Writing
   has_case_study: true
   cover:
     src: "assets/img/hiki.team/content.hiki-project-cover.png"
@@ -87,6 +100,10 @@
   heading: "Mixbook.com"
   role: "UI/UX Designer"
   timeframe: "2016–2020"
+  tags: >-
+    Design Systems,
+    User Interface Design,
+    Wireframe&nbsp;Design
   has_case_study: true
   cover:
     src: "assets/img/mixbook.com/content.mixbook-project-cover.png"
@@ -96,6 +113,10 @@
   heading: "RFCx.org"
   role: "UI/UX Designer"
   timeframe: "2016–2017"
+  tags: >-
+    Design Systems,
+    User Interface Design,
+    Web Design
   has_case_study: true
   cover:
     src: "assets/img/rfcx.org/content.light-rfcx-project-cover.png"
@@ -106,6 +127,10 @@
   heading: "Galactic Escape tvOS App"
   role: "Maker"
   timeframe: "2016–2017"
+  tags: >-
+    Art Direction,
+    Game Design,
+    Graphic Design
   has_case_study: true
   cover:
     src: "assets/img/galacticesc.com/content.galactic-escape-project-cover.png"
