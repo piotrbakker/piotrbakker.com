@@ -1,3 +1,36 @@
+- id: "calmetric"
+  heading: "Calmetric iOS App"
+  role: "Maker"
+  timeframe: "2025"
+  has_case_study: false
+  external_url: "https://apps.apple.com/app/id6744656593"
+  description: "Calendar year metrics."
+  tags: "iOS Development, Swift, SwiftUI"
+  icon_light: "/assets/img/crater.tools/content.light-app-logo-calmetric-1024@1x.png"
+  icon_dark: "/assets/img/crater.tools/content.dark-app-logo-calmetric-1024@1x.png"
+
+- id: "codifier"
+  heading: "Codifier iOS App"
+  role: "Maker"
+  timeframe: "2024–2025"
+  has_case_study: false
+  external_url: "https://apps.apple.com/app/id6737922796"
+  description: "Spelling alphabet transcriptions."
+  tags: "iOS Development, Swift, SwiftUI"
+  icon_light: "/assets/img/crater.tools/content.light-app-logo-conversions-1024@1x.png"
+  icon_dark: "/assets/img/crater.tools/content.dark-app-logo-conversions-1024@1x.png"
+
+- id: "conversions"
+  heading: "Conversions iOS App"
+  role: "Maker"
+  timeframe: "2024–2025"
+  has_case_study: false
+  external_url: "https://apps.apple.com/app/id6741049598"
+  description: "Simple unit conversions."
+  tags: "iOS Development, Swift, SwiftUI"
+  icon_light: "/assets/img/crater.tools/content.light-app-logo-codifier-1024@1x.png"
+  icon_dark: "/assets/img/crater.tools/content.dark-app-logo-codifier-1024@1x.png"
+
 - id: "greetbot"
   heading: "Greet.Bot"
   role: "Co-founder & CEO"

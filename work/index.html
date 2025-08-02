@@ -36,9 +36,9 @@ description: "Overview of Piotr Bakker’s Product Design Work."
               <td class="py-3"><span class="fs-6 text-normal text-sans-serif">{{ project.timeframe }}</span></td>
               <td class="py-3">
                 {% if project.has_case_study %}
-                  <a href="/work/{{ project.id }}" class="fs-6 text-sans-serif link-icon">
-                    Explore project<i class="ph-bold ph-caret-right ms-1"></i>
-                  </a>
+                  <a href="/work/{{ project.id }}" class="text-sans-serif link-icon">Explore project<i class="ph-bold ph-caret-right ms-1"></i></a>
+                {% elsif project.external_url %}
+                  <a href="{{ project.external_url }}" target="_blank" class="text-sans-serif link-icon"><i class="ph-bold ph-bold ph-app-store-logo me-1"></i>App Store</a>
                 {% else %}
                   <span class="text-dimmed text-sans-serif">—</span>
                 {% endif %}
