@@ -6,12 +6,7 @@
 .link-icon {
   display: inline-flex;
   align-items: center;
-  font-size: 1.0625rem;
   @include shared-text-linked;
-}
-
-.link-icon-md {
-  font-size: 1rem;
 }
 
 // Lists
@@ -216,5 +211,16 @@
     @media (prefers-color-scheme: dark) {
       background: $grayscale-1000;
     }
+  }
+}
+
+// Breadcrumbs
+.breadcrumb {
+  margin: 0;
+  padding: 0;
+  background: none;
+
+  @media (prefers-color-scheme: dark) {
+    --bs-breadcrumb-divider-color: #{$grayscale-0500};
   }
 }
