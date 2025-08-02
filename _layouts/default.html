@@ -1,22 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  {% assign page_key = page.name | remove: '.html' %}
-  {% if page.url == '/' or page.name == 'index.html' %}
-    {% assign page_key = 'index' %}
-  {% endif %}
-
-  {% assign page_data = site.data.pages[page_key] %}
-
-  <title>{{ page_data.meta.title | default: site.title }}</title>
+  <title>{{ page.title | default: site.title }}</title>
   <meta name="keywords" content="{{ page_data.meta.keywords | default: site.keywords }}">
   <meta name="description" content="{{ page_data.meta.description | default: site.description }}">
   <meta name="author" content="{{ site.author | default: 'Piotr Bakker' }}">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta charset="UTF-8">
 
-  {% if page_data.redirect_url %}
-    <meta http-equiv="refresh" content="{{ page_data.meta.redirect_delay | default: 0 }}; url={{ page_data.meta.redirect_url }}">
+  {% if page.redirect_url %}
+    <meta http-equiv="refresh" content="{{ page.redirect_delay | default: 0 }}; url={{ page.redirect_url }}">
   {% endif %}
 
   {% include resources.html %}
