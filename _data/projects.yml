@@ -1,32 +1,44 @@
 - id: "calmetric"
-  heading: "Calmetric iOS App"
+  heading: "Calmetric"
   role: "Maker"
   timeframe: "2025"
   has_case_study: false
-  external_url: "https://apps.apple.com/app/id6744656593"
+  link:
+    type: "app_store"
+    url: "https://apps.apple.com/app/id6744656593"
+    label: "App Store"
+    icon: "ph-app-store-logo"
   description: "Calendar year metrics."
   tags: "iOS Development, Swift, SwiftUI"
   icon_light: "/assets/img/crater.tools/content.light-app-logo-calmetric-1024@1x.png"
   icon_dark: "/assets/img/crater.tools/content.dark-app-logo-calmetric-1024@1x.png"
 
-- id: "codifier"
-  heading: "Codifier iOS App"
+- id: "conversions"
+  heading: "Conversions"
   role: "Maker"
   timeframe: "2024–2025"
   has_case_study: false
-  external_url: "https://apps.apple.com/app/id6737922796"
-  description: "Spelling alphabet transcriptions."
+  link:
+    type: "app_store"
+    url: "https://apps.apple.com/app/id6741049598"
+    label: "App Store"
+    icon: "ph-app-store-logo"
+  description: "Simple unit conversions."
   tags: "iOS Development, Swift, SwiftUI"
   icon_light: "/assets/img/crater.tools/content.light-app-logo-conversions-1024@1x.png"
   icon_dark: "/assets/img/crater.tools/content.dark-app-logo-conversions-1024@1x.png"
 
-- id: "conversions"
-  heading: "Conversions iOS App"
+- id: "codifier"
+  heading: "Codifier"
   role: "Maker"
   timeframe: "2024–2025"
   has_case_study: false
-  external_url: "https://apps.apple.com/app/id6741049598"
-  description: "Simple unit conversions."
+  link:
+    type: "app_store"
+    url: "https://apps.apple.com/app/id6737922796"
+    label: "App Store"
+    icon: "ph-app-store-logo"
+  description: "Spelling alphabet transcriptions."
   tags: "iOS Development, Swift, SwiftUI"
   icon_light: "/assets/img/crater.tools/content.light-app-logo-codifier-1024@1x.png"
   icon_dark: "/assets/img/crater.tools/content.dark-app-logo-codifier-1024@1x.png"
@@ -156,6 +168,35 @@
     dark_src: "/assets/img/rfcx.org/content.dark-rfcx-project-cover.png"
     alt: "Cropped screenshot of RFCx's incident dashboard"
 
+- id: "mytos"
+  heading: "Mytos.bio"
+  role: "UI/UX Designer"
+  timeframe: "2018"
+  tags: >-
+    UX Design,
+    UI Design,
+  has_case_study: false
+  link:
+    type: "website"
+    url: "https://mytos.bio"
+    label: "Website"
+    icon: "ph-globe"
+
+- id: "brainly"
+  heading: "Brainly.com"
+  role: "UX Consultant"
+  timeframe: "2017"
+  tags: >-
+    Conversion Optimization,
+    UX Design,
+    Wireframing,
+  has_case_study: false
+  link:
+    type: "website"
+    url: "https://brainly.com"
+    label: "Website"
+    icon: "ph-globe"
+
 - id: "galactic-escape"
   heading: "Galactic Escape tvOS App"
   role: "Maker"
@@ -168,3 +209,98 @@
   cover:
     src: "/assets/img/galacticesc.com/content.galactic-escape-project-cover.png"
     alt: "Cropped screenshot of Galactic Escape app icon and top shelf image on the Apple TV Home Screen"
+
+- id: "bol"
+  heading: "Bol.com"
+  role: "Product Designer"
+  timeframe: "2016–2017"
+  tags: >-
+    UX Design,
+    UI Design,
+    Wireframing,
+    User Research,
+    Persona Design
+  has_case_study: false
+  link:
+    type: "website"
+    url: "https://bol.com"
+    label: "Website"
+    icon: "ph-globe"
+
+- id: "wevolver"
+  heading: "Wevolver.com"
+  role: "UI/UX Designer"
+  timeframe: "2015–2018"
+  tags: >-
+    UX Design,
+    UI Design,
+    Responsive Web Design
+  has_case_study: false
+  link:
+    type: "website"
+    url: "https://wevolver.com"
+    label: "Website"
+    icon: "ph-globe"
+
+- id: "allani"
+  heading: "Allani.pl"
+  role: "Web Designer"
+  timeframe: "2015–2017"
+  tags: >-
+    Mobile App Design,
+    Wireframing,
+    Responsive Web Design,
+  has_case_study: false
+  link:
+    type: "website"
+    url: "https://wevolver.com"
+    label: "Website"
+    icon: "ph-globe"
+
+- id: "ventureiq"
+  heading: "VentureIQ.nl"
+  role: "Web Designer"
+  timeframe: "2015"
+  tags: >-
+    Wireframing,
+    Responsive Web Design,
+    Dashboards,
+    Data Visualization
+  has_case_study: false
+  link:
+    type: "website"
+    url: "https://wevolver.com"
+    label: "Website"
+    icon: "ph-globe"
+
+- id: "telegraaf"
+  heading: "Telegraaf.nl"
+  role: "Product Designer"
+  timeframe: "2014–2015"
+  tags: >-
+    UX Design,
+    UI Design,
+    Wireframing,
+    User Research,
+    Persona Design
+  has_case_study: false
+  link:
+    type: "website"
+    url: "https://telgraaf.nl"
+    label: "Website"
+    icon: "ph-globe"
+
+- id: "talentech"
+  heading: "Talentech.com"
+  role: "Product Designer"
+  timeframe: "2014"
+  tags: >-
+    Responsive Web Design,
+    Rapid Prototyping,
+    Dashboards,
+  has_case_study: false
+  link:
+    type: "website"
+    url: "https://talentech.com"
+    label: "Website"
+    icon: "ph-globe"
