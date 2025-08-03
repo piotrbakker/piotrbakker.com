@@ -1,5 +1,4 @@
-@use 'sass:color';
-@use 'variables' as *;
+@import 'variables';
 
 @mixin shared-text {
   -webkit-font-smoothing: antialiased;
@@ -39,21 +38,21 @@
   }
 
   @media (prefers-color-scheme: dark) {
-    color: color.scale($hue-light-blue, $saturation: -40%);
+    color: desaturate($hue-light-blue, 40%);
 
     &:hover {
-      color: color.scale($hue-light-blue, $saturation: -40%);
+      color: desaturate($hue-light-blue, 40%);
       opacity: 0.64;
       text-decoration: none;
     }
 
     &:active {
-      color: color.scale($hue-light-blue, $saturation: -40%);
+      color: desaturate($hue-light-blue, 40%);
       opacity: 0.64;
     }
 
     &:visited {
-      color: color.scale($hue-light-blue, $saturation: -40%);
+      color: desaturate($hue-light-blue, 40%);
       opacity: 1;
     }
   }
