@@ -128,6 +128,22 @@
       dark_src: "/assets/img/wizehire.com/content.dark-wizehire-project-sketch-09.png"
       alt: "Sketch showing a product feature"
 
+- id: "reach"
+  heading: "Reach iOS App"
+  role: "UI/UX Designer"
+  timeframe: "2018"
+  tags: >-
+    iOS Mobile App Design,
+    UX Design,
+    UI Design,
+    User Onboarding
+  has_case_study: false
+  link:
+    type: "linkedin"
+    url: "https://www.linkedin.com/company/reach-better-friend/"
+    label: "LinkedIn"
+    icon: "ph-linkedin-logo"
+
 - id: "hiki"
   heading: "Hiki.Team"
   role: "Maker"
@@ -140,6 +156,34 @@
   cover:
     src: "/assets/img/hiki.team/content.hiki-project-cover.png"
     alt: "Cropped App Image from Hiki's Slack App Directory listing"
+
+- id: "sonarhome"
+  heading: "SonarHome.pl"
+  role: "Web Designer"
+  timeframe: "2018"
+  tags: >-
+    UX Design,
+    Responsive Web Design
+  has_case_study: false
+  link:
+    type: "website"
+    url: "https://sonarhome.pl"
+    label: "Website"
+    icon: "ph-globe"
+
+- id: "mytos"
+  heading: "Mytos.bio"
+  role: "UI/UX Designer"
+  timeframe: "2018"
+  tags: >-
+    UX Design,
+    UI Design
+  has_case_study: false
+  link:
+    type: "website"
+    url: "https://mytos.bio"
+    label: "Website"
+    icon: "ph-globe"
 
 - id: "mixbook"
   heading: "Mixbook.com"
@@ -168,20 +212,6 @@
     dark_src: "/assets/img/rfcx.org/content.dark-rfcx-project-cover.png"
     alt: "Cropped screenshot of RFCx's incident dashboard"
 
-- id: "mytos"
-  heading: "Mytos.bio"
-  role: "UI/UX Designer"
-  timeframe: "2018"
-  tags: >-
-    UX Design,
-    UI Design,
-  has_case_study: false
-  link:
-    type: "website"
-    url: "https://mytos.bio"
-    label: "Website"
-    icon: "ph-globe"
-
 - id: "brainly"
   heading: "Brainly.com"
   role: "UX Consultant"
@@ -189,7 +219,7 @@
   tags: >-
     Conversion Optimization,
     UX Design,
-    Wireframing,
+    Wireframe&nbsp;Design
   has_case_study: false
   link:
     type: "website"
@@ -210,6 +240,21 @@
     src: "/assets/img/galacticesc.com/content.galactic-escape-project-cover.png"
     alt: "Cropped screenshot of Galactic Escape app icon and top shelf image on the Apple TV Home Screen"
 
+- id: "mybrandportal"
+  heading: "MyBrandPortal.nl"
+  role: "UX Designer"
+  timeframe: "2016–2017"
+  tags: >-
+    UX Design,
+    Wireframe&nbsp;Design
+    Dashboards
+  has_case_study: false
+  link:
+    type: "website"
+    url: "https://mybrandportal.nl"
+    label: "Website"
+    icon: "ph-globe"
+
 - id: "bol"
   heading: "Bol.com"
   role: "Product Designer"
@@ -217,13 +262,42 @@
   tags: >-
     UX Design,
     UI Design,
-    Wireframing,
+    Wireframe&nbsp;Design
     User Research,
     Persona Design
   has_case_study: false
   link:
     type: "website"
     url: "https://bol.com"
+    label: "Website"
+    icon: "ph-globe"
+
+- id: "digitalchefs"
+  heading: "Digital Chefs"
+  role: "UI Designer"
+  timeframe: "2016"
+  tags: >-
+    UI Design,
+    Design Systems
+  has_case_study: false
+  link:
+    type: "website"
+    url: "https://www.digitalchefs.nl"
+    label: "Website"
+    icon: "ph-globe"
+
+- id: "ectechnology"
+  heading: "EC Technology"
+  role: "Web Designer"
+  timeframe: "2016"
+  tags: >-
+    UI Design,
+    Data Visualization,
+    Dashboards
+  has_case_study: false
+  link:
+    type: "website"
+    url: "https://www.ectechnology.nl"
     label: "Website"
     icon: "ph-globe"
 
@@ -249,7 +323,7 @@
   tags: >-
     Mobile App Design,
     Wireframing,
-    Responsive Web Design,
+    Responsive Web Design
   has_case_study: false
   link:
     type: "website"
@@ -262,7 +336,7 @@
   role: "Web Designer"
   timeframe: "2015"
   tags: >-
-    Wireframing,
+    Wireframe&nbsp;Design
     Responsive Web Design,
     Dashboards,
     Data Visualization
@@ -273,20 +347,20 @@
     label: "Website"
     icon: "ph-globe"
 
-- id: "telegraaf"
-  heading: "Telegraaf.nl"
+- id: "tmg"
+  heading: "TMG.nl"
   role: "Product Designer"
   timeframe: "2014–2015"
   tags: >-
     UX Design,
     UI Design,
-    Wireframing,
+    Wireframe&nbsp;Design
     User Research,
     Persona Design
   has_case_study: false
   link:
     type: "website"
-    url: "https://telgraaf.nl"
+    url: "https://tmg.nl"
     label: "Website"
     icon: "ph-globe"
 
@@ -297,10 +371,59 @@
   tags: >-
     Responsive Web Design,
     Rapid Prototyping,
-    Dashboards,
+    Dashboards
   has_case_study: false
   link:
     type: "website"
     url: "https://talentech.com"
     label: "Website"
     icon: "ph-globe"
+
+- id: "edumundo"
+  heading: "Edumundo.com"
+  role: "UX Designer"
+  timeframe: "2014"
+  tags: >-
+    UX Design,
+    UI Design,
+    Data Visualization,
+    Dashboards,
+    User Research
+  has_case_study: false
+  link:
+    type: "website"
+    url: "https://www.edumundo.com/en"
+    label: "Website"
+    icon: "ph-globe"
+
+- id: "snaplearnig"
+  heading: "Snap! Learning"
+  role: "UX Designer"
+  timeframe: "2013"
+  tags: >-
+    UX Design,
+    UI Design,
+    Data Visualization,
+    Dashboards
+  has_case_study: false
+  link:
+    type: "linkedin"
+    url: "https://www.linkedin.com/company/snap-learning/"
+    label: "LinkedIn"
+    icon: "ph-linkedin-logo"
+
+# - id: "coocoolu"
+#   heading: "Coocoolu.com"
+#   role: "Co-founder & CEO"
+#   timeframe: "2012–2014"
+#   tags: >-
+#     UX Design,
+#     UI Design,
+#     User Research
+#     Data Visualization
+#   has_case_study: false
+#   link:
+#     type: "linkedin"
+#     url: "https://www.linkedin.com/company/coocoolu"
+#     label: "LinkedIn"
+#     icon: "ph-linkedin-logo"
