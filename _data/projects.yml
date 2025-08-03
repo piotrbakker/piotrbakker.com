@@ -171,6 +171,22 @@
     label: "Website"
     icon: "ph-globe"
 
+- id: "xecolabs"
+  heading: "Xeco Labs"
+  role: "Web Designer"
+  timeframe: "2018–2019"
+  tags: >-
+    UX Design,
+    Responsive Web Design,
+    Data Visualization,
+    Dashboards
+  has_case_study: false
+  link:
+    type: "website"
+    url: "https://xecolabs.com"
+    label: "Website"
+    icon: "ph-globe"
+
 - id: "mytos"
   heading: "Mytos.bio"
   role: "UI/UX Designer"
