@@ -362,6 +362,21 @@
     label: "Website"
     icon: "ph-globe"
 
+- id: "publicsonar"
+  heading: "Public Sonar"
+  role: "UX Designer"
+  timeframe: "2015"
+  tags: >-
+    UX Design,
+    Wireframe&nbsp;Design,
+    Dashboards
+  has_case_study: false
+  link:
+    type: "website"
+    url: "https://publicsonar.com"
+    label: "Website"
+    icon: "ph-globe"
+
 - id: "ventureiq"
   heading: "VentureIQ.nl"
   role: "Web Designer"
