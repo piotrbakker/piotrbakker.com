@@ -137,6 +137,19 @@
       dark_src: "/assets/img/wizehire.com/content.dark-wizehire-project-sketch-09.png"
       alt: "Sketch showing a product feature"
 
+- id: "hiki"
+  heading: "Hiki.Team"
+  role: "Maker"
+  timeframe: "2018–2020"
+  tags: >-
+    Conversational Interface Design,
+    Product Design,
+    UX&nbsp;Writing
+  has_case_study: true
+  cover:
+    src: "/assets/img/hiki.team/content.hiki-project-cover.png"
+    alt: "Cropped App Image from Hiki's Slack App Directory listing"
+
 - id: "reach"
   heading: "Reach iOS App"
   role: "UI/UX Designer"
@@ -152,19 +165,6 @@
     url: "https://www.linkedin.com/company/reach-better-friend/"
     label: "LinkedIn"
     icon: "ph-linkedin-logo"
-
-- id: "hiki"
-  heading: "Hiki.Team"
-  role: "Maker"
-  timeframe: "2018–2020"
-  tags: >-
-    Conversational Interface Design,
-    Product Design,
-    UX&nbsp;Writing
-  has_case_study: true
-  cover:
-    src: "/assets/img/hiki.team/content.hiki-project-cover.png"
-    alt: "Cropped App Image from Hiki's Slack App Directory listing"
 
 - id: "xecolabs"
   heading: "Xeco Labs"
