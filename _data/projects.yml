@@ -201,6 +201,21 @@
     label: "Website"
     icon: "ph-globe"
 
+- id: "mybrandportal"
+  heading: "MyBrandPortal"
+  role: "UX Designer"
+  timeframe: "2016–2017"
+  tags: >-
+    UX Design,
+    Wireframe&nbsp;Design
+    Dashboards
+  has_case_study: false
+  link:
+    type: "website"
+    url: "https://mybrandportal.nl"
+    label: "Website"
+    icon: "ph-globe"
+
 - id: "mixbook"
   heading: "Mixbook.com"
   role: "UI/UX Designer"
@@ -270,21 +285,6 @@
   cover:
     src: "/assets/img/galacticesc.com/content.galactic-escape-project-cover.png"
     alt: "Cropped screenshot of Galactic Escape app icon and top shelf image on the Apple TV Home Screen"
-
-- id: "mybrandportal"
-  heading: "MyBrandPortal"
-  role: "UX Designer"
-  timeframe: "2016–2017"
-  tags: >-
-    UX Design,
-    Wireframe&nbsp;Design
-    Dashboards
-  has_case_study: false
-  link:
-    type: "website"
-    url: "https://mybrandportal.nl"
-    label: "Website"
-    icon: "ph-globe"
 
 - id: "bol"
   heading: "Bol.com"
