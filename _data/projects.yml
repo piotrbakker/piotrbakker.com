@@ -9,7 +9,10 @@
     label: "App Store"
     icon: "ph-app-store-logo"
   description: "Calendar year metrics."
-  tags: "iOS Development, Swift, SwiftUI"
+  tags: >-
+    iOS Development,
+    Swift,
+    SwiftUI
   icon_light: "/assets/img/crater.tools/content.light-app-logo-calmetric-1024@1x.png"
   icon_dark: "/assets/img/crater.tools/content.dark-app-logo-calmetric-1024@1x.png"
 
@@ -24,7 +27,10 @@
     label: "App Store"
     icon: "ph-app-store-logo"
   description: "Simple unit conversions."
-  tags: "iOS Development, Swift, SwiftUI"
+  tags: >-
+    iOS Development,
+    Swift,
+    SwiftUI
   icon_light: "/assets/img/crater.tools/content.light-app-logo-conversions-1024@1x.png"
   icon_dark: "/assets/img/crater.tools/content.dark-app-logo-conversions-1024@1x.png"
 
@@ -39,7 +45,10 @@
     label: "App Store"
     icon: "ph-app-store-logo"
   description: "Spelling alphabet transcriptions."
-  tags: "iOS Development, Swift, SwiftUI"
+  tags: >-
+    iOS Development,
+    Swift,
+    SwiftUI
   icon_light: "/assets/img/crater.tools/content.light-app-logo-codifier-1024@1x.png"
   icon_dark: "/assets/img/crater.tools/content.dark-app-logo-codifier-1024@1x.png"
 
