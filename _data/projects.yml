@@ -166,20 +166,6 @@
     src: "/assets/img/hiki.team/content.hiki-project-cover.png"
     alt: "Cropped App Image from Hiki's Slack App Directory listing"
 
-- id: "sonarhome"
-  heading: "SonarHome.pl"
-  role: "Web Designer"
-  timeframe: "2018"
-  tags: >-
-    UX Design,
-    Responsive Web Design
-  has_case_study: false
-  link:
-    type: "website"
-    url: "https://sonarhome.pl"
-    label: "Website"
-    icon: "ph-globe"
-
 - id: "xecolabs"
   heading: "Xeco Labs"
   role: "Web Designer"
@@ -193,6 +179,20 @@
   link:
     type: "website"
     url: "https://xecolabs.com"
+    label: "Website"
+    icon: "ph-globe"
+
+- id: "sonarhome"
+  heading: "SonarHome.pl"
+  role: "Web Designer"
+  timeframe: "2018"
+  tags: >-
+    UX Design,
+    Responsive Web Design
+  has_case_study: false
+  link:
+    type: "website"
+    url: "https://sonarhome.pl"
     label: "Website"
     icon: "ph-globe"
 
@@ -225,33 +225,6 @@
     label: "Website"
     icon: "ph-globe"
 
-- id: "mixbook"
-  heading: "Mixbook.com"
-  role: "UI/UX Designer"
-  timeframe: "2016–2020"
-  tags: >-
-    Design Systems,
-    User Interface Design,
-    Wireframe&nbsp;Design
-  has_case_study: true
-  cover:
-    src: "/assets/img/mixbook.com/content.mixbook-project-cover.png"
-    alt: "Cropped screenshot of Mixbook's user interface components"
-
-- id: "rfcx"
-  heading: "RFCx.org"
-  role: "UI/UX Designer"
-  timeframe: "2016–2017"
-  tags: >-
-    Design Systems,
-    User Interface Design,
-    Web Design
-  has_case_study: true
-  cover:
-    src: "/assets/img/rfcx.org/content.light-rfcx-project-cover.png"
-    dark_src: "/assets/img/rfcx.org/content.dark-rfcx-project-cover.png"
-    alt: "Cropped screenshot of RFCx's incident dashboard"
-
 - id: "brainly"
   heading: "Brainly.com"
   role: "UX Consultant"
@@ -267,6 +240,20 @@
     label: "Website"
     icon: "ph-globe"
 
+- id: "rfcx"
+  heading: "RFCx.org"
+  role: "UI/UX Designer"
+  timeframe: "2016–2017"
+  tags: >-
+    Design Systems,
+    User Interface Design,
+    Web Design
+  has_case_study: true
+  cover:
+    src: "/assets/img/rfcx.org/content.light-rfcx-project-cover.png"
+    dark_src: "/assets/img/rfcx.org/content.dark-rfcx-project-cover.png"
+    alt: "Cropped screenshot of RFCx's incident dashboard"
+
 - id: "hackyourfuture"
   heading: "HackYourFuture"
   role: "Web Designer"
@@ -281,6 +268,19 @@
     url: "https://hackyourfuture.net"
     label: "Website"
     icon: "ph-globe"
+
+- id: "mixbook"
+  heading: "Mixbook.com"
+  role: "UI/UX Designer"
+  timeframe: "2016–2020"
+  tags: >-
+    Design Systems,
+    User Interface Design,
+    Wireframe&nbsp;Design
+  has_case_study: true
+  cover:
+    src: "/assets/img/mixbook.com/content.mixbook-project-cover.png"
+    alt: "Cropped screenshot of Mixbook's user interface components"
 
 - id: "galactic-escape"
   heading: "Galactic Escape"
