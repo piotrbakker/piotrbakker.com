@@ -466,19 +466,3 @@
     url: "https://www.linkedin.com/company/snap-learning/"
     label: "LinkedIn"
     icon: "ph-linkedin-logo"
-
-# - id: "coocoolu"
-#   heading: "Coocoolu.com"
-#   role: "Co-founder & CEO"
-#   timeframe: "2012–2014"
-#   tags: >-
-#     UX Design,
-#     UI Design,
-#     User Research
-#     Data Visualization
-#   has_case_study: false
-#   link:
-#     type: "linkedin"
-#     url: "https://www.linkedin.com/company/coocoolu"
-#     label: "LinkedIn"
-#     icon: "ph-linkedin-logo"
