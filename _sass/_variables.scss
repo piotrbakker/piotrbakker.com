@@ -1,20 +1,19 @@
-// Colors - Grayscale
-$grayscale-0000: #FFFFFF;
-$grayscale-0010: #FCFCFC;
-$grayscale-0040: #F5F5F5;
-$grayscale-0080: #EAEAEA;
-$grayscale-0200: #CCCCCC;
-$grayscale-0400: #999999;
-$grayscale-0500: #808080;
-$grayscale-0600: #666666;
-$grayscale-0800: #333333;
-$grayscale-0850: #1F1F1F;
-$grayscale-0900: #111111;
-$grayscale-1000: #000000;
+// Colors - Primitives
+$color-white: #FFFFFF;
+$color-gray-50: #FCFCFC;
+$color-gray-100: #F5F5F5;
+$color-gray-200: #EAEAEA;
+$color-gray-300: #CCCCCC;
+$color-gray-400: #999999;
+$color-gray-500: #808080;
+$color-gray-600: #666666;
+$color-gray-700: #333333;
+$color-gray-800: #1F1F1F;
+$color-gray-900: #111111;
+$color-black: #000000;
 
-// Colors - Brand
-$hue-magenta: #FF0099;
-$hue-light-blue: #6666FF;
+$color-blue-500: #6666FF;
+$color-magenta-500: #FF0099;
 
 // Colors - Soft Tints
 $hue-soft-red: #F5E6E8;
@@ -33,7 +32,7 @@ $gradient-morning: linear-gradient(160deg, $hue-soft-green 0%, $hue-soft-pink 10
 $gradient-sunset: linear-gradient(160deg, $hue-soft-pink 0%, $hue-soft-red 100%);
 $gradient-twilight: linear-gradient(160deg, $hue-soft-blue 0%, $hue-soft-green 100%);
 $gradient-dusk: linear-gradient(160deg, $hue-soft-orange 0%, $hue-soft-magenta 100%);
-$gradient-midnight: linear-gradient(160deg, $grayscale-0850 0%, $grayscale-0900 100%);
+$gradient-midnight: linear-gradient(160deg, $color-gray-800 0%, $color-gray-900 100%);
 
 // Breakpoints
 $breakpoint-sm: 576px;
