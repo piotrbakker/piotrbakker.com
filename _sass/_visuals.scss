@@ -111,7 +111,7 @@
     border-color: $color-border-subtle-light;
 
     @media (prefers-color-scheme: dark) {
-      border-color: $color-border-subtle-light;
+      border-color: $color-border-subtle-dark;
     }
   }
 }
