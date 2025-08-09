@@ -160,10 +160,10 @@
 }
 
 .card-border-primary {
-  border-color: $color-white;
+  border-color: $color-border-transparent;
 
   @media (prefers-color-scheme: dark) {
-    border-color: $color-gray-700;
+    border-color: $color-border-subtle-dark;
   }
 }
 
