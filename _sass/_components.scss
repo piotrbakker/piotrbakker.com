@@ -152,10 +152,10 @@
 
 // Cards
 .card-bg-primary {
-  background-color: $color-white;
+  background-color: $color-bg-secondary-light;
 
   @media (prefers-color-scheme: dark) {
-    background-color: $color-gray-900;
+    background-color: $color-bg-secondary-dark;
   }
 }
 
