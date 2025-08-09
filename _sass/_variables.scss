@@ -53,6 +53,11 @@ $color-text-primary-dark: $color-gray-200;
 $color-text-secondary-light: $color-gray-600;
 $color-text-secondary-dark: $color-gray-500;
 
+$color-code-text-light: $color-black;
+$color-code-text-dark: $color-gray-200;
+$color-code-bg-light: $color-gray-200;
+$color-code-bg-dark: $color-gray-700;
+
 // Gradients - Semantic
 $gradient-dawn: linear-gradient(160deg, $color-soft-red 0%, $color-soft-blue 100%);
 $gradient-sunrise: linear-gradient(160deg, $color-soft-pink 0%, $color-soft-yellow 100%);
