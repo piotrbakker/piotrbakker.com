@@ -160,7 +160,7 @@
 }
 
 .card-border-primary {
-  border-color: $color-border-transparent;
+  border-color: transparent;
 
   @media (prefers-color-scheme: dark) {
     border-color: $color-border-subtle-dark;
