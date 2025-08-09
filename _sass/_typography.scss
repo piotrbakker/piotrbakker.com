@@ -28,12 +28,20 @@ code {
 }
 
 // Styling
-.text-normal {
+.text-style-primary {
   color: $color-text-primary-light;
   @include text-rendering;
 
   @media (prefers-color-scheme: dark) {
     color: $color-text-primary-dark;
+  }
+}
+
+.text-style-secondary {
+  color: $color-text-secondary-light;
+
+  @media (prefers-color-scheme: dark) {
+    color: $color-text-secondary-dark;
   }
 }
 
@@ -91,14 +99,6 @@ code {
   @extend .text-linked;
   display: inline-flex;
   align-items: center;
-}
-
-.text-dimmed {
-  color: $color-text-secondary-light;
-
-  @media (prefers-color-scheme: dark) {
-    color: $color-text-secondary-dark;
-  }
 }
 
 .text-monospaced {

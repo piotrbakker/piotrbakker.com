@@ -8,11 +8,11 @@
         <a href="/work" class="text-sans-serif link-icon">Work</a>
       </li>
       <li class="breadcrumb-item active">
-        <span class="text-sans-serif text-dimmed">{{ page.title | split: " &middot; " | last }}</span>
+        <span class="text-sans-serif text-style-secondary">{{ page.title | split: " &middot; " | last }}</span>
       </li>
     {% elsif page.url == "/work/" or page.url == "/work/index.html" %}
       <li class="breadcrumb-item active">
-        <span class="text-sans-serif text-dimmed">Work</span>
+        <span class="text-sans-serif text-style-secondary">Work</span>
       </li>
     {% endif %}
   </ol>
