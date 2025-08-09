@@ -190,29 +190,6 @@
   }
 }
 
-// Tables
-.table {
-  @media (prefers-color-scheme: dark) {
-    --bs-border-color: #{$color-gray-700};
-  }
-
-  th {
-    background: $color-gray-100;
-
-    @media (prefers-color-scheme: dark) {
-      background: $color-black;
-    }
-  }
-
-  tbody td {
-    background: $color-gray-100;
-
-    @media (prefers-color-scheme: dark) {
-      background: $color-black;
-    }
-  }
-}
-
 // Breadcrumbs
 .breadcrumb {
   margin: 0;
