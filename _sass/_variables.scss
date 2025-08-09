@@ -57,3 +57,7 @@ $gradient-sunset: linear-gradient(160deg, $color-soft-pink 0%, $color-soft-red 1
 $gradient-twilight: linear-gradient(160deg, $color-soft-blue 0%, $color-soft-green 100%);
 $gradient-dusk: linear-gradient(160deg, $color-soft-orange 0%, $color-soft-magenta 100%);
 $gradient-midnight: linear-gradient(160deg, $color-gray-800 0%, $color-gray-900 100%);
+
+// Patterns - Semantic
+$color-pattern-dot-light: $color-magenta-500;
+$color-pattern-dot-dark: $color-gray-600;
