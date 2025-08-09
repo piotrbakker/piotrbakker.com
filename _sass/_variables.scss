@@ -45,6 +45,10 @@ $color-bg-primary-dark: $color-black;
 $color-bg-secondary-light: $color-white;
 $color-bg-secondary-dark: $color-gray-900;
 
+$color-border-transparent: transparent;
+$color-border-subtle-light: $color-gray-200;
+$color-border-subtle-dark: $color-gray-700;
+
 // Gradients - Semantic
 $gradient-dawn: linear-gradient(160deg, $color-soft-red 0%, $color-soft-blue 100%);
 $gradient-sunrise: linear-gradient(160deg, $color-soft-pink 0%, $color-soft-yellow 100%);
