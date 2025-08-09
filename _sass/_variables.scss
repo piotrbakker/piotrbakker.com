@@ -16,23 +16,24 @@ $color-blue-500: #6666FF;
 $color-magenta-500: #FF0099;
 
 // Colors - Soft Tints
-$hue-soft-red: #F5E6E8;
-$hue-soft-orange: #F5ECE6;
-$hue-soft-yellow: #FFFDF8;
-$hue-soft-green: #EFF5E6;
-$hue-soft-blue: #E6EFF5;
-$hue-soft-pink: #F5E6EF;
-$hue-soft-magenta: #F3E6F5;
-$hue-soft-violet: #F6F2FF;
+// $color-soft-red: #F5E6E8;
+// $color-soft-orange: #F5ECE6;
+// $color-soft-yellow: #FFFDF8;
+// $color-soft-green: #EFF5E6;
+// $color-soft-blue: #E6EFF5;
+// $color-soft-pink: #F5E6EF;
+// $color-soft-magenta: #F3E6F5;
+// $color-soft-violet: #F6F2FF;
 
-// Gradients
-$gradient-dawn: linear-gradient(160deg, $hue-soft-red 0%, $hue-soft-blue 100%);
-$gradient-sunrise: linear-gradient(160deg, $hue-soft-pink 0%, $hue-soft-yellow 100%);
-$gradient-morning: linear-gradient(160deg, $hue-soft-green 0%, $hue-soft-pink 100%);
-$gradient-sunset: linear-gradient(160deg, $hue-soft-pink 0%, $hue-soft-red 100%);
-$gradient-twilight: linear-gradient(160deg, $hue-soft-blue 0%, $hue-soft-green 100%);
-$gradient-dusk: linear-gradient(160deg, $hue-soft-orange 0%, $hue-soft-magenta 100%);
-$gradient-midnight: linear-gradient(160deg, $color-gray-800 0%, $color-gray-900 100%);
+// Colors - Primitives - Soft Tints
+$color-soft-red: #F5E6E8;
+$color-soft-orange: #F5ECE6;
+$color-soft-yellow: #FFFDF8;
+$color-soft-green: #EFF5E6;
+$color-soft-blue: #E6EFF5;
+$color-soft-pink: #F5E6EF;
+$color-soft-magenta: #F3E6F5;
+$color-soft-violet: #F6F2FF;
 
 // Breakpoints
 $breakpoint-sm: 576px;
@@ -53,3 +54,12 @@ $color-bg-primary-light: $color-gray-100;
 $color-bg-primary-dark: $color-black;
 $color-bg-secondary-light: $color-white;
 $color-bg-secondary-dark: $color-gray-900;
+
+// Gradients - Semantic
+$gradient-dawn: linear-gradient(160deg, $color-soft-red 0%, $color-soft-blue 100%);
+$gradient-sunrise: linear-gradient(160deg, $color-soft-pink 0%, $color-soft-yellow 100%);
+$gradient-morning: linear-gradient(160deg, $color-soft-green 0%, $color-soft-pink 100%);
+$gradient-sunset: linear-gradient(160deg, $color-soft-pink 0%, $color-soft-red 100%);
+$gradient-twilight: linear-gradient(160deg, $color-soft-blue 0%, $color-soft-green 100%);
+$gradient-dusk: linear-gradient(160deg, $color-soft-orange 0%, $color-soft-magenta 100%);
+$gradient-midnight: linear-gradient(160deg, $color-gray-800 0%, $color-gray-900 100%);
