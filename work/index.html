@@ -10,9 +10,9 @@ description: "Overview of Piotr Bakker’s Product Design Work."
       <div class="col-md-10 col-xl-8 pe-lg-5">
         {% include breadcrumbs.html %}
         <h1 class="display-3 heading-normal">My Work</h1>
-        <p class="mb-1 fs-5 text-normal text-serif">Portfolio &middot; 2012–Present</p>
-        <p class="fs-5 text-normal text-serif text-dimmed">Web, Mobile, Chat, Design Systems</p>
-        <p class="fs-4 text-normal text-serif">I completed projects for over 30 organizations in Europe and North America, in a variety of sectors, such as education, e-commerce, media, real estate, and finance, B2B and B2C. Companies I worked with include wizehire.com, mixbook.com, rfcx.org, brainly.com, bol.com, tmg.nl, and wevolver.com, among others.</p>
+        <p class="mb-1 fs-5 text-style-primary text-serif">Portfolio &middot; 2012–Present</p>
+        <p class="fs-5 text-style-primary text-serif text-style-secondary">Web, Mobile, Chat, Design Systems</p>
+        <p class="fs-4 text-style-primary text-serif">I completed projects for over 30 organizations in Europe and North America, in a variety of sectors, such as education, e-commerce, media, real estate, and finance, B2B and B2C. Companies I worked with include wizehire.com, mixbook.com, rfcx.org, brainly.com, bol.com, tmg.nl, and wevolver.com, among others.</p>
       </div>
     </div>
 
@@ -24,10 +24,10 @@ description: "Overview of Piotr Bakker’s Product Design Work."
               <div class="card h-100 p-3 p-lg-4 rounded-4 card-bg-primary card-border-primary">
                 <div class="card-body d-flex flex-column">
                   <h2 class="card-title heading-normal mb-2">{{ project.heading }}</h2>
-                  <p class="card-text fs-6 text-normal text-serif mb-1">
+                  <p class="card-text fs-6 text-style-primary text-serif mb-1">
                     <span class="">{{ project.role }}</span> &middot; {{ project.timeframe }}
                   </p>
-                  <p class="card-text fs-6 text-normal text-serif text-dimmed mb-3">{{ project.tags }}</p>
+                  <p class="card-text fs-6 text-style-primary text-serif text-style-secondary mb-3">{{ project.tags }}</p>
                   <div class="mt-auto"></div>
                 </div>
                 <div class="card-footer border-0 card-bg-primary">
@@ -40,7 +40,7 @@ description: "Overview of Piotr Bakker’s Product Design Work."
                       <i class="ph-bold {{ project.link.icon }} me-1"></i>{{ project.link.label }}
                     </a>
                   {% else %}
-                    <span class="text-dimmed text-sans-serif">—</span>
+                    <span class="text-style-secondary text-sans-serif">—</span>
                   {% endif %}
                 </div>
               </div>
