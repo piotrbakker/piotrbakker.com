@@ -1,13 +1,6 @@
 @import 'variables';
 @import 'mixins';
 
-// Links
-.link-icon {
-  display: inline-flex;
-  align-items: center;
-  @include shared-text-linked;
-}
-
 // Lists
 .list-plain {
   list-style-type: none;

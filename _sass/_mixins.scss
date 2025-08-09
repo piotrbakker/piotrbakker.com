@@ -8,47 +8,47 @@
   text-rendering: optimizeLegibility;
 }
 
-@mixin shared-text-linked {
-  text-decoration: none;
-  color: $color-blue-500;
-  opacity: 1;
-
-  &:hover {
-    color: $color-blue-500;
-    opacity: 0.64;
-    text-decoration: none;
-  }
-
-  &:active {
-    color: $color-blue-500;
-    opacity: 0.64;
-  }
-
-  &:visited {
-    color: $color-blue-500;
-    opacity: 1;
-  }
-
-  @media (prefers-color-scheme: dark) {
-    color: desaturate($color-blue-500, 40%);
-
-    &:hover {
-      color: desaturate($color-blue-500, 40%);
-      opacity: 0.64;
-      text-decoration: none;
-    }
-
-    &:active {
-      color: desaturate($color-blue-500, 40%);
-      opacity: 0.64;
-    }
-
-    &:visited {
-      color: desaturate($color-blue-500, 40%);
-      opacity: 1;
-    }
-  }
-}
+// @mixin shared-text-linked {
+//   text-decoration: none;
+//   color: $color-blue-500;
+//   opacity: 1;
+//
+//   &:hover {
+//     color: $color-blue-500;
+//     opacity: 0.64;
+//     text-decoration: none;
+//   }
+//
+//   &:active {
+//     color: $color-blue-500;
+//     opacity: 0.64;
+//   }
+//
+//   &:visited {
+//     color: $color-blue-500;
+//     opacity: 1;
+//   }
+//
+//   @media (prefers-color-scheme: dark) {
+//     color: desaturate($color-blue-500, 40%);
+//
+//     &:hover {
+//       color: desaturate($color-blue-500, 40%);
+//       opacity: 0.64;
+//       text-decoration: none;
+//     }
+//
+//     &:active {
+//       color: desaturate($color-blue-500, 40%);
+//       opacity: 0.64;
+//     }
+//
+//     &:visited {
+//       color: desaturate($color-blue-500, 40%);
+//       opacity: 1;
+//     }
+//   }
+// }
 
 @mixin sans-serif-ui {
   font-family: 'Outfit', sans-serif;
