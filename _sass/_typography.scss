@@ -5,7 +5,7 @@
 .heading-normal {
   color: $color-text-primary-light;
   font-family: sofia-pro, sans-serif;
-  @include shared-text;
+  @include text-rendering;
 
   @media (prefers-color-scheme: dark) {
     color: $color-text-primary-dark;
@@ -30,7 +30,7 @@ code {
 // Styling
 .text-normal {
   color: $color-text-primary-light;
-  @include shared-text;
+  @include text-rendering;
 
   @media (prefers-color-scheme: dark) {
     color: $color-text-primary-dark;
