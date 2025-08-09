@@ -94,10 +94,10 @@
 }
 
 .image-mask-gradient {
-  mask-image: linear-gradient(to top, transparent 0%, $color-gray-50 16%);
+  mask-image: linear-gradient(to top, transparent 0%, $color-bg-primary-light 16%);
 
   @media (prefers-color-scheme: dark) {
-    mask-image: linear-gradient(to top, transparent 0%, $color-gray-900 16%);
+    mask-image: linear-gradient(to top, transparent 0%, $color-bg-primary-dark 16%);
   }
 }
 
