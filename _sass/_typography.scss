@@ -46,7 +46,51 @@ code {
 }
 
 .text-linked {
-  @include shared-text-linked;
+  text-decoration: none;
+  color: $color-text-link-light;
+  opacity: 1;
+
+  &:hover {
+    color: $color-text-link-light;
+    opacity: 0.64;
+    text-decoration: none;
+  }
+
+  &:active {
+    color: $color-text-link-light;
+    opacity: 0.64;
+  }
+
+  &:visited {
+    color: $color-text-link-light;
+    opacity: 1;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    color: $color-text-link-dark;
+
+    &:hover {
+      color: $color-text-link-dark;
+      opacity: 0.64;
+      text-decoration: none;
+    }
+
+    &:active {
+      color: $color-text-link-dark;
+      opacity: 0.64;
+    }
+
+    &:visited {
+      color: $color-text-link-dark;
+      opacity: 1;
+    }
+  }
+}
+
+.link-icon {
+  @extend .text-linked;
+  display: inline-flex;
+  align-items: center;
 }
 
 .text-dimmed {
