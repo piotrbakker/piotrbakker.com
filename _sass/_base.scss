@@ -1,9 +1,9 @@
 @import 'variables';
 
 body {
-  background: $color-gray-100;
+  background: $color-bg-primary-light;
 
   @media (prefers-color-scheme: dark) {
-    background: $color-black;
+    background: $color-bg-primary-dark;
   }
 }
