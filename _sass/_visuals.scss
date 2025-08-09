@@ -63,14 +63,20 @@
 
 // Content
 .content-bg-dotted {
-  background: linear-gradient(90deg, $color-gray-100 (1.25rem - 0.0625rem), transparent 1%) center, linear-gradient($color-gray-100 (1.25rem - 0.0625rem), transparent 1%) center, $color-magenta-500;
+  background:
+    linear-gradient(90deg, $color-bg-primary-light (1.25rem - 0.0625rem), transparent 1%) center,
+    linear-gradient($color-bg-primary-light (1.25rem - 0.0625rem), transparent 1%) center,
+    $color-pattern-dot-light;
   background-size: 1.25rem 1.25rem;
-  box-shadow: inset 0 0 8rem $color-gray-100;
+  box-shadow: inset 0 0 8rem $color-bg-primary-light;
 
   @media (prefers-color-scheme: dark) {
-    background: linear-gradient(90deg, $color-black (1.25rem - 0.0625rem), transparent 1%) center, linear-gradient($color-black (1.25rem - 0.0625rem), transparent 1%) center, $color-gray-600;
+    background:
+      linear-gradient(90deg, $color-bg-primary-dark (1.25rem - 0.0625rem), transparent 1%) center,
+      linear-gradient($color-bg-primary-dark (1.25rem - 0.0625rem), transparent 1%) center,
+      $color-pattern-dot-dark;
     background-size: 1.25rem 1.25rem;
-    box-shadow: inset 0 0 8rem $color-black;
+    box-shadow: inset 0 0 8rem $color-bg-primary-dark;
   }
 }
 
