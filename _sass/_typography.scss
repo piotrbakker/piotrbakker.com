@@ -34,7 +34,7 @@
 }
 
 // Link styles
-.text-linked {
+.text-link {
   text-decoration: none;
   color: $color-text-link-light;
   opacity: 1;
@@ -76,8 +76,7 @@
   }
 }
 
-.link-icon {
-  @extend .text-linked;
+.text-link-icon {
   display: inline-flex;
   align-items: center;
 }
