@@ -258,6 +258,21 @@
   has_case_study: false
   discontinued: true
 
+- id: "sealnetwork"
+  heading: "Seal.Network"
+  role: "Web Designer"
+  timeframe: "2018"
+  category: "NFC Authentication"
+  tags: >-
+    UX Design,
+    Responsive Web Design
+  has_case_study: false
+  link:
+    type: "website"
+    url: "https://seal.network"
+    label: "Website"
+    icon: "ph-globe"
+
 - id: "brainly"
   heading: "Brainly.com"
   role: "UX Consultant"
