@@ -220,6 +220,17 @@
     label: "Website"
     icon: "ph-globe"
 
+- id: "racketscience"
+  heading: "Racket Science"
+  role: "UX Designer"
+  timeframe: "2018"
+  category: "Health & Fitness"
+  tags: >-
+    UX Design,
+    iOS Mobile App Design
+  has_case_study: false
+  discontinued: true
+
 - id: "mybrandportal"
   heading: "MyBrandPortal"
   role: "UX Designer"
@@ -235,6 +246,17 @@
     url: "https://mybrandportal.nl"
     label: "Website"
     icon: "ph-globe"
+
+- id: "duinzigt"
+  heading: "Duinzigt.nl"
+  role: "Web Designer"
+  timeframe: "2018"
+  category: "Real Estate"
+  tags: >-
+    UX Design,
+    Responsive Web Design
+  has_case_study: false
+  discontinued: true
 
 - id: "brainly"
   heading: "Brainly.com"
@@ -282,6 +304,30 @@
     url: "https://hackyourfuture.net"
     label: "Website"
     icon: "ph-globe"
+
+- id: "notecast"
+  heading: "Notecast"
+  role: "Maker"
+  timeframe: "2016–2017"
+  category: "Productivity"
+  tags: >-
+    UX Design,
+    UI Design,
+    iOS Mobile App Design
+  has_case_study: false
+  discontinued: true
+
+- id: "wranglerconnect"
+  heading: "Wrangler Connect"
+  role: "Social Networking"
+  timeframe: "2016–2017"
+  category: "Productivity"
+  tags: >-
+    UX Design,
+    UI Design,
+    iOS Mobile App Design
+  has_case_study: false
+  discontinued: true
 
 - id: "mixbook"
   heading: "Mixbook.com"
@@ -375,6 +421,18 @@
     url: "https://wevolver.com"
     label: "Website"
     icon: "ph-globe"
+
+- id: "comfortmate"
+  heading: "Comfort Mate"
+  role: "UI/UX Designer"
+  timeframe: "2015"
+  category: "Maritime"
+  tags: >-
+    UX Design,
+    UI Design,
+    iOS Mobile App Design
+  has_case_study: false
+  discontinued: true
 
 - id: "allani"
   heading: "Allani.pl"
@@ -477,6 +535,30 @@
     label: "Website"
     icon: "ph-globe"
 
+- id: "quillio"
+  heading: "Quillio"
+  role: "Maker"
+  timeframe: "2013–2016"
+  category: "Productivity"
+  tags: >-
+    UX Design,
+    UI Design,
+    Responsive Web Design
+  has_case_study: false
+  discontinued: true
+
+- id: "yumnum"
+  heading: "YumNum"
+  role: "UI/UX Designer"
+  timeframe: "2013"
+  category: "Education"
+  tags: >-
+    UX Design,
+    UI Design,
+    iOS Mobile App Design
+  has_case_study: false
+  discontinued: true
+
 - id: "snaplearnig"
   heading: "Snap! Learning"
   role: "UX Designer"
@@ -493,3 +575,15 @@
     url: "https://www.linkedin.com/company/snap-learning/"
     label: "LinkedIn"
     icon: "ph-linkedin-logo"
+
+- id: "referred"
+  heading: "ReferrED"
+  role: "Maker"
+  timeframe: "2013"
+  category: "Education"
+  tags: >-
+    UX Design,
+    UI Design,
+    iOS Mobile App Design
+  has_case_study: false
+  discontinued: true
