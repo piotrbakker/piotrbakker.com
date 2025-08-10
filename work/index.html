@@ -32,7 +32,7 @@ description: "Overview of Piotr Bakker’s Product Design Work."
                 </div>
                 <div class="card-footer border-0 card-bg-primary">
                   {% if project.has_case_study %}
-                    <a href="/work/{{ project.id }}" class="text-sans-serif-ui text-link text-link-icon">
+                    <a href="/work/{{ project.id }}" class="text-sans-serif-ui text-link text-with-icon">
                       <i class="ph-bold ph-book me-1"></i>Case Study
                     </a>
                   {% elsif project.discontinued %}
@@ -40,7 +40,7 @@ description: "Overview of Piotr Bakker’s Product Design Work."
                       <i class="ph-bold ph-traffic-cone me-1"></i>Discontinued
                     </span>
                   {% elsif project.link %}
-                    <a href="{{ project.link.url }}" target="_blank" class="text-sans-serif-ui text-link text-link-icon">
+                    <a href="{{ project.link.url }}" target="_blank" class="text-sans-serif-ui text-link text-with-icon">
                       <i class="ph-bold {{ project.link.icon }} me-1"></i>{{ project.link.label }}
                     </a>
                   {% else %}

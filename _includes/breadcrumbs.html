@@ -1,11 +1,11 @@
 <nav style="--bs-breadcrumb-divider: '&rsaquo;'; aria-label="breadcrumb" class="mb-2">
   <ol class="breadcrumb">
     <li class="breadcrumb-item">
-      <a href="/" class="text-sans-serif-ui text-link text-link-icon"><i class="ph-bold ph-house me-1"></i>Home</a>
+      <a href="/" class="text-sans-serif-ui text-link text-with-icon"><i class="ph-bold ph-house me-1"></i>Home</a>
     </li>
     {% if page.url contains "/work/" and page.url != "/work/" and page.url != "/work/index.html" %}
       <li class="breadcrumb-item">
-        <a href="/work" class="text-sans-serif-ui text-link text-link-icon">Work</a>
+        <a href="/work" class="text-sans-serif-ui text-link text-with-icon">Work</a>
       </li>
       <li class="breadcrumb-item active">
         <span class="text-sans-serif-ui text-style-secondary">{{ page.title | split: " &middot; " | last }}</span>
