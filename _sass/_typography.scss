@@ -49,6 +49,10 @@ code {
   @include sans-serif-ui;
 }
 
+.text-sans-serif {
+  @include sans-serif;
+}
+
 .text-serif {
   @include serif;
 }
