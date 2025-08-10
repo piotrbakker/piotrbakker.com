@@ -2,6 +2,7 @@
   heading: "Calmetric"
   role: "Maker"
   timeframe: "2025"
+  category: "Productivity"
   has_case_study: false
   link:
     type: "app_store"
@@ -20,6 +21,7 @@
   heading: "Conversions"
   role: "Maker"
   timeframe: "2024–2025"
+  category: "Productivity"
   has_case_study: false
   link:
     type: "app_store"
@@ -38,6 +40,7 @@
   heading: "Codifier"
   role: "Maker"
   timeframe: "2024–2025"
+  category: "Productivity"
   has_case_study: false
   link:
     type: "app_store"
@@ -56,6 +59,7 @@
   heading: "Greet.Bot"
   role: "Co-founder & CEO"
   timeframe: "2018–2022"
+  category: "B2B SaaS"
   tags: >-
     Conversational Interface Design,
     Product Management,
@@ -99,6 +103,7 @@
   heading: "Wizehire.com"
   role: "Product Designer"
   timeframe: "2020–2022"
+  category: "B2B SaaS"
   tags: >-
     Design Systems,
     User Interface Design,
@@ -141,6 +146,7 @@
   heading: "Hiki.Team"
   role: "Maker"
   timeframe: "2018–2020"
+  category: "B2B SaaS"
   tags: >-
     Conversational Interface Design,
     Product Design,
@@ -154,6 +160,7 @@
   heading: "Reach iOS App"
   role: "UI/UX Designer"
   timeframe: "2019"
+  category: "Social Networking"
   tags: >-
     iOS Mobile App Design,
     UX Design,
@@ -170,6 +177,7 @@
   heading: "Xeco Labs"
   role: "Web Designer"
   timeframe: "2018–2019"
+  category: "Finance"
   tags: >-
     UX Design,
     Responsive Web Design,
@@ -186,6 +194,7 @@
   heading: "SonarHome.pl"
   role: "Web Designer"
   timeframe: "2018"
+  category: "Real Estate"
   tags: >-
     UX Design,
     Responsive Web Design
@@ -200,6 +209,7 @@
   heading: "Mytos.bio"
   role: "UI/UX Designer"
   timeframe: "2018"
+  category: "Life Sciences"
   tags: >-
     UX Design,
     UI Design
@@ -214,6 +224,7 @@
   heading: "MyBrandPortal"
   role: "UX Designer"
   timeframe: "2018"
+  category: "B2B SaaS"
   tags: >-
     UX Design,
     Wireframe&nbsp;Design,
@@ -229,6 +240,7 @@
   heading: "Brainly.com"
   role: "UX Consultant"
   timeframe: "2017"
+  category: "Education"
   tags: >-
     Conversion Optimization,
     UX Design,
@@ -244,6 +256,7 @@
   heading: "RFCx.org"
   role: "UI/UX Designer"
   timeframe: "2016–2017"
+  category: "Environment"
   tags: >-
     Design Systems,
     User Interface Design,
@@ -258,6 +271,7 @@
   heading: "HackYourFuture"
   role: "Web Designer"
   timeframe: "2016"
+  category: "Education"
   tags: >-
     UX Design,
     Responsive Web Design,
@@ -273,6 +287,7 @@
   heading: "Mixbook.com"
   role: "UI/UX Designer"
   timeframe: "2016–2020"
+  category: "E-commerce"
   tags: >-
     Design Systems,
     User Interface Design,
@@ -286,6 +301,7 @@
   heading: "Galactic Escape"
   role: "Maker"
   timeframe: "2016–2017"
+  category: "Game Development"
   tags: >-
     Art Direction,
     Game Design,
@@ -299,6 +315,7 @@
   heading: "Bol.com"
   role: "Product Designer"
   timeframe: "2016–2017"
+  category: "E-commerce"
   tags: >-
     UX Design,
     UI Design,
@@ -316,6 +333,7 @@
   heading: "Digital Chefs"
   role: "UI Designer"
   timeframe: "2016"
+  category: "Agency"
   tags: >-
     UI Design,
     Design Systems
@@ -330,6 +348,7 @@
   heading: "EC Technology"
   role: "Web Designer"
   timeframe: "2016"
+  category: "Retail Technology"
   tags: >-
     UI Design,
     Data Visualization,
@@ -345,6 +364,7 @@
   heading: "Wevolver.com"
   role: "UI/UX Designer"
   timeframe: "2015–2018"
+  category: "Media"
   tags: >-
     UX Design,
     UI Design,
@@ -360,6 +380,7 @@
   heading: "Allani.pl"
   role: "Web Designer"
   timeframe: "2015–2017"
+  category: "E-commerce"
   tags: >-
     Mobile App Design,
     Wireframing,
@@ -375,6 +396,7 @@
   heading: "Public Sonar"
   role: "UX Designer"
   timeframe: "2015"
+  category: "OSINT"
   tags: >-
     UX Design,
     Wireframe&nbsp;Design,
@@ -390,6 +412,7 @@
   heading: "VentureIQ.nl"
   role: "Web Designer"
   timeframe: "2015"
+  category: "B2B SaaS"
   tags: >-
     Wireframe&nbsp;Design,
     Responsive Web Design,
@@ -406,6 +429,7 @@
   heading: "TMG.nl"
   role: "Product Designer"
   timeframe: "2014–2015"
+  category: "Media"
   tags: >-
     UX Design,
     UI Design,
@@ -423,6 +447,7 @@
   heading: "Talentech.com"
   role: "Product Designer"
   timeframe: "2014"
+  category: "B2B SaaS"
   tags: >-
     Responsive Web Design,
     Rapid Prototyping,
@@ -438,6 +463,7 @@
   heading: "Edumundo.com"
   role: "UX Designer"
   timeframe: "2014"
+  category: "Education"
   tags: >-
     UX Design,
     UI Design,
@@ -455,6 +481,7 @@
   heading: "Snap! Learning"
   role: "UX Designer"
   timeframe: "2013"
+  category: "Education"
   tags: >-
     UX Design,
     UI Design,
