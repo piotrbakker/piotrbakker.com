@@ -1,22 +1,7 @@
 @import 'variables';
 @import 'mixins';
 
-// Code
-code {
-  @include monospace;
-  padding: 0.24rem 0.4rem;
-  border-radius: 0.375rem;
-  font-size: 82%;
-  color: $color-text-primary-light;
-  background-color: $color-code-bg-light;
-
-  @media (prefers-color-scheme: dark) {
-    color: $color-text-primary-dark;
-    background: $color-code-bg-dark;
-  }
-}
-
-// Styling
+// Core text styles
 .text-style-primary {
   color: $color-text-primary-light;
   @include text-rendering;
@@ -29,12 +14,13 @@ code {
 .text-style-secondary {
   color: $color-text-secondary-light;
   @include text-rendering;
-  
+
   @media (prefers-color-scheme: dark) {
     color: $color-text-secondary-dark;
   }
 }
 
+// Font family utilities
 .text-sans-serif-ui {
   @include sans-serif-ui;
 }
@@ -47,6 +33,7 @@ code {
   @include serif;
 }
 
+// Link styles
 .text-linked {
   text-decoration: none;
   color: $color-text-link-light;
@@ -95,6 +82,7 @@ code {
   align-items: center;
 }
 
+// Specialized text utilities
 .text-monospaced {
   @include monospace;
 }
@@ -108,5 +96,19 @@ code {
 
   @media (max-width: $breakpoint-md) {
     display: none;
+  }
+}
+
+code {
+  @include monospace;
+  padding: 0.24rem 0.4rem;
+  border-radius: 0.375rem;
+  font-size: 82%;
+  color: $color-text-primary-light;
+  background-color: $color-code-bg-light;
+
+  @media (prefers-color-scheme: dark) {
+    color: $color-text-primary-dark;
+    background: $color-code-bg-dark;
   }
 }
