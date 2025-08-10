@@ -28,7 +28,8 @@ code {
 
 .text-style-secondary {
   color: $color-text-secondary-light;
-
+  @include text-rendering;
+  
   @media (prefers-color-scheme: dark) {
     color: $color-text-secondary-dark;
   }
