@@ -99,6 +99,22 @@
       dark_src: "/assets/img/greet.bot/content.dark-greetbot-project-sketch-09.png"
       alt: "Sketch showing a step in the GreetBot web app user flow"
 
+- id: "lottoshield"
+  heading: "LottoShield.com"
+  role: "UX Designer"
+  timeframe: "2020–2021"
+  category: "B2B SaaS"
+  tags: >-
+    UX Design,
+    Data Visualization,
+    Dashboards
+  has_case_study: false
+  link:
+    type: "website"
+    url: "https://lottoshield.com"
+    label: "Website"
+    icon: "ph-globe"
+
 - id: "wizehire"
   heading: "Wizehire.com"
   role: "Product Designer"
@@ -358,20 +374,6 @@
     src: "/assets/img/mixbook.com/content.mixbook-project-cover.png"
     alt: "Cropped screenshot of Mixbook's user interface components"
 
-- id: "galactic-escape"
-  heading: "Galactic Escape"
-  role: "Maker"
-  timeframe: "2016–2017"
-  category: "Game Development"
-  tags: >-
-    Art Direction,
-    Game Design,
-    Graphic Design
-  has_case_study: true
-  cover:
-    src: "/assets/img/galacticesc.com/content.galactic-escape-project-cover.png"
-    alt: "Cropped screenshot of Galactic Escape app icon and top shelf image on the Apple TV Home Screen"
-
 - id: "bol"
   heading: "Bol.com"
   role: "Product Designer"
@@ -389,6 +391,32 @@
     url: "https://bol.com"
     label: "Website"
     icon: "ph-globe"
+
+- id: "fairlyvalued"
+  heading: "Fairly Valued"
+  role: "Web Designer"
+  timeframe: "2016–2017"
+  category: "Finance"
+  tags: >-
+    UX Design,
+    Responsive Web Design,
+    Data Visualization,
+  has_case_study: false
+  discontinued: true
+
+- id: "galactic-escape"
+  heading: "Galactic Escape"
+  role: "Maker"
+  timeframe: "2016–2017"
+  category: "Game Development"
+  tags: >-
+    Art Direction,
+    Game Design,
+    Graphic Design
+  has_case_study: true
+  cover:
+    src: "/assets/img/galacticesc.com/content.galactic-escape-project-cover.png"
+    alt: "Cropped screenshot of Galactic Escape app icon and top shelf image on the Apple TV Home Screen"
 
 - id: "digitalchefs"
   heading: "Digital Chefs"
@@ -600,5 +628,18 @@
     UX Design,
     UI Design,
     iOS Mobile App Design
+  has_case_study: false
+  discontinued: true
+
+- id: "coocoolu"
+  heading: "CooCoolu"
+  role: "Maker"
+  timeframe: "2012–2014"
+  category: "Education"
+  tags: >-
+    UX Design,
+    UI Design,
+    User Research,
+    Responsive Web Design
   has_case_study: false
   discontinued: true
