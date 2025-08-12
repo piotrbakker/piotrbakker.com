@@ -11,20 +11,8 @@
 
 .navbar-brand {
   margin: 0;
-  text-decoration: none;
   letter-spacing: 8%;
   font-size: 15px;
-  &:hover {
-    opacity: 0.64;
-  }
-}
-
-.navbar-nav .nav-link {
-  text-decoration: none;
-
-  &:hover {
-    opacity: 0.64;
-  }
 }
 
 // Lists
