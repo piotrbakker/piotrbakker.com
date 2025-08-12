@@ -1,6 +1,32 @@
 @import 'variables';
 @import 'mixins';
 
+// Navbar
+
+.navbar-pill {
+  min-height: 2.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand {
+  margin: 0;
+  text-decoration: none;
+  letter-spacing: 8%;
+  font-size: 15px;
+  &:hover {
+    opacity: 0.64;
+  }
+}
+
+.navbar-nav .nav-link {
+  text-decoration: none;
+
+  &:hover {
+    opacity: 0.64;
+  }
+}
+
 // Lists
 .description-list-plain {
   dt {
