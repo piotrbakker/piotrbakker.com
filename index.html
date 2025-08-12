@@ -26,128 +26,32 @@ layout: default
     </div>
   </div>
 
-  {% assign greetbot_project = site.data.projects | where: "id", "greetbot" | first %}
+  {% assign case_study_projects = site.data.projects | where: "has_case_study", true %}
 
-  <section id="project-greetbot" class="px-4 pt-4 p-md-0">
-    <div class="container overflow-x-hidden g-0 mb-md-4 ps-4 ps-md-5 py-4 py-md-5 rounded-5 container-bg-gradient-dawn">
-      <div class="row d-flex align-items-center">
-        <div class="col-12 col-md-6 order-md-last">
-          <picture>
-            <source srcset="{{ greetbot_project.cover.dark_src }}" media="(prefers-color-scheme: dark)">
-            <img class="img-fluid image-mask-gradient image-radius-top-left" alt="{{ greetbot_project.cover.alt }}" src="{{ greetbot_project.cover.src }}">
-          </picture>
-        </div>
-        <div class="col-12 col-md-6 mt-4 mt-md-0 pe-4 px-lg-5">
-          <h2 class="display-4 fw-bold text-style-primary text-sans-serif ">{{ greetbot_project.heading }}</h2>
-          <p class="mb-1 lead text-style-primary text-serif">{{ greetbot_project.role }} &middot; {{ greetbot_project.timeframe }}</p>
-          <p class="fs-5 text-style-secondary text-serif">{{ greetbot_project.tags }}</p>
-          <a href="/work/greetbot" class="text-sans-serif-ui text-link text-link-primary text-with-icon">Explore project<i class="ph-bold ph-caret-right ms-1"></i></a>
+  {% for project in case_study_projects %}
+    <section id="project-{{ project.id }}">
+      <div class="container px-4 mb-4 mb-lg-5">
+        <div class="overflow-x-hidden g-0 ps-4 ps-md-5 py-4 py-md-5 rounded-5 container-bg-gradient-{{ project.gradient | default: 'dawn' }}">
+          <div class="row d-flex align-items-center">
+            <div class="col-12 col-md-6 order-md-last">
+              <picture>
+                {% if project.cover.dark_src %}
+                  <source srcset="{{ project.cover.dark_src }}" media="(prefers-color-scheme: dark)">
+                {% endif %}
+                <img class="img-fluid image-mask-gradient image-radius-top-left" alt="{{ project.cover.alt }}" src="{{ project.cover.src }}">
+              </picture>
+            </div>
+            <div class="col-12 col-md-6 mt-4 mt-md-0 pe-4 px-lg-5">
+              <h2 class="display-4 fw-bold text-style-primary text-sans-serif">{{ project.heading }}</h2>
+              <p class="mb-1 lead text-style-primary text-serif">{{ project.role }} &middot; {{ project.timeframe }}</p>
+              <p class="fs-5 text-style-secondary text-serif">{{ project.tags }}</p>
+              <a href="/work/{{ project.id }}" class="text-sans-serif-ui text-link text-with-icon">Explore project<i class="ph-bold ph-caret-right ms-1"></i></a>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
-
-  {% assign wizehire_project = site.data.projects | where: "id", "wizehire" | first %}
-
-  <section id="project-wizehire" class="px-4 pt-4 p-md-0">
-    <div class="container overflow-x-hidden g-0 mb-md-4 ps-4 ps-md-5 py-4 py-md-5 rounded-5 container-bg-gradient-morning">
-      <div class="row d-flex align-items-center">
-        <div class="col-12 col-md-6 order-md-last">
-          <picture>
-            <source srcset="{{ wizehire_project.cover.dark_src  }}" media="(prefers-color-scheme: dark)">
-            <img class="img-fluid image-mask-gradient image-radius-top-left" alt="{{ wizehire_project.cover.alt  }}" src="{{ wizehire_project.cover.src  }}">
-          </picture>
-        </div>
-        <div class="col-12 col-md-6 mt-4 mt-md-0 pe-4 px-lg-5">
-          <h2 class="display-4 fw-bold text-style-primary text-sans-serif ">{{ wizehire_project.heading }}</h2>
-          <p class="mb-1 lead text-style-primary text-serif">{{ wizehire_project.role }} &middot; {{ wizehire_project.timeframe }}</p>
-          <p class="fs-5 text-style-secondary text-serif">{{ wizehire_project.tags }}</p>
-          <a href="/work/wizehire" class="text-sans-serif-ui text-link text-link-primary text-with-icon">Explore project<i class="ph-bold ph-caret-right ms-1"></i></a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  {% assign mixbook_project = site.data.projects | where: "id", "mixbook" | first %}
-
-  <section id="project-mixbook" class="px-4 pt-4 p-md-0">
-    <div class="container overflow-x-hidden g-0 mb-md-4 ps-4 ps-md-5 py-4 py-md-5 rounded-5 container-bg-gradient-sunset">
-      <div class="row d-flex align-items-center">
-        <div class="col-12 col-md-6 order-md-last">
-          <picture>
-            <img class="img-fluid image-mask-gradient image-brightness-dimmed image-radius-top-left" alt="{{ mixbook_project.cover.alt }}" src="{{ mixbook_project.cover.src }}">
-          </picture>
-        </div>
-        <div class="col-12 col-md-6 mt-4 mt-md-0 pe-4 px-lg-5">
-          <h2 class="display-4 fw-bold text-style-primary text-sans-serif ">{{ mixbook_project.heading }}</h2>
-          <p class="mb-1 lead text-style-primary text-serif">{{ mixbook_project.role }} &middot; {{ mixbook_project.timeframe }}</p>
-          <p class="fs-5 text-style-secondary text-serif">{{ mixbook_project.tags }}</p>
-          <a href="/work/mixbook" class="text-sans-serif-ui text-link text-link-primary text-with-icon">Explore project<i class="ph-bold ph-caret-right ms-1"></i></a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  {% assign hiki_project = site.data.projects | where: "id", "hiki" | first %}
-
-  <section id="project-hiki" class="px-4 pt-4 p-md-0">
-    <div class="container overflow-x-hidden g-0 mb-md-4 ps-4 ps-md-5 py-4 py-md-5 rounded-5 container-bg-gradient-sunrise">
-      <div class="row d-flex align-items-center">
-        <div class="col-12 col-md-6 order-md-last">
-          <picture>
-            <img class="img-fluid image-mask-gradient image-brightness-dimmed image-radius-top-left" alt="{{ hiki_project.cover.alt }}" src="{{ hiki_project.cover.src }}">
-          </picture>
-        </div>
-        <div class="col-12 col-md-6 mt-4 mt-md-0 pe-4 px-lg-5">
-          <h2 class="display-4 fw-bold text-style-primary text-sans-serif ">{{ hiki_project.heading }}</h2>
-          <p class="mb-1 lead text-style-primary text-serif">{{ hiki_project.role }} &middot; {{ hiki_project.timeframe }}</p>
-          <p class="fs-5 text-style-secondary text-serif">{{ hiki_project.tags }}</p>
-          <a href="/work/hiki" class="text-sans-serif-ui text-link text-link-primary text-with-icon">Explore project<i class="ph-bold ph-caret-right ms-1"></i></a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  {% assign rfcx_project = site.data.projects | where: "id", "rfcx" | first %}
-
-  <section id="project-rfcx" class="px-4 pt-4 p-md-0">
-    <div class="container overflow-x-hidden g-0 mb-md-4 ps-4 ps-md-5 py-4 py-md-5 rounded-5 container-bg-gradient-twilight">
-      <div class="row d-flex align-items-center">
-        <div class="col-12 col-md-6 order-md-last">
-          <picture>
-            <source srcset="{{ rfcx_project.cover.dark_src }}" media="(prefers-color-scheme: dark)">
-            <img class="img-fluid image-mask-gradient image-radius-top-left" alt="{{ rfcx_project.cover.alt }}" src="{{ rfcx_project.cover.src }}">
-          </picture>
-        </div>
-        <div class="col-12 col-md-6 mt-4 mt-md-0 pe-4 px-lg-5">
-          <h2 class="display-4 fw-bold text-style-primary text-sans-serif ">{{ rfcx_project.heading }}</h2>
-          <p class="mb-1 lead text-style-primary text-serif">{{ rfcx_project.role }} &middot; {{ rfcx_project.timeframe }}</p>
-          <p class="fs-5 text-style-secondary text-serif">{{ rfcx_project.tags }}</p>
-          <a href="/work/rfcx" class="text-sans-serif-ui text-link text-link-primary text-with-icon">Explore project<i class="ph-bold ph-caret-right ms-1"></i></a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  {% assign galactic-escape_project = site.data.projects | where: "id", "galactic-escape" | first %}
-
-  <section id="project-galactic-escape" class="px-4 pt-4 p-md-0">
-    <div class="container overflow-x-hidden g-0 mb-4 mb-lg-5 ps-4 ps-md-5 py-4 py-md-5 rounded-5 container-bg-gradient-dusk">
-      <div class="row d-flex align-items-center">
-        <div class="col-12 col-md-6 order-md-last">
-          <picture>
-            <img class="img-fluid image-mask-gradient image-brightness-dimmed image-radius-top-left" alt="{{ galactic-escape_project.cover.alt }}" src="{{ galactic-escape_project.cover.src }}">
-          </picture>
-        </div>
-        <div class="col-12 col-md-6 mt-4 mt-md-0 pe-4 px-lg-5">
-          <h2 class="display-4 fw-bold text-style-primary text-sans-serif ">{{ galactic-escape_project.heading }}</h2>
-          <p class="mb-1 lead text-style-primary text-serif">{{ galactic-escape_project.role }} &middot; {{ galactic-escape_project.timeframe }}</p>
-          <p class="fs-5 text-style-secondary text-serif">{{ galactic-escape_project.tags }}</p>
-          <a href="/work/galactic-escape" class="text-sans-serif-ui text-link text-link-primary text-with-icon">Explore project<i class="ph-bold ph-caret-right ms-1"></i></a>
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>
+  {% endfor %}
 
   <section id="ios-development">
     <div class="container px-4 mb-4 mb-lg-5">
