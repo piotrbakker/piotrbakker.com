@@ -14,6 +14,26 @@
   font-size: 15px;
 }
 
+.navbar-toggler {
+  .ph-list {
+    display: block;
+  }
+
+  .ph-x {
+    display: none;
+  }
+
+  &[aria-expanded="true"] {
+    .ph-list {
+      display: none;
+    }
+
+    .ph-x {
+      display: block;
+    }
+  }
+}
+
 // Lists
 .description-list-plain {
   dt {
