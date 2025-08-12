@@ -33,6 +33,7 @@
   @include serif;
 }
 
+// Link styles
 .text-link {
   text-decoration: none;
   opacity: 1;
@@ -94,6 +95,11 @@
 .text-with-icon {
   display: inline-flex;
   align-items: center;
+}
+
+.text-brand {
+  font-size: 0.9375rem;
+  letter-spacing: 8%;
 }
 
 // Specialized text utilities
