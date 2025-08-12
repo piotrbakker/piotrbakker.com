@@ -33,45 +33,60 @@
   @include serif;
 }
 
-// Link styles
 .text-link {
   text-decoration: none;
-  color: $color-text-link-light;
   opacity: 1;
 
   &:hover {
-    color: $color-text-link-light;
     opacity: 0.64;
     text-decoration: none;
   }
 
   &:active {
-    color: $color-text-link-light;
     opacity: 0.64;
   }
 
   &:visited {
-    color: $color-text-link-light;
     opacity: 1;
+  }
+}
+
+.text-link-primary {
+  color: $color-text-link-light;
+
+  &:hover,
+  &:active,
+  &:visited {
+    color: $color-text-link-light;
   }
 
   @media (prefers-color-scheme: dark) {
     color: $color-text-link-dark;
 
-    &:hover {
-      color: $color-text-link-dark;
-      opacity: 0.64;
-      text-decoration: none;
-    }
-
-    &:active {
-      color: $color-text-link-dark;
-      opacity: 0.64;
-    }
-
+    &:hover,
+    &:active,
     &:visited {
       color: $color-text-link-dark;
-      opacity: 1;
+    }
+  }
+}
+
+.text-link-emphasis {
+  color: $color-text-primary-light;
+
+  &:hover,
+  &:active,
+  &:visited {
+    color: $color-text-primary-light;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    color: $color-text-primary-dark;
+
+    &:hover,
+    &:active,
+    &:visited {
+      color: $color-text-primary-dark;
     }
   }
 }
