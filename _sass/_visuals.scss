@@ -84,7 +84,7 @@
 .image-radius-top-left {
   border-top-left-radius: $radius-5;
 
-  @media (max-width: $breakpoint-sm) {
+  @media (max-width: $breakpoint-lg) {
     border-top-left-radius: $radius-4;
   }
 }
