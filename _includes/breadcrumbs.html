@@ -14,6 +14,10 @@
       <li class="breadcrumb-item active">
         <span class="text-sans-serif-ui text-style-secondary">Work</span>
       </li>
+    {% elsif page.url == "/about.html" or page.url == "/about/" %}
+      <li class="breadcrumb-item active">
+        <span class="text-sans-serif-ui text-style-secondary">About</span>
+      </li>
     {% endif %}
   </ol>
 </nav>
