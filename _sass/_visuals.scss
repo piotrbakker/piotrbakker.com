@@ -117,3 +117,34 @@
     }
   }
 }
+
+// Numerals
+.numeral-bg-gradient {
+  background: $gradient-morning;
+
+  @media (prefers-color-scheme: dark) {
+    color: $color-text-primary-dark;
+    background: $gradient-midnight;
+  }
+
+  &.gradient-dawn {
+    background: $gradient-dawn;
+    @media (prefers-color-scheme: dark) {
+      background: $gradient-midnight;
+    }
+  }
+
+  &.gradient-sunrise {
+    background: $gradient-sunrise;
+    @media (prefers-color-scheme: dark) {
+      background: $gradient-midnight;
+    }
+  }
+
+  &.gradient-morning {
+    background: $gradient-morning;
+    @media (prefers-color-scheme: dark) {
+      background: $gradient-midnight;
+    }
+  }
+}
