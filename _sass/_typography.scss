@@ -37,6 +37,7 @@
 .text-link {
   text-decoration: none;
   opacity: 1;
+  @include text-rendering;
 
   &:hover {
     opacity: 0.64;
