@@ -1,0 +1,57 @@
+# Design Principles
+principles:
+  - icon: "ph-duotone ph-wrench"
+    title: "Be Pragmatic"
+    subtitle: "Deliver solutions, not fairy tales"
+
+  - icon: "ph-duotone ph-book-open-text"
+    title: "Be Open"
+    subtitle: "Invite feedback at every turn"
+
+  - icon: "ph-duotone ph-arrow-line-right"
+    title: "Be Direct"
+    subtitle: "Tackle problems head&#8209;on"
+
+  - icon: "ph-duotone ph-scribble"
+    title: "Be Patient"
+    subtitle: "Don't rush to conclusions"
+
+  - icon: "ph-duotone ph-atom"
+    title: "Be Technical"
+    subtitle: "Know how things work"
+
+# Design Process
+process:
+  - icon: "ph-bold ph-number-one"
+    title: "Start with the most critical part of the user journey."
+    description: "It gives you a sense of priorities and sets the stage for everything else."
+
+  - icon: "ph-bold ph-number-two"
+    title: "Look beyond the first solution you come up with."
+    description: "The deeper you understand a problem, the cleaner and more intuitive the final design will be."
+
+  - icon: "ph-bold ph-number-three"
+    title: "Pitch your complete design process, not just the end result."
+    description: "It fills everyone in on the details and opens the floor to constructive feedback."
+
+# Design Expertise
+expertise:
+  - icon: "ph-duotone ph-rocket-launch"
+    title: "Zero-to-One"
+    subtitle: "Taking ideas from concept to launch"
+
+  - icon: "ph-duotone ph-stack"
+    title: "End-to-End Design"
+    subtitle: "Owning the complete design process"
+
+  - icon: "ph-duotone ph-unite"
+    title: "Cross-Functional Collaboration"
+    subtitle: "Bridging design and development"
+
+  - icon: "ph-duotone ph-devices"
+    title: "Multi-Platform Design"
+    subtitle: "Designing for all user touchpoints"
+
+  - icon: "ph-duotone ph-tree-structure"
+    title: "Systems Thinking"
+    subtitle: "Building for speed and scale"
