@@ -36,51 +36,17 @@ description: "My backstory and how I approach product design."
     <div class="row justify-content-center mt-2 mt-lg-4">
       <div class="col py-4 py-lg-5">
         <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 g-lg-5">
-          <div class="col">
-            <div class="card h-100 p-2 p-lg-3 rounded-4 card-bg-primary card-border-primary">
-              <div class="card-body">
-                <i class="ph-duotone ph-wrench fs-2 text-style-primary"></i>
-                <h6 class="card-title fw-bold text-uppercase mt-2 text-style-primary text-sans-serif">Be Pragmatic</h6>
-                <h2 class="card-text fw-bold text-style-primary text-sans-serif">Deliver solutions, not fairy tales</h2>
+          {% for principle in site.data.about.principles %}
+            <div class="col">
+              <div class="card h-100 p-2 p-lg-3 rounded-4 card-bg-primary card-border-primary">
+                <div class="card-body">
+                  <i class="{{ principle.icon }} fs-2 text-style-primary"></i>
+                  <h6 class="card-title fw-bold text-uppercase mt-2 text-style-primary text-sans-serif">{{ principle.title }}</h6>
+                  <h2 class="card-text fw-bold text-style-primary text-sans-serif">{{ principle.subtitle }}</h2>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col">
-            <div class="card h-100 p-2 p-lg-3 rounded-4 card-bg-primary card-border-primary">
-              <div class="card-body">
-                <i class="ph-duotone ph-book-open-text fs-2 text-style-primary"></i>
-                <h6 class="card-title fw-bold text-uppercase mt-2 text-style-primary text-sans-serif">Be Open</h6>
-                <h2 class="card-text fw-bold text-style-primary text-sans-serif">Invite feedback at every turn</h2>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card h-100 p-2 p-lg-3 rounded-4 card-bg-primary card-border-primary">
-              <div class="card-body">
-                <i class="ph-duotone ph-arrow-line-right fs-2 text-style-primary"></i>
-                <h6 class="card-title fw-bold text-uppercase mt-2 text-style-primary text-sans-serif">Be Direct</h6>
-                <h2 class="card-text fw-bold text-style-primary text-sans-serif">Tackle problems head&#8209;on</h2>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card h-100 p-2 p-lg-3 rounded-4 card-bg-primary card-border-primary">
-              <div class="card-body">
-                <i class="ph-duotone ph-scribble fs-2 text-style-primary"></i>
-                <h6 class="card-title fw-bold text-uppercase mt-2 text-style-primary text-sans-serif">Be Patient</h6>
-                <h2 class="card-text fw-bold text-style-primary text-sans-serif">Don’t rush to conclusions</h2>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card h-100 p-2 p-lg-3 rounded-4 card-bg-primary card-border-primary">
-              <div class="card-body">
-                <i class="ph-duotone ph-atom fs-2 text-style-primary"></i>
-                <h6 class="card-title fw-bold text-uppercase mt-2 text-style-primary text-sans-serif">Be Technical</h6>
-                <h2 class="card-text fw-bold text-style-primary text-sans-serif">Know how things work</h2>
-              </div>
-            </div>
-          </div>
+          {% endfor %}
         </div>
       </div>
     </div>
@@ -93,39 +59,19 @@ description: "My backstory and how I approach product design."
     <div class="row justify-content-center mt-2 mt-lg-4">
       <div class="col py-4 py-lg-5">
         <div class="row row-cols-1 row-cols-xl-3 g-4 g-lg-5">
+          {% for practice in site.data.about.process %}
             <div class="col">
               <div class="card h-100 p-2 p-lg-3 rounded-4 card-bg-primary card-border-primary">
                 <div class="card-body">
-                  <div class="mb-3 numeral-container-rounded numeral-bg-gradient gradient-dawn">
-                    <i class="ph-bold ph-number-one fs-4 text-style-primary"></i>
+                  <div class="mb-3 numeral-container-rounded container-bg-primary">
+                    <i class="{{ practice.icon }} fs-4 text-style-primary"></i>
                   </div>
-                  <h2 class="card-title fw-bold text-style-primary text-sans-serif">Start with the most critical part of the user journey.</h2>
-                  <p class="card-text fs-4 text-style-secondary text-serif">It gives you a sense of priorities and sets the stage for everything else.</p>
+                  <h2 class="card-title fw-bold text-style-primary text-sans-serif">{{ practice.title }}</h2>
+                  <p class="card-text fs-4 text-style-secondary text-serif">{{ practice.description }}</p>
                 </div>
               </div>
             </div>
-            <div class="col">
-              <div class="card h-100 p-2 p-lg-3 rounded-4 card-bg-primary card-border-primary">
-                <div class="card-body">
-                  <div class="mb-3 numeral-container-rounded numeral-bg-gradient gradient-sunrise">
-                    <i class="ph-bold ph-number-two fs-4 text-style-primary"></i>
-                  </div>
-                  <h2 class="card-title fw-bold text-style-primary text-sans-serif">Look beyond the first solution you come up with.</h2>
-                  <p class="card-text fs-4 text-style-secondary text-serif">The deeper you understand a problem, the cleaner and more intuitive the final design will be.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card h-100 p-2 p-lg-3 rounded-4 card-bg-primary card-border-primary">
-                <div class="card-body">
-                  <div class="mb-3 numeral-container-rounded numeral-bg-gradient gradient-morning">
-                    <i class="ph-bold ph-number-three fs-4 text-style-primary"></i>
-                  </div>
-                  <h2 class="card-title fw-bold text-style-primary text-sans-serif">Pitch your complete design process, not just the end result.</h2>
-                  <p class="card-text fs-4 text-style-secondary text-serif">It fills everyone in on the details and opens the floor to constructive feedback.</p>
-                </div>
-              </div>
-            </div>
+          {% endfor %}
         </div>
       </div>
     </div>
@@ -138,51 +84,17 @@ description: "My backstory and how I approach product design."
     <div class="row justify-content-center mt-2 mt-lg-4">
       <div class="col py-4 py-lg-5">
         <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 g-lg-5">
-          <div class="col">
-            <div class="card h-100 p-2 p-lg-3 rounded-4 card-bg-primary card-border-primary">
-              <div class="card-body">
-                <i class="ph-duotone ph-rocket-launch fs-2 text-style-primary"></i>
-                <h6 class="card-title fw-bold text-uppercase mt-2 text-style-primary text-sans-serif">Zero-to-One</h6>
-                <h2 class="card-text fw-bold text-style-primary text-sans-serif">Taking ideas from concept to launch</h2>
+          {% for skill in site.data.about.expertise %}
+            <div class="col">
+              <div class="card h-100 p-2 p-lg-3 rounded-4 card-bg-primary card-border-primary">
+                <div class="card-body">
+                  <i class="{{ skill.icon }} fs-2 text-style-primary"></i>
+                  <h6 class="card-title fw-bold text-uppercase mt-2 text-style-primary text-sans-serif">{{ skill.title }}</h6>
+                  <h2 class="card-text fw-bold text-style-primary text-sans-serif">{{ skill.subtitle }}</h2>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col">
-            <div class="card h-100 p-2 p-lg-3 rounded-4 card-bg-primary card-border-primary">
-              <div class="card-body">
-                <i class="ph-duotone ph-stack fs-2 text-style-primary"></i>
-                <h6 class="card-title fw-bold text-uppercase mt-2 text-style-primary text-sans-serif">End-to-End Design</h6>
-                <h2 class="card-text fw-bold text-style-primary text-sans-serif">Owning the complete design process</h2>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card h-100 p-2 p-lg-3 rounded-4 card-bg-primary card-border-primary">
-              <div class="card-body">
-                <i class="ph-duotone ph-unite fs-2 text-style-primary"></i>
-                <h6 class="card-title fw-bold text-uppercase mt-2 text-style-primary text-sans-serif">Cross-Functional Collaboration</h6>
-                <h2 class="card-text fw-bold text-style-primary text-sans-serif">Bridging design and development</h2>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card h-100 p-2 p-lg-3 rounded-4 card-bg-primary card-border-primary">
-              <div class="card-body">
-                <i class="ph-duotone ph-devices fs-2 text-style-primary"></i>
-                <h6 class="card-title fw-bold text-uppercase mt-2 text-style-primary text-sans-serif">Multi-Platform Design</h6>
-                <h2 class="card-text fw-bold text-style-primary text-sans-serif">Designing for all user touchpoints</h2>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card h-100 p-2 p-lg-3 rounded-4 card-bg-primary card-border-primary">
-              <div class="card-body">
-                <i class="ph-duotone ph-tree-structure fs-2 text-style-primary"></i>
-                <h6 class="card-title fw-bold text-uppercase mt-2 text-style-primary text-sans-serif">Systems Thinking</h6>
-                <h2 class="card-text fw-bold text-style-primary text-sans-serif">Building for speed and scale</h2>
-              </div>
-            </div>
-          </div>
+          {% endfor %}
         </div>
       </div>
     </div>
