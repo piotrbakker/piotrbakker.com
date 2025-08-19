@@ -13,12 +13,12 @@ description: "My backstory and how I approach product design."
       </div>
     </div>
     <div class="row justify-content-center mt-2">
-      <div class="col-md-12 col-lg-12 py-0 py-xl-3">
+      <div class="col-12 col-lg-10 col-xl-8 py-0 py-xl-3">
         <img class="img-fluid rounded-4 image-brightness-dimmed" alt="Photo of Piotr Bakker" src="/assets/img/content.piotr-bakker-photo-01.jpeg">
       </div>
     </div>
     <div class="row justify-content-center mt-4">
-      <div class="col-12 col-lg-10 col-xl-8 pe-lg-5">
+      <div class="col-12 col-lg-10 col-xl-8">
         <p class="fs-4 text-style-primary text-serif">I got my start in the tech industry as a student, working part-time at Apple’s flagship Regent Street Store in London. Working on the shop floor and talking to hundreds of customers each day was an experience I’ll never forget. It taught me a great deal about how real people use technology and what it takes to cultivate great relationships with every single customer.</p>
         <p class="fs-4 text-style-primary text-serif">Over the following years I continued pursuing my interests in business and innovation. I earned a Master’s degree in Business Administration from RSM Erasmus University, took an internship at Groupon in Amsterdam when the hype for the company was at its peak, and visited Silicon Valley for the first time.</p>
         <p class="fs-4 text-style-primary text-serif">It was during this period that I began experimenting with different startup ideas. These included a collaborative whiteboard for online learners, an online dictionary for writers, a real-time notes sharing app, and a retro side-scrolling game for Apple TV. While their commercial success was limited, each project gave me hands-on experience with every aspect of product development, from concept to launch.</p>
@@ -27,22 +27,22 @@ description: "My backstory and how I approach product design."
         <p class="fs-4 text-style-primary text-serif">Today, I continue to experiment with new technologies, startup ideas, and design concepts in the foggy San Francisco, where I live with my wife and our 1‑year old daughter.</p>
       </div>
     </div>
-    <div class="row justify-content-center mt-2 mt-lg-4">
-      <div class="col-12 col-lg-10 col-xl-8 pe-lg-5">
+    <div class="row justify-content-center mt-2">
+      <div class="col-12 col-lg-10 col-xl-8">
         <h2 class="display-5 fw-bold text-style-primary text-sans-serif">Design Principles</h2>
         <p class="fs-4 text-style-primary text-serif">Startup success comes down to cutting through the noise and delivering real value. Working in these high-stakes environments taught me that effective design principles aren’t abstract ideals but practical tools forged through countless iterations, failed experiments, and hard-won lessons about what actually moves the needle. My principles aren’t just for startups, though. They apply to any context where design decisions matter.</p>
       </div>
     </div>
-    <div class="row justify-content-center mt-2 mt-lg-4">
+    <div class="row justify-content-center">
       <div class="col py-4 py-lg-5">
-        <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 g-lg-5">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4">
           {% for principle in site.data.about.principles %}
             <div class="col">
               <div class="card h-100 p-2 p-lg-3 rounded-4 card-bg-primary card-border-primary">
                 <div class="card-body">
                   <i class="{{ principle.icon }} fs-2 text-style-primary"></i>
                   <h6 class="card-title fw-bold text-uppercase mt-2 text-style-primary text-sans-serif">{{ principle.title }}</h6>
-                  <h2 class="card-text fw-bold text-style-primary text-sans-serif">{{ principle.subtitle }}</h2>
+                  <h3 class="card-text fw-bold text-style-primary text-sans-serif">{{ principle.subtitle }}</h3>
                 </div>
               </div>
             </div>
@@ -50,15 +50,15 @@ description: "My backstory and how I approach product design."
         </div>
       </div>
     </div>
-    <div class="row justify-content-center mt-2 mt-lg-4">
-      <div class="col-12 col-lg-10 col-xl-8 pe-lg-5">
+    <div class="row justify-content-center mt-2">
+      <div class="col-12 col-lg-10 col-xl-8">
         <h2 class="display-5 fw-bold text-style-primary text-sans-serif">Design Process</h2>
         <p class="fs-4 text-style-primary text-serif">Good design process isn’t about following a rigid framework but about having reliable practices that adapt to any conditions. While some design problems can be solved with templates or step-by-step guides, the more complex ones require judgment, iteration, and a willingness to make mistakes. My approach to navigating that complexity boils down to three key practices that closely align with my design principles.</p>
       </div>
     </div>
-    <div class="row justify-content-center mt-2 mt-lg-4">
+    <div class="row justify-content-center">
       <div class="col py-4 py-lg-5">
-        <div class="row row-cols-1 row-cols-xl-3 g-4 g-lg-5">
+        <div class="row row-cols-1 row-cols-lg-3 g-4">
           {% for practice in site.data.about.process %}
             <div class="col">
               <div class="card h-100 p-2 p-lg-3 rounded-4 card-bg-primary card-border-primary">
@@ -66,8 +66,8 @@ description: "My backstory and how I approach product design."
                   <div class="mb-3 numeral-container-rounded container-bg-primary">
                     <i class="{{ practice.icon }} fs-4 text-style-primary"></i>
                   </div>
-                  <h2 class="card-title fw-bold text-style-primary text-sans-serif">{{ practice.title }}</h2>
-                  <p class="card-text fs-4 text-style-secondary text-serif">{{ practice.description }}</p>
+                  <h3 class="card-title fw-bold text-style-primary text-sans-serif">{{ practice.title }}</h3>
+                  <p class="card-text fs-5 text-style-secondary text-serif">{{ practice.description }}</p>
                 </div>
               </div>
             </div>
@@ -75,22 +75,22 @@ description: "My backstory and how I approach product design."
         </div>
       </div>
     </div>
-    <div class="row justify-content-center mt-2 mt-lg-4">
-      <div class="col-12 col-lg-10 col-xl-8 pe-lg-5">
+    <div class="row justify-content-center mt-2">
+      <div class="col-12 col-lg-10 col-xl-8">
         <h2 class="display-5 fw-bold text-style-primary text-sans-serif">Design Expertise</h2>
         <p class="fs-4 text-style-primary text-serif">Over the years I’ve built up expertise in areas that are critical to early product development and market success. These skills reflect both my core interests and years of hands-on experience, from early-stage startups to established companies.</p>
       </div>
     </div>
-    <div class="row justify-content-center mt-2 mt-lg-4">
+    <div class="row justify-content-center">
       <div class="col py-4 py-lg-5">
-        <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 g-lg-5">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4">
           {% for skill in site.data.about.expertise %}
             <div class="col">
               <div class="card h-100 p-2 p-lg-3 rounded-4 card-bg-primary card-border-primary">
                 <div class="card-body">
                   <i class="{{ skill.icon }} fs-2 text-style-primary"></i>
                   <h6 class="card-title fw-bold text-uppercase mt-2 text-style-primary text-sans-serif">{{ skill.title }}</h6>
-                  <h2 class="card-text fw-bold text-style-primary text-sans-serif">{{ skill.subtitle }}</h2>
+                  <h3 class="card-text fw-bold text-style-primary text-sans-serif">{{ skill.subtitle }}</h3>
                 </div>
               </div>
             </div>
@@ -98,8 +98,8 @@ description: "My backstory and how I approach product design."
         </div>
       </div>
     </div>
-    <div class="row justify-content-center mt-2 mt-lg-4">
-      <div class="col-12 col-lg-10 col-xl-8 pe-lg-5">
+    <div class="row justify-content-center mt-2">
+      <div class="col-12 col-lg-10 col-xl-8">
         <h2 class="display-5 fw-bold text-style-primary text-sans-serif">Let’s Work Together</h2>
         <p class="fs-4 text-style-primary text-serif">I’m always excited to tackle new challenges and collaborate with teams who love great design. Whether you’re looking for design strategy, hands-on product work, or someone who can bridge the gap between design and development, I’d love to hear about your project. Drop me a line at <a href="mailto:hello@piotrbakker.com?Subject=Hello Piotr &#128075;" class="text-link text-link-primary">hello@piotrbakker.com</a> and let’s build something great together.</p>
       </div>
