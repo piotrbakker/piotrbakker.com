@@ -1,6 +1,14 @@
 @import 'variables';
 
 // Containers
+.container-bg-primary {
+  background-color: $color-bg-primary-light;
+
+  @media (prefers-color-scheme: dark) {
+    background-color: $color-bg-primary-dark;
+  }
+}
+
 .container-bg-gradient-dawn {
   background: $gradient-dawn;
 
@@ -114,37 +122,6 @@
 
     @media (prefers-color-scheme: dark) {
       border-color: $color-border-subtle-dark;
-    }
-  }
-}
-
-// Numerals
-.numeral-bg-gradient {
-  background: $gradient-morning;
-
-  @media (prefers-color-scheme: dark) {
-    color: $color-text-primary-dark;
-    background: $gradient-midnight;
-  }
-
-  &.gradient-dawn {
-    background: $gradient-dawn;
-    @media (prefers-color-scheme: dark) {
-      background: $gradient-midnight;
-    }
-  }
-
-  &.gradient-sunrise {
-    background: $gradient-sunrise;
-    @media (prefers-color-scheme: dark) {
-      background: $gradient-midnight;
-    }
-  }
-
-  &.gradient-morning {
-    background: $gradient-morning;
-    @media (prefers-color-scheme: dark) {
-      background: $gradient-midnight;
     }
   }
 }
