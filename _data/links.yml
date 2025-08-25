@@ -47,8 +47,8 @@ systems:
     platform: "GitHub"
     description: "Framework for naming shared calendar events."
 
-  - name: "Screens"
-    url: "https://github.com/piotrbakker/screens"
+  - name: "Diagonal"
+    url: "https://github.com/piotrbakker/diagonal"
     platform: "GitHub"
     description: "Repository of select Apple and Google device screen dimensions."
 
