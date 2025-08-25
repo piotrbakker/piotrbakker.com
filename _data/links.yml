@@ -50,7 +50,7 @@ systems:
   - name: "Screens"
     url: "https://github.com/piotrbakker/screens"
     platform: "GitHub"
-    description: "Repository of modern Apple device screen dimensions."
+    description: "Repository of select Apple and Google device screen dimensions."
 
 # Writing
 articles:
