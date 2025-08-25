@@ -47,6 +47,11 @@ systems:
     platform: "GitHub"
     description: "Framework for naming shared calendar events."
 
+  - name: "Screens"
+    url: "https://github.com/piotrbakker/screens"
+    platform: "GitHub"
+    description: "Collection of modern Apple device screen dimensions."
+
 # Writing
 articles:
   - title: "User Interfaces Are Not Jigsaw Puzzles"
