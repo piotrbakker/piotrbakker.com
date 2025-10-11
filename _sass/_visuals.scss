@@ -125,3 +125,12 @@
     }
   }
 }
+
+.image-fit-square-cover {
+  padding-bottom: 100%;
+
+  img {
+    object-fit: cover;
+    object-position: center;
+  }
+}
