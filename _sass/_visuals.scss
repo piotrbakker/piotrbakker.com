@@ -9,6 +9,14 @@
   }
 }
 
+.container-bg-secondary {
+  background-color: $color-bg-secondary-light;
+
+  @media (prefers-color-scheme: dark) {
+    background-color: $color-bg-secondary-dark;
+  }
+}
+
 .container-bg-gradient-dawn {
   background: $gradient-dawn;
 
