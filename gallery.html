@@ -1,0 +1,46 @@
+---
+layout: default
+title: "Piotr Bakker &middot; Gallery"
+description: "A collection of design work and visual explorations."
+---
+
+<main>
+  <div class="container p-4">
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-10 col-xl-8 pe-lg-5">
+        {% include breadcrumbs.html %}
+        <h1 class="display-3 fw-bold text-style-primary text-sans-serif">Gallery</h1>
+        <p class="fs-4 text-style-primary text-serif">A collection of design work and visual explorations.</p>
+      </div>
+    </div>
+
+    <div class="row justify-content-center mt-4 mt-lg-5">
+      <div class="col">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-2">
+          {% for image in site.data.screens %}
+            <div class="col">
+              <div class="position-relative w-100 overflow-hidden image-fit-square-cover container-bg-secondary" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#galleryModal-{{ image.id }}">
+                <img class="position-absolute top-0 start-0 w-100 h-100 image-brightness-dimmed" alt="{{ image.alt }}" src="{{ image.src }}">
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {% for image in site.data.screens %}
+    <div class="modal fade" id="galleryModal-{{ image.id }}" tabindex="-1" aria-labelledby="galleryModalLabel-{{ image.id }}" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content container-bg-secondary">
+          <div class="modal-header border-0">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body p-4">
+            <img class="img-fluid" alt="{{ image.alt }}" src="{{ image.src }}">
+          </div>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</main>
