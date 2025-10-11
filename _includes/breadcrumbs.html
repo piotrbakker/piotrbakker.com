@@ -18,6 +18,10 @@
       <li class="breadcrumb-item active">
         <span class="text-sans-serif-ui text-style-secondary">About</span>
       </li>
+    {% elsif page.url == "/gallery.html" or page.url == "/gallery/" %}
+      <li class="breadcrumb-item active">
+        <span class="text-sans-serif-ui text-style-secondary">Gallery</span>
+      </li>
     {% endif %}
   </ol>
 </nav>
