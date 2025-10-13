@@ -13,6 +13,12 @@
   }
 }
 
+.d-flex-center {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
 // Border Radius
 .border-radius-lg-1 {
   @media (min-width: $breakpoint-lg) {
