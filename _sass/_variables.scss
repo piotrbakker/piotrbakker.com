@@ -59,8 +59,11 @@ $color-text-link-dark: desaturate($color-blue-500, 40%);
 $color-code-bg-light: $color-gray-200;
 $color-code-bg-dark: $color-gray-700;
 
-$color-btn-bg-monochrome-light: $color-black;
-$color-btn-bg-monochrome-dark: $color-white;
+$color-btn-label-monochrome-light: $color-gray-700;
+$color-btn-label-monochrome-dark: $color-gray-200;
+
+$color-btn-bg-monochrome-light: $color-gray-200;
+$color-btn-bg-monochrome-dark: $color-gray-700;
 
 // Gradients - Semantic
 $gradient-dawn: linear-gradient(160deg, $color-soft-red 0%, $color-soft-blue 100%);

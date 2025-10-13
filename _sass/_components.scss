@@ -116,10 +116,10 @@
 }
 
 .btn-label-monochrome {
-  color: $color-white;
+  color: $color-btn-label-monochrome-light;
 
   @media (prefers-color-scheme: dark) {
-    color: $color-black;
+    color: $color-btn-label-monochrome-dark;
   }
 }
 
