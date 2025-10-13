@@ -9,3 +9,11 @@
 - id: "codifier-screen-01"
   src: "assets/img/crater.tools/content.light-app-slide-codifier-01.png"
   alt: "Slide displaying three Codifier iOS app screenshots"
+
+- id: "videoshop-screen-02"
+  src: "assets/img/videoshop.net/content.dark-app-slide-videoshop-01.png"
+  alt: "Slide displaying three Videoshop iOS app screenshots"
+
+- id: "videoshop-screen-02"
+  src: "assets/img/videoshop.net/content.dark-app-slide-videoshop-02.png"
+  alt: "Slide displaying three Videoshop iOS app screenshots"
