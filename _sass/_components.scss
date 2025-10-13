@@ -106,3 +106,31 @@
     --bs-breadcrumb-divider-color: #{$color-gray-500};
   }
 }
+
+// Buttons
+.btn-size-md {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.btn-hover {
+  &:hover {
+    opacity: 0.64;
+  }
+}
+
+.btn-label-monochrome {
+  color: $color-white;
+
+  @media (prefers-color-scheme: dark) {
+    color: $color-black;
+  }
+}
+
+.btn-bg-monochrome {
+  background-color: $color-btn-bg-monochrome-light;
+
+  @media (prefers-color-scheme: dark) {
+    background-color: $color-btn-bg-monochrome-dark;
+  }
+}
