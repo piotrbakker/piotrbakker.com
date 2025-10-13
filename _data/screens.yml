@@ -1,23 +1,11 @@
-- id: "product-screen-01"
-  src: ""
-  alt: ""
+- id: "calmetric-screen-01"
+  src: "assets/img/crater.tools/content.light-app-slide-calmetric-01.png"
+  alt: "Slide displaying three Calmetric iOS app screenshots"
 
-- id: "product-screen-02"
-  src: ""
-  alt: ""
+- id: "conversions-screen-01"
+  src: "assets/img/crater.tools/content.light-app-slide-conversions-01.png"
+  alt: "Slide displaying three Conversions iOS app screenshots"
 
-- id: "product-screen-03"
-  src: ""
-  alt: ""
-
-- id: "product-screen-04"
-  src: ""
-  alt: ""
-
-- id: "product-screen-05"
-  src: ""
-  alt: ""
-
-- id: "product-screen-06"
-  src: ""
-  alt: ""
+- id: "codifier-screen-01"
+  src: "assets/img/crater.tools/content.light-app-slide-codifier-01.png"
+  alt: "Slide displaying three Codifier iOS app screenshots"
