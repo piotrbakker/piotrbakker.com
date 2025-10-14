@@ -36,20 +36,20 @@
 // Link styles
 .text-link {
   text-decoration: none;
-  opacity: 1;
+  opacity: $opacity-full;
   @include text-rendering;
 
   &:hover {
-    opacity: 0.64;
+    opacity: $opacity-hover;
     text-decoration: none;
   }
 
   &:active {
-    opacity: 0.64;
+    opacity: $opacity-hover;
   }
 
   &:visited {
-    opacity: 1;
+    opacity: $opacity-full;
   }
 }
 

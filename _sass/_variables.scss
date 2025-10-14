@@ -37,6 +37,13 @@ $spacing-4xl: 3rem;     // 48px
 $spacing-5xl: 4rem;     // 64px
 $spacing-6xl: 5rem;     // 80px
 
+// Opacity Scale
+$opacity-full: 1;
+$opacity-hover: 0.64;
+$opacity-disabled: 0.48;
+$opacity-subtle: 0.32;
+$opacity-faint: 0.16;
+
 // Breakpoints
 $breakpoint-sm: 576px;
 $breakpoint-md: 768px;
