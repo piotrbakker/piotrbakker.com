@@ -3,8 +3,8 @@
 
 // Navbar
 .navbar-pill {
-  min-height: 2.5rem;
-  min-width: 2.5rem;
+  min-height: $spacing-3xl;
+  min-width: $spacing-3xl;
 }
 
 .navbar-toggler {
@@ -43,8 +43,8 @@
 
 // Numerals
 .numeral-container-lg {
-  width: 3rem;
-  height: 3rem;
+  width: $spacing-4xl;
+  height: $spacing-4xl;
 }
 
 // Cards
@@ -117,8 +117,8 @@
 
 // Buttons
 .btn-size-md {
-  width: 2.5rem;
-  height: 2.5rem;
+  width: $spacing-3xl;
+  height: $spacing-3xl;
 }
 
 .btn-hover {
