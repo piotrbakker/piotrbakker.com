@@ -44,6 +44,13 @@ $opacity-disabled: 0.48;
 $opacity-subtle: 0.32;
 $opacity-faint: 0.16;
 
+// Blur Scale
+$blur-xs: 0.125rem;   // 2px
+$blur-sm: 0.25rem;    // 4px
+$blur-md: 0.5rem;     // 8px
+$blur-lg: 1rem;       // 16px
+$blur-xl: 2rem;       // 32px
+
 // Breakpoints
 $breakpoint-sm: 576px;
 $breakpoint-md: 768px;
