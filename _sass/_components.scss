@@ -65,6 +65,34 @@
 }
 
 // Modals
+.modal-fade-opacity {
+  .modal-dialog {
+    transition: opacity 0.5s ease-in-out, filter 0.5s ease-in-out;
+  }
+
+  &:not(.show) .modal-dialog {
+    opacity: 0;
+    filter: blur($blur-md);
+  }
+
+  &.show .modal-dialog {
+    opacity: $opacity-full;
+    filter: blur(0);
+  }
+
+  .modal-body img {
+    transition: transform 0.5s ease-out;
+  }
+
+  &:not(.show) .modal-body img {
+    transform: translateY($spacing-xl);
+  }
+
+  &.show .modal-body img {
+    transform: translateY(0);
+  }
+}
+
 .modal-bg-primary {
   background-color: $color-bg-secondary-light;
 
