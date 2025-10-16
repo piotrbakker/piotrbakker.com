@@ -45,3 +45,27 @@
 - id: "galactic-escape-screen-03"
   src: "/assets/img/galacticesc.com/content.galactic-escape-project-screenshot-02.png"
   alt: "Galactic Escape gameplay mockup"
+
+- id: "greetbot-screen-01"
+  src: "/assets/img/greet.bot/content.greetbot-slide-slack-01.png"
+  alt: "App Image used on GreetBot’s listing on the Slack App Directory"
+
+- id: "greetbot-screen-02"
+  src: "/assets/img/greet.bot/content.greetbot-slide-slack-02.png"
+  alt: "App Image used on GreetBot’s listing on the Slack App Directory"
+
+- id: "greetbot-screen-03"
+  src: "/assets/img/greet.bot/content.greetbot-slide-slack-03.png"
+  alt: "App Image used on GreetBot’s listing on the Slack App Directory"
+
+- id: "greetbot-screen-04"
+  src: "/assets/img/greet.bot/content.greetbot-slide-slack-04.png"
+  alt: "App Image used on GreetBot’s listing on the Slack App Directory"
+
+- id: "greetbot-screen-05"
+  src: "/assets/img/greet.bot/content.greetbot-slide-slack-05.png"
+  alt: "App Image used on GreetBot’s listing on the Slack App Directory"
+
+- id: "greetbot-screen-06"
+  src: "/assets/img/greet.bot/content.greetbot-slide-slack-06.png"
+  alt: "App Image used on GreetBot’s listing on the Slack App Directory"
