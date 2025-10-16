@@ -85,3 +85,11 @@
     border-radius: $radius-5 !important;
   }
 }
+
+// Padding
+// Custom modal footer padding to align height with modal header and navbar
+// Extends Bootstrap’s default calculation (16px - 4px = 12px) by adding 8px to reach 20px on top and bottom
+.padding-modal-footer {
+  padding-top: calc(var(--bs-modal-padding) - var(--bs-modal-footer-gap) * .5 + #{$spacing-sm});
+  padding-bottom: calc(var(--bs-modal-padding) - var(--bs-modal-footer-gap) * .5 + #{$spacing-sm});
+}
