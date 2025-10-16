@@ -1,71 +1,89 @@
 - id: "calmetric-screen-01"
   src: "/assets/img/crater.tools/content.light-app-slide-calmetric-01.png"
   alt: "Slide displaying three Calmetric iOS app screenshots"
+  description: "Calmetric iOS app screenshots."
 
 - id: "conversions-screen-01"
   src: "/assets/img/crater.tools/content.light-app-slide-conversions-01.png"
   alt: "Slide displaying three Conversions iOS app screenshots"
+  description: "Conversions iOS app screenshots."
 
 - id: "codifier-screen-01"
   src: "/assets/img/crater.tools/content.light-app-slide-codifier-01.png"
   alt: "Slide displaying three Codifier iOS app screenshots"
+  description: "Codifier iOS app screenshots."
 
 - id: "videoshop-screen-01"
   src: "/assets/img/videoshop.net/content.dark-app-slide-videoshop-01.png"
   alt: "Slide displaying three Videoshop iOS app screenshots"
+  description: "Videoshop iOS app mockups."
 
 - id: "videoshop-screen-02"
   src: "/assets/img/videoshop.net/content.dark-app-slide-videoshop-02.png"
   alt: "Slide displaying three Videoshop iOS app screenshots"
+  description: "Videoshop iOS app mockups."
 
 - id: "hiki-screen-01"
   src: "/assets/img/hiki.team/content.hiki-slide-slack-01.png"
   alt: "App Image used on Hiki’s listing on the Slack App Directory"
+  description: "App Image used on Hiki’s listing on the Slack App Directory."
 
 - id: "hiki-screen-02"
   src: "/assets/img/hiki.team/content.hiki-slide-slack-02.png"
   alt: "App Image used on Hiki’s listing on the Slack App Directory"
+  description: "App Image used on Hiki’s listing on the Slack App Directory."
 
 - id: "hiki-screen-03"
   src: "/assets/img/hiki.team/content.hiki-slide-slack-03.png"
   alt: "App Image used on Hiki’s listing on the Slack App Directory"
+  description: "App Image used on Hiki’s listing on the Slack App Directory."
 
 - id: "hiki-screen-04"
   src: "/assets/img/hiki.team/content.hiki-slide-slack-04.png"
   alt: "App Image used on Hiki’s listing on the Slack App Directory"
+  description: "App Image used on Hiki’s listing on the Slack App Directory."
 
 - id: "galactic-escape-screen-01"
   src: "/assets/img/galacticesc.com/content.galactic-escape-screenshot-tvos.png"
   alt: "Top Shelf view of Galactic Escape on the Apple TV Home Screen"
+  description: "Top Shelf view of Galactic Escape on the Apple TV Home Screen."
 
 - id: "galactic-escape-screen-02"
   src: "/assets/img/galacticesc.com/content.galactic-escape-project-screenshot-01.png"
   alt: "Galactic Escape gameplay mockup"
+  description: "Galactic Escape tvOS gameplay mockup."
 
 - id: "galactic-escape-screen-03"
   src: "/assets/img/galacticesc.com/content.galactic-escape-project-screenshot-02.png"
   alt: "Galactic Escape gameplay mockup"
+  description: "Galactic Escape tvOS gameplay mockup."
 
 - id: "greetbot-screen-01"
   src: "/assets/img/greet.bot/content.greetbot-slide-slack-01.png"
   alt: "App Image used on GreetBot’s listing on the Slack App Directory"
+  description: "App Image used on GreetBot’s listing on the Slack App Directory."
 
 - id: "greetbot-screen-02"
   src: "/assets/img/greet.bot/content.greetbot-slide-slack-02.png"
   alt: "App Image used on GreetBot’s listing on the Slack App Directory"
+  description: "App Image used on GreetBot’s listing on the Slack App Directory."
 
 - id: "greetbot-screen-03"
   src: "/assets/img/greet.bot/content.greetbot-slide-slack-03.png"
   alt: "App Image used on GreetBot’s listing on the Slack App Directory"
+  description: "App Image used on GreetBot’s listing on the Slack App Directory."
 
 - id: "greetbot-screen-04"
   src: "/assets/img/greet.bot/content.greetbot-slide-slack-04.png"
   alt: "App Image used on GreetBot’s listing on the Slack App Directory"
+  description: "App Image used on GreetBot’s listing on the Slack App Directory."
 
 - id: "greetbot-screen-05"
   src: "/assets/img/greet.bot/content.greetbot-slide-slack-05.png"
   alt: "App Image used on GreetBot’s listing on the Slack App Directory"
+  description: "App Image used on GreetBot’s listing on the Slack App Directory."
 
 - id: "greetbot-screen-06"
   src: "/assets/img/greet.bot/content.greetbot-slide-slack-06.png"
   alt: "App Image used on GreetBot’s listing on the Slack App Directory"
+  description: "App Image used on GreetBot’s listing on the Slack App Directory."

@@ -3,6 +3,7 @@ Image Modal Include
 - id: unique identifier for the modal
 - src: image source path
 - alt: image alt text
+- description: image description
 {% endcomment %}
 
 <div class="modal modal-fade-opacity container-bg-secondary container-bg-blurred" id="imageModal-{{ include.id }}" tabindex="-1" aria-labelledby="imageModal-{{ include.id }}-label" aria-hidden="true">
@@ -13,8 +14,11 @@ Image Modal Include
           <i class="ph-bold ph-x"></i>
         </button>
       </div>
-      <div class="modal-body p-4 d-flex justify-content-center">
+      <div class="modal-body p-4 d-flex justify-content-center align-items-center">
         <img class="img-fluid rounded-4" style="max-height: 75vh; max-width: 100%; height: auto; width: auto; object-fit: contain;" alt="{{ include.alt }}" src="{{ include.src }}">
+      </div>
+      <div class="modal-footer border-0 justify-content-center">
+          <p class="text-center text-style-primary text-monospaced">{{ include.description }}</p>
       </div>
     </div>
   </div>
