@@ -43,6 +43,11 @@
   alt: "App Image used on Hiki’s listing on the Slack App Directory"
   description: "App Image used on Hiki’s listing on the Slack App Directory."
 
+- id: "hiki-screen-05"
+  src: "/assets/img/hiki.team/content.hiki-slide-slack-05.png"
+  alt: "App Image used on Hiki’s listing on the Slack App Directory"
+  description: "App Image used on Hiki’s listing on the Slack App Directory."
+
 - id: "galactic-escape-screen-01"
   src: "/assets/img/galacticesc.com/content.galactic-escape-screenshot-tvos.png"
   alt: "Top Shelf view of Galactic Escape on the Apple TV Home Screen"
