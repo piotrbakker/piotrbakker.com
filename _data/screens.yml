@@ -98,6 +98,36 @@
   alt: "App Image used on GreetBot’s listing on the Slack App Directory"
   description: "App Image used on GreetBot’s listing on the Slack App Directory."
 
+- id: "construct-screen-01"
+  src: "/assets/img/content.construct-system-slide-01.png"
+  alt: "Figma thumbnail frame of the Construct wireframe design system"
+  description: "Figma thumbnail frame of the Construct wireframe design system."
+
+- id: "construct-screen-02"
+  src: "/assets/img/content.construct-system-slide-02.png"
+  alt: "Example usage template of the Construct wireframe design system"
+  description: "Example usage template of the Construct wireframe design system."
+
+- id: "construct-screen-03"
+  src: "/assets/img/content.construct-system-slide-03.png"
+  alt: "Example usage template of the Construct wireframe design system"
+  description: "Example usage template of the Construct wireframe design system."
+
+- id: "construct-screen-04"
+  src: "/assets/img/content.construct-system-slide-04.png"
+  alt: "Example usage template of the Construct wireframe design system"
+  description: "Example usage template of the Construct wireframe design system."
+
+- id: "construct-screen-05"
+  src: "/assets/img/content.construct-system-slide-05.png"
+  alt: "Example usage template of the Construct wireframe design system"
+  description: "Example usage template of the Construct wireframe design system."
+
+- id: "construct-screen-06"
+  src: "/assets/img/content.construct-system-slide-06.png"
+  alt: "Example usage template of the Construct wireframe design system"
+  description: "Example usage template of the Construct wireframe design system."
+
 - id: "mytos-screen-01"
   src: "/assets/img/mytos.bio/content.mytos-app-slide-01.png"
   alt: "Slide displaying four Mytos.bio web app mockups"
