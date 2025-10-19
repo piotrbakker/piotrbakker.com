@@ -63,6 +63,11 @@
   alt: "Galactic Escape gameplay mockup"
   description: "Galactic Escape tvOS gameplay mockup."
 
+- id: "galactic-escape-screen-04"
+  src: "/assets/img/galacticesc.com/content.galactic-escape-project-screenshot-03.png"
+  alt: "Galactic Escape game over screen mockup"
+  description: "Galactic Escape tvOS game over screen mockup."
+
 - id: "greetbot-screen-01"
   src: "/assets/img/greet.bot/content.greetbot-slide-slack-01.png"
   alt: "App Image used on GreetBot’s listing on the Slack App Directory"
