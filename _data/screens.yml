@@ -157,3 +157,18 @@
   src: "/assets/img/content.misc-app-slide-02.png"
   alt: "Slide displaying four mockups of a car mechanic booking app"
   description: "Mockups of a car mechanic booking app created with Material Design 2."
+
+- id: "mixbook-screen-01"
+  src: "/assets/img/mixbook.com/content.mixbook-system-components-01.png"
+  alt: "Mixbook photo book editor modals and popovers"
+  description: "Mosaic of Mixbook photo book editor modals and popovers."
+
+- id: "mixbook-screen-02"
+  src: "/assets/img/mixbook.com/content.mixbook-system-components-02.png"
+  alt: "Mixbook photo book editor system components"
+  description: "Mosaic of Mixbook photo book editor design system components."
+
+- id: "mixbook-screen-03"
+  src: "/assets/img/mixbook.com/content.mixbook-system-components-03.png"
+  alt: "Mixbook photo book checkout components"
+  description: "Mixbook photo book checkout components."
