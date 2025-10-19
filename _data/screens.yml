@@ -48,26 +48,6 @@
   alt: "App Image used on Hiki’s listing on the Slack App Directory"
   description: "App Image used on Hiki’s listing on the Slack App Directory."
 
-- id: "galactic-escape-screen-01"
-  src: "/assets/img/galacticesc.com/content.galactic-escape-screenshot-tvos.png"
-  alt: "Top Shelf view of Galactic Escape on the Apple TV Home Screen"
-  description: "Top Shelf view of Galactic Escape on the Apple TV Home Screen."
-
-- id: "galactic-escape-screen-02"
-  src: "/assets/img/galacticesc.com/content.galactic-escape-project-screenshot-01.png"
-  alt: "Galactic Escape gameplay mockup"
-  description: "Galactic Escape tvOS gameplay mockup."
-
-- id: "galactic-escape-screen-03"
-  src: "/assets/img/galacticesc.com/content.galactic-escape-project-screenshot-02.png"
-  alt: "Galactic Escape gameplay mockup"
-  description: "Galactic Escape tvOS gameplay mockup."
-
-- id: "galactic-escape-screen-04"
-  src: "/assets/img/galacticesc.com/content.galactic-escape-project-screenshot-03.png"
-  alt: "Galactic Escape game over screen mockup"
-  description: "Galactic Escape tvOS game over screen mockup."
-
 - id: "greetbot-screen-01"
   src: "/assets/img/greet.bot/content.greetbot-slide-slack-01.png"
   alt: "App Image used on GreetBot’s listing on the Slack App Directory"
@@ -127,6 +107,26 @@
   src: "/assets/img/content.construct-system-slide-06.png"
   alt: "Example usage template of the Construct wireframe design system"
   description: "Example usage template of the Construct wireframe design system."
+
+- id: "galactic-escape-screen-01"
+  src: "/assets/img/galacticesc.com/content.galactic-escape-screenshot-tvos.png"
+  alt: "Top Shelf view of Galactic Escape on the Apple TV Home Screen"
+  description: "Top Shelf view of Galactic Escape on the Apple TV Home Screen."
+
+- id: "galactic-escape-screen-02"
+  src: "/assets/img/galacticesc.com/content.galactic-escape-project-screenshot-01.png"
+  alt: "Galactic Escape gameplay mockup"
+  description: "Galactic Escape tvOS gameplay mockup."
+
+- id: "galactic-escape-screen-03"
+  src: "/assets/img/galacticesc.com/content.galactic-escape-project-screenshot-02.png"
+  alt: "Galactic Escape gameplay mockup"
+  description: "Galactic Escape tvOS gameplay mockup."
+
+- id: "galactic-escape-screen-04"
+  src: "/assets/img/galacticesc.com/content.galactic-escape-project-screenshot-03.png"
+  alt: "Galactic Escape game over screen mockup"
+  description: "Galactic Escape tvOS game over screen mockup."
 
 - id: "mytos-screen-01"
   src: "/assets/img/mytos.bio/content.mytos-app-slide-01.png"
