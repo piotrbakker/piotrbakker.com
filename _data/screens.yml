@@ -78,6 +78,16 @@
   alt: "App Image used on GreetBot’s listing on the Slack App Directory"
   description: "App Image used on GreetBot’s listing on the Slack App Directory."
 
+- id: "wizehire-screen-01"
+  src: "/assets/img/wizehire.com/content.light-wizehire-figma-frame-01.png"
+  alt: "Wizehire recruiter dashboard mockup"
+  description: "Wizehire recruiter dashboard mockup."
+
+- id: "wizehire-screen-02"
+  src: "/assets/img/wizehire.com/content.light-wizehire-figma-frame-02.png"
+  alt: "Wizehire candidate profile page mockup"
+  description: "Wizehire candidate profile page mockup."
+
 - id: "construct-screen-01"
   src: "/assets/img/content.construct-system-slide-01.png"
   alt: "Figma thumbnail frame of the Construct wireframe design system"
