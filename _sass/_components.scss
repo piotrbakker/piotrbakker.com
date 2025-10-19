@@ -94,6 +94,14 @@
 }
 
 .modal-bg-primary {
+  background-color: $color-bg-primary-light;
+
+  @media (prefers-color-scheme: dark) {
+    background-color: $color-bg-primary-dark;
+  }
+}
+
+.modal-bg-secondary {
   background-color: $color-bg-secondary-light;
 
   @media (prefers-color-scheme: dark) {
