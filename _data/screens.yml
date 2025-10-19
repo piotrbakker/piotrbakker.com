@@ -107,3 +107,13 @@
   src: "/assets/img/mytos.bio/content.mytos-app-slide-02.png"
   alt: "Slide displaying four Mytos.bio web app mockups"
   description: "Mockups of Mytos.bio web app created with Material Design 2."
+
+- id: "misc-screen-01"
+  src: "/assets/img/content.misc-app-slide-01.png"
+  alt: "Slide displaying four mockups of a car mechanic booking app"
+  description: "Mockups of a car mechanic booking app created with Material Design 2."
+
+- id: "misc-screen-02"
+  src: "/assets/img/content.misc-app-slide-02.png"
+  alt: "Slide displaying four mockups of a car mechanic booking app"
+  description: "Mockups of a car mechanic booking app created with Material Design 2."
