@@ -172,3 +172,23 @@
   src: "/assets/img/mixbook.com/content.mixbook-system-components-03.png"
   alt: "Mixbook photo book checkout components"
   description: "Mixbook photo book checkout components."
+
+- id: "line-art-01"
+  src: "/assets/img/content.line-art-01.png"
+  alt: "Line art illustration showing a 19th-century desk and blackboard"
+  description: "Line art illustration titled ‘1830’. Part of the series ‘Presentation Tools: Past & Present (2013)’."
+
+- id: "line-art-02"
+  src: "/assets/img/content.line-art-02.png"
+  alt: "Line art illustration showing a 20th-century desk and whiteboard"
+  description: "Line art illustration titled ‘1980’. Part of the series ‘Presentation Tools: Past & Present (2013)’."
+
+- id: "line-art-03"
+  src: "/assets/img/content.line-art-03.png"
+  alt: "Line art illustration showing a desk and projector screen"
+  description: "Line art illustration titled ‘2000’. Part of the series ‘Presentation Tools: Past & Present (2013)’."
+
+- id: "line-art-04"
+  src: "/assets/img/content.line-art-04.png"
+  alt: "Line art illustration showing a web-based whiteboarding application"
+  description: "Line art illustration titled ‘2014’. Part of the series ‘Presentation Tools: Past & Present (2013)’."
