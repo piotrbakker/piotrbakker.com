@@ -176,12 +176,12 @@
 - id: "misc-screen-03"
   src: "/assets/img/content.misc-app-slide-03.png"
   alt: "Slide displaying three mockups of a maritime comfort tracking app"
-  description: "Mockups of a maritime comfort tracking app ‘Comfort Mate’."
+  description: "Mockups of a maritime comfort tracking app ‘Comfort Mate’ for the Maritime Research Institute Netherlands."
 
 - id: "misc-screen-04"
   src: "/assets/img/content.misc-app-slide-04.png"
   alt: "Slide displaying four mockups of a maritime comfort tracking app"
-  description: "Mockups of a maritime comfort tracking app ‘Comfort Mate’."
+  description: "Mockups of a maritime comfort tracking app ‘Comfort Mate’ for the Maritime Research Institute Netherlands."
 
 - id: "line-art-01"
   src: "/assets/img/content.line-art-01.png"
