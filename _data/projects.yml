@@ -471,8 +471,8 @@
     label: "Website"
     icon: "ph-globe"
 
-- id: "comfortmate"
-  heading: "Comfort Mate"
+- id: "marin"
+  heading: "Marin.nl"
   role: "UI/UX Designer"
   timeframe: "2015"
   category: "Maritime"
@@ -481,7 +481,11 @@
     UI Design,
     iOS Mobile App Design
   has_case_study: false
-  discontinued: true
+  link:
+    type: "website"
+    url: "http://marin.nl/en"
+    label: "Website"
+    icon: "ph-globe"
 
 - id: "allani"
   heading: "Allani.pl"
