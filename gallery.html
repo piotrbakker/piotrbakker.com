@@ -19,7 +19,10 @@ description: "A collection of design work and visual explorations."
         <div class="row row-cols-2 row-cols-md-4 g-2">
           {% for image in site.data.screens %}
             <div class="col">
-              <div class="position-relative w-100 overflow-hidden image-fit-square-cover image-hover-scale-up container-bg-secondary" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#imageModal-{{ image.id }}">
+              <div class="position-relative w-100 overflow-hidden image-fit-square-cover image-hover-scale-up container-bg-secondary"
+                   style="cursor: pointer;"
+                   data-modal-trigger="imageModal"
+                   data-content-index="{{ forloop.index0 }}">
                 <img class="position-absolute top-0 start-0 w-100 h-100 image-brightness-dimmed" alt="{{ image.alt }}" src="{{ image.src }}">
               </div>
             </div>
@@ -29,14 +32,10 @@ description: "A collection of design work and visual explorations."
     </div>
   </div>
 
-  {% for image in site.data.screens %}
-    {% include image-modal.html
-       id=image.id
-       src=image.src
-       alt=image.alt
-       description=image.description
-       group="gallery"
-       index=forloop.index0 %}
-  {% endfor %}
+  {% include image-modal.html group="gallery" modal_id="imageModal" %}
+
+  <script type="application/json" data-modal-content="gallery">
+    {% include modal-content-json.html items=site.data.screens fields="src,alt,description" %}
+  </script>
 
 </main>
