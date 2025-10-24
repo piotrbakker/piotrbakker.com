@@ -1,0 +1,23 @@
+{% comment %}
+Modal Content JSON Include
+Generates JSON array for modal navigation
+- items: array of items from site.data or page data
+- fields: which fields to include (e.g., "src,alt,description" or "title,subtitle,body")
+{% endcomment %}
+[
+  {% for item in include.items %}
+  {
+    {% assign field_array = include.fields | split: ',' %}
+    {% for field in field_array %}
+      {% assign field_trimmed = field | strip %}
+      {% if field_trimmed == 'src' %}"src": "{{ item.src }}"
+      {% elsif field_trimmed == 'alt' %}"alt": "{{ item.alt | replace: '"', '\"' }}"
+      {% elsif field_trimmed == 'description' %}"description": "{{ item.description | replace: '"', '\"' }}"
+      {% elsif field_trimmed == 'title' %}"title": "{{ item.title | replace: '"', '\"' }}"
+      {% elsif field_trimmed == 'subtitle' %}"subtitle": "{{ item.subtitle | replace: '"', '\"' }}"
+      {% elsif field_trimmed == 'body' %}"body": "{{ item.body | replace: '"', '\"' }}"
+      {% endif %}{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  }{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]
