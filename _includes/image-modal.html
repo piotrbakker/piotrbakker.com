@@ -4,9 +4,12 @@ Image Modal Include
 - src: image source path
 - alt: image alt text
 - description: image description
+- group: modal navigation group identifier (e.g., "gallery", "work")
+- index: position within the navigation group (0-indexed)
 {% endcomment %}
 
-<div class="modal modal-fade-opacity container-bg-secondary container-bg-blurred" id="imageModal-{{ include.id }}" tabindex="-1" aria-labelledby="imageModal-{{ include.id }}-label" aria-hidden="true">
+<div class="modal modal-fade-opacity container-bg-secondary container-bg-blurred" id="imageModal-{{ include.id }}" data-modal-group="{{ include.group }}" data-modal-index="{{ include.index }}" tabindex="-1" aria-labelledby="imageModal-{{ include.id }}-label" aria-hidden="true">
+
   <div class="modal-dialog modal-dialog-centered modal-fullscreen">
     <div class="modal-content modal-bg-primary">
       <div class="modal-header border-0">
