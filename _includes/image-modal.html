@@ -1,15 +1,18 @@
 {% comment %}
 Image Modal Include
-- id: unique identifier for the modal
-- src: image source path
-- alt: image alt text
-- description: image description
-- group: modal navigation group identifier (e.g., "gallery", "work")
-- index: position within the navigation group (0-indexed)
+Single modal for viewing images with keyboard navigation support.
+- group: modal navigation group identifier (e.g., "gallery", "greetbot-images")
+- modal_id: unique ID for this modal (default: "imageModal")
 {% endcomment %}
 
-<div class="modal modal-fade-opacity container-bg-secondary container-bg-blurred" id="imageModal-{{ include.id }}" data-modal-group="{{ include.group }}" data-modal-index="{{ include.index }}" tabindex="-1" aria-labelledby="imageModal-{{ include.id }}-label" aria-hidden="true">
+{% assign modal_id = include.modal_id | default: "imageModal" %}
 
+<div class="modal modal-fade-opacity container-bg-secondary container-bg-blurred"
+     id="{{ modal_id }}"
+     data-modal-group="{{ include.group }}"
+     tabindex="-1"
+     aria-labelledby="{{ modal_id }}Label"
+     aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-fullscreen">
     <div class="modal-content modal-bg-primary">
       <div class="modal-header border-0">
@@ -18,10 +21,10 @@ Image Modal Include
         </button>
       </div>
       <div class="modal-body p-4 d-flex justify-content-center align-items-center">
-        <img class="img-fluid rounded-3" style="max-height: 75vh; max-width: 100%; height: auto; width: auto; object-fit: contain;" alt="{{ include.alt }}" src="{{ include.src }}">
+        <img class="img-fluid rounded-3" style="max-height: 75vh; max-width: 100%; height: auto; width: auto; object-fit: contain;" alt="" src="" data-modal-content="image">
       </div>
       <div class="modal-footer border-0 justify-content-center padding-modal-footer">
-          <p class="text-center text-style-primary text-monospaced">{{ include.description }}</p>
+        <p class="text-center text-style-primary text-monospaced" data-modal-content="description"></p>
       </div>
     </div>
   </div>
