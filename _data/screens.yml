@@ -173,6 +173,11 @@
   alt: "Mixbook photo book checkout components"
   description: "Mixbook photo book checkout components."
 
+- id: "mixbook-screen-04"
+  src: "/assets/img/mixbook.com/content.mixbook-system-components-04.png"
+  alt: "Mixbook payment information components"
+  description: "Mixbook payment information components."
+
 - id: "misc-screen-03"
   src: "/assets/img/content.misc-app-slide-03.png"
   alt: "Slide displaying three mockups of a maritime comfort tracking app"
