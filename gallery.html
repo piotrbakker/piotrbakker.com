@@ -19,7 +19,7 @@ description: "A collection of design work and visual explorations."
         <div class="row row-cols-2 row-cols-md-4 g-2">
           {% for image in site.data.screens %}
             <div class="col">
-              <div class="position-relative w-100 overflow-hidden image-fit-square-cover image-hover-scale-up container-bg-secondary"
+              <div class="position-relative w-100 overflow-hidden image-fit-square-cover image-hover-scale-up container-bg-{{ image.background | default: 'secondary' }}"
                    style="cursor: pointer;"
                    data-modal-trigger="imageModal"
                    data-content-index="{{ forloop.index0 }}">
