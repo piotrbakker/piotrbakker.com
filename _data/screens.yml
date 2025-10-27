@@ -81,12 +81,22 @@
 - id: "wizehire-screen-01"
   src: "/assets/img/wizehire.com/content.light-wizehire-figma-frame-01.png"
   alt: "Wizehire recruiter dashboard mockup"
-  description: "Wizehire recruiter dashboard mockup."
+  description: "Wizehire recruiter dashboard mockup (Light Mode)."
 
 - id: "wizehire-screen-02"
+  src: "/assets/img/wizehire.com/content.dark-wizehire-figma-frame-01.png"
+  alt: "Wizehire recruiter dashboard mockup"
+  description: "Wizehire recruiter dashboard mockup (Dark Mode)."
+
+- id: "wizehire-screen-03"
   src: "/assets/img/wizehire.com/content.light-wizehire-figma-frame-02.png"
   alt: "Wizehire candidate profile page mockup"
-  description: "Wizehire candidate profile page mockup."
+  description: "Wizehire candidate profile page mockup (Light Mode)."
+
+- id: "wizehire-screen-04"
+  src: "/assets/img/wizehire.com/content.dark-wizehire-figma-frame-02.png"
+  alt: "Wizehire candidate profile page mockup"
+  description: "Wizehire candidate profile page mockup (Dark Mode)."
 
 - id: "construct-screen-01"
   src: "/assets/img/content.construct-system-slide-01.png"
@@ -105,16 +115,6 @@
 
 - id: "construct-screen-04"
   src: "/assets/img/content.construct-system-slide-04.png"
-  alt: "Example usage template of the Construct wireframe design system"
-  description: "Example usage template of the Construct wireframe design system."
-
-- id: "construct-screen-05"
-  src: "/assets/img/content.construct-system-slide-05.png"
-  alt: "Example usage template of the Construct wireframe design system"
-  description: "Example usage template of the Construct wireframe design system."
-
-- id: "construct-screen-06"
-  src: "/assets/img/content.construct-system-slide-06.png"
   alt: "Example usage template of the Construct wireframe design system"
   description: "Example usage template of the Construct wireframe design system."
 
