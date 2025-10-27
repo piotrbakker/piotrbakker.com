@@ -54,34 +54,58 @@
   description: "App Image used on Hiki’s listing on the Slack App Directory."
 
 - id: "greetbot-screen-01"
+  src: "/assets/img/greet.bot/content.light-greetbot-project-slide-01.png"
+  alt: "Greet.Bot landing page in light mode"
+  description: "Greet.Bot landing page (Light Mode)."
+  background: "gradient-dawn"
+
+- id: "greetbot-screen-02"
+  src: "/assets/img/greet.bot/content.dark-greetbot-project-slide-01.png"
+  alt: "Greet.Bot landing page in dark mode"
+  description: "Greet.Bot landing page (Dark Mode)."
+  background: "gradient-midnight"
+
+- id: "greetbot-screen-03"
   src: "/assets/img/greet.bot/content.greetbot-slide-slack-01.png"
   alt: "App Image used on GreetBot’s listing on the Slack App Directory"
   description: "App Image used on GreetBot’s listing on the Slack App Directory."
 
-- id: "greetbot-screen-02"
+- id: "greetbot-screen-04"
   src: "/assets/img/greet.bot/content.greetbot-slide-slack-02.png"
   alt: "App Image used on GreetBot’s listing on the Slack App Directory"
   description: "App Image used on GreetBot’s listing on the Slack App Directory."
 
-- id: "greetbot-screen-03"
+- id: "greetbot-screen-05"
   src: "/assets/img/greet.bot/content.greetbot-slide-slack-03.png"
   alt: "App Image used on GreetBot’s listing on the Slack App Directory"
   description: "App Image used on GreetBot’s listing on the Slack App Directory."
 
-- id: "greetbot-screen-04"
+- id: "greetbot-screen-06"
   src: "/assets/img/greet.bot/content.greetbot-slide-slack-04.png"
   alt: "App Image used on GreetBot’s listing on the Slack App Directory"
   description: "App Image used on GreetBot’s listing on the Slack App Directory."
 
-- id: "greetbot-screen-05"
+- id: "greetbot-screen-07"
   src: "/assets/img/greet.bot/content.greetbot-slide-slack-05.png"
   alt: "App Image used on GreetBot’s listing on the Slack App Directory"
   description: "App Image used on GreetBot’s listing on the Slack App Directory."
 
-- id: "greetbot-screen-06"
+- id: "greetbot-screen-08"
   src: "/assets/img/greet.bot/content.greetbot-slide-slack-06.png"
   alt: "App Image used on GreetBot’s listing on the Slack App Directory"
   description: "App Image used on GreetBot’s listing on the Slack App Directory."
+
+- id: "greetbot-screen-09"
+  src: "/assets/img/greet.bot/content.light-greetbot-project-slide-02.png"
+  alt: "Screenshots of various how-to articles in mobile viewports using light mode"
+  description: "Screenshots of various GreetBot how-to articles (mobile viewport, Light Mode)."
+  background: "gradient-dawn"
+
+- id: "greetbot-screen-10"
+  src: "/assets/img/greet.bot/content.dark-greetbot-project-slide-02.png"
+  alt: "Screenshots of various how-to articles in mobile viewports using dark mode"
+  description: "Screenshots of various GreetBot how-to articles (mobile viewport, Dark Mode)."
+  background: "gradient-midnight"
 
 - id: "wizehire-screen-01"
   src: "/assets/img/wizehire.com/content.light-wizehire-figma-frame-01.png"
