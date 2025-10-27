@@ -65,6 +65,10 @@
   }
 }
 
+.container-bg-gradient-midnight {
+  background: $gradient-midnight;
+}
+
 .container-bg-blurred {
   backdrop-filter: blur($blur-sm);
   -webkit-backdrop-filter: blur($blur-sm);
