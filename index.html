@@ -31,7 +31,7 @@ layout: default
   {% for project in case_study_projects %}
     <section id="project-{{ project.id }}">
       <div class="container px-4 mb-4 mb-lg-5">
-        <div class="overflow-x-hidden g-0 ps-4 ps-md-5 py-4 py-md-5 rounded-5 container-bg-gradient-{{ project.gradient | default: 'dawn' }}">
+        <div class="overflow-x-hidden g-0 ps-4 ps-md-5 py-4 py-md-5 rounded-5 container-bg-{{ project.background | default: 'secondary' }}">
           <div class="row d-flex align-items-center">
             <div class="col-12 col-md-6 order-md-last">
               <picture>
