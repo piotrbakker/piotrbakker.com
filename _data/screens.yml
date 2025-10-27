@@ -2,26 +2,31 @@
   src: "/assets/img/crater.tools/content.light-app-slide-calmetric-01.png"
   alt: "Slide displaying three Calmetric iOS app screenshots"
   description: "Calmetric iOS app screenshots."
+  background: "gradient-dawn"
 
 - id: "conversions-screen-01"
   src: "/assets/img/crater.tools/content.light-app-slide-conversions-01.png"
   alt: "Slide displaying three Conversions iOS app screenshots"
   description: "Conversions iOS app screenshots."
+  background: "gradient-dawn"
 
 - id: "codifier-screen-01"
   src: "/assets/img/crater.tools/content.light-app-slide-codifier-01.png"
   alt: "Slide displaying three Codifier iOS app screenshots"
   description: "Codifier iOS app screenshots."
+  background: "gradient-dawn"
 
 - id: "videoshop-screen-01"
   src: "/assets/img/videoshop.net/content.dark-app-slide-videoshop-01.png"
   alt: "Slide displaying three Videoshop iOS app screenshots"
   description: "Videoshop iOS app mockups."
+  background: "gradient-midnight"
 
 - id: "videoshop-screen-02"
   src: "/assets/img/videoshop.net/content.dark-app-slide-videoshop-02.png"
   alt: "Slide displaying three Videoshop iOS app screenshots"
   description: "Videoshop iOS app mockups."
+  background: "gradient-midnight"
 
 - id: "hiki-screen-01"
   src: "/assets/img/hiki.team/content.hiki-slide-slack-01.png"
