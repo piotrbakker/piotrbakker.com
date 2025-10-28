@@ -1,19 +1,37 @@
 - id: "calmetric-screen-01"
   src: "/assets/img/crater.tools/content.light-app-slide-calmetric-01.png"
-  alt: "Slide displaying three Calmetric iOS app screenshots"
-  description: "Calmetric iOS app screenshots."
+  alt: "Slide displaying three Calmetric iOS app screenshots taken in light mode"
+  description: "Calmetric iOS app screenshots (Light Mode)."
+  background: "gradient-dawn"
+
+- id: "calmetric-screen-02"
+  src: "/assets/img/crater.tools/content.dark-app-slide-calmetric-01.png"
+  alt: "Slide displaying three Calmetric iOS app screenshots taken in dark mode"
+  description: "Calmetric iOS app screenshots (Dark Mode)."
   background: "gradient-dawn"
 
 - id: "conversions-screen-01"
   src: "/assets/img/crater.tools/content.light-app-slide-conversions-01.png"
-  alt: "Slide displaying three Conversions iOS app screenshots"
-  description: "Conversions iOS app screenshots."
+  alt: "Slide displaying three Conversions iOS app screenshots taken in light mode"
+  description: "Conversions iOS app screenshots (Light Mode)."
+  background: "gradient-dawn"
+
+- id: "conversions-screen-02"
+  src: "/assets/img/crater.tools/content.dark-app-slide-conversions-01.png"
+  alt: "Slide displaying three Conversions iOS app screenshots taken in dark mode"
+  description: "Conversions iOS app screenshots (Dark Mode)."
   background: "gradient-dawn"
 
 - id: "codifier-screen-01"
   src: "/assets/img/crater.tools/content.light-app-slide-codifier-01.png"
-  alt: "Slide displaying three Codifier iOS app screenshots"
-  description: "Codifier iOS app screenshots."
+  alt: "Slide displaying three Codifier iOS app screenshots taken in light mode"
+  description: "Codifier iOS app screenshots (Light Mode)."
+  background: "gradient-dawn"
+
+- id: "codifier-screen-02"
+  src: "/assets/img/crater.tools/content.dark-app-slide-codifier-01.png"
+  alt: "Slide displaying three Codifier iOS app screenshots taken in dark mode"
+  description: "Codifier iOS app screenshots (Dark Mode)."
   background: "gradient-dawn"
 
 - id: "videoshop-screen-01"
@@ -28,31 +46,6 @@
   description: "Videoshop iOS app mockups."
   background: "gradient-midnight"
 
-- id: "hiki-screen-01"
-  src: "/assets/img/hiki.team/content.hiki-slide-slack-01.png"
-  alt: "App Image used on Hiki’s listing on the Slack App Directory"
-  description: "App Image used on Hiki’s listing on the Slack App Directory."
-
-- id: "hiki-screen-02"
-  src: "/assets/img/hiki.team/content.hiki-slide-slack-02.png"
-  alt: "App Image used on Hiki’s listing on the Slack App Directory"
-  description: "App Image used on Hiki’s listing on the Slack App Directory."
-
-- id: "hiki-screen-03"
-  src: "/assets/img/hiki.team/content.hiki-slide-slack-03.png"
-  alt: "App Image used on Hiki’s listing on the Slack App Directory"
-  description: "App Image used on Hiki’s listing on the Slack App Directory."
-
-- id: "hiki-screen-04"
-  src: "/assets/img/hiki.team/content.hiki-slide-slack-04.png"
-  alt: "App Image used on Hiki’s listing on the Slack App Directory"
-  description: "App Image used on Hiki’s listing on the Slack App Directory."
-
-- id: "hiki-screen-05"
-  src: "/assets/img/hiki.team/content.hiki-slide-slack-05.png"
-  alt: "App Image used on Hiki’s listing on the Slack App Directory"
-  description: "App Image used on Hiki’s listing on the Slack App Directory."
-
 - id: "greetbot-screen-01"
   src: "/assets/img/greet.bot/content.light-greetbot-project-slide-01.png"
   alt: "Greet.Bot landing page in light mode"
@@ -65,35 +58,6 @@
   description: "Greet.Bot landing page (Dark Mode)."
   background: "gradient-midnight"
 
-- id: "greetbot-screen-03"
-  src: "/assets/img/greet.bot/content.greetbot-slide-slack-01.png"
-  alt: "App Image used on GreetBot’s listing on the Slack App Directory"
-  description: "App Image used on GreetBot’s listing on the Slack App Directory."
-
-- id: "greetbot-screen-04"
-  src: "/assets/img/greet.bot/content.greetbot-slide-slack-02.png"
-  alt: "App Image used on GreetBot’s listing on the Slack App Directory"
-  description: "App Image used on GreetBot’s listing on the Slack App Directory."
-
-- id: "greetbot-screen-05"
-  src: "/assets/img/greet.bot/content.greetbot-slide-slack-03.png"
-  alt: "App Image used on GreetBot’s listing on the Slack App Directory"
-  description: "App Image used on GreetBot’s listing on the Slack App Directory."
-
-- id: "greetbot-screen-06"
-  src: "/assets/img/greet.bot/content.greetbot-slide-slack-04.png"
-  alt: "App Image used on GreetBot’s listing on the Slack App Directory"
-  description: "App Image used on GreetBot’s listing on the Slack App Directory."
-
-- id: "greetbot-screen-07"
-  src: "/assets/img/greet.bot/content.greetbot-slide-slack-05.png"
-  alt: "App Image used on GreetBot’s listing on the Slack App Directory"
-  description: "App Image used on GreetBot’s listing on the Slack App Directory."
-
-- id: "greetbot-screen-08"
-  src: "/assets/img/greet.bot/content.greetbot-slide-slack-06.png"
-  alt: "App Image used on GreetBot’s listing on the Slack App Directory"
-  description: "App Image used on GreetBot’s listing on the Slack App Directory."
 
 - id: "greetbot-screen-09"
   src: "/assets/img/greet.bot/content.light-greetbot-project-slide-02.png"
