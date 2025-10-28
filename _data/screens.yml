@@ -189,7 +189,7 @@
 - id: "misc-screen-06"
   src: "/assets/img/content.misc-app-slide-06.png"
   alt: "Slide displaying three mockups of a retail traffic tracking app"
-  description: "Mockups of a retail traffic tracking app for EasyCount.nl"
+  description: "Mockups of a retail traffic tracking app for EasyCount.nl."
 
 - id: "line-art-01"
   src: "/assets/img/content.line-art-01.png"
