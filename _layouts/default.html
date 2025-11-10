@@ -13,7 +13,7 @@
   <meta property="og:description" content="{{ page_data.meta.description | default: site.description }}">
   <meta property="og:type" content="website">
   <meta property="og:url" content="{{ site.url }}{{ page.url }}">
-  <meta property="og:image" content="{{ site.url }}/assets/img/content.piotr-bakker-photo-01.jpeg">
+  <meta property="og:image" content="{{ page.og_image | default: site.url | append: '/assets/img/content.piotr-bakker-photo-01.jpeg' }}">
 
   {% if page.redirect_url %}
     <meta http-equiv="refresh" content="{{ page.redirect_delay | default: 0 }}; url={{ page.redirect_url }}">
