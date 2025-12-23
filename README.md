@@ -90,6 +90,6 @@ Responsive border radius overrides follow the pattern `border-radius-{breakpoint
 
 ## License
 
-© 2024 Piotr Bakker. All rights reserved.
+&copy; 2016&ndash;2025 Piotr Bakker. All rights reserved.
 
 The code structure and Jekyll setup are open source, but the content, design, and assets are proprietary.
