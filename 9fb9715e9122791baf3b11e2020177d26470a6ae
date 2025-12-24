@@ -1,0 +1,16 @@
+Commit messages from this point backward (to repository start) were standardized on 2025-12-23 to use imperative mood, proper capitalization, and ending periods.
+
+Complete list of changes made:
+
+1. "Create gh-pages branch via GitHub" → "Create gh-pages branch via GitHub."
+2. "replaced default files" → "Replace default files."
+3. "Added CNAME" → "Add CNAME."
+4. "Code refactoring, font-awesome icons, full mobile support." → "Refactor code, add Font Awesome icons, and add full mobile support."
+5. "Typography refinements." → "Refine typography."
+6. "Changed introduction text." → "Change introduction text."
+7. "head tag made consistent across pages." → "Make head tag consistent across pages."
+8. "Updated resume." → "Update resume."
+9. "Site content update" → "Update site content."
+10. "Delete .DS_Store" → "Delete .DS_Store."
+
+All commit SHAs from the beginning of the repository to 2019-06-11 were changed as a result of this rewrite.
