@@ -46,6 +46,30 @@
   description: "Videoshop iOS app mockups."
   background: "gradient-midnight"
 
+- id: "videoshop-screen-03"
+  src: "/assets/img/videoshop.net/content.light-icons-videoshop-01.png"
+  alt: "Slide displaying four rows of Videoshop iOS app icons"
+  description: "Videoshop iOS app icon set."
+  background: "gradient-midnight"
+
+- id: "videoshop-screen-04"
+  src: "/assets/img/videoshop.net/content.dark-icons-videoshop-01.png"
+  alt: "Slide displaying four rows of Videoshop iOS app icons"
+  description: "Videoshop iOS app icon set."
+  background: "gradient-midnight"
+
+- id: "videoshop-screen-05"
+  src: "/assets/img/videoshop.net/content.light-icons-videoshop-02.png"
+  alt: "Slide displaying four rows of Videoshop iOS app icons"
+  description: "Videoshop iOS app icon set."
+  background: "gradient-midnight"
+
+- id: "videoshop-screen-06"
+  src: "/assets/img/videoshop.net/content.dark-icons-videoshop-02.png"
+  alt: "Slide displaying four rows of Videoshop iOS app icons"
+  description: "Videoshop iOS app icon set."
+  background: "gradient-midnight"
+
 - id: "greetbot-screen-01"
   src: "/assets/img/greet.bot/content.light-greetbot-project-slide-01.png"
   alt: "Greet.Bot landing page in light mode"
