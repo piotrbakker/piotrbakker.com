@@ -82,7 +82,6 @@
   description: "Greet.Bot landing page (Dark Mode)."
   background: "gradient-midnight"
 
-
 - id: "greetbot-screen-09"
   src: "/assets/img/greet.bot/content.light-greetbot-project-slide-02.png"
   alt: "Screenshots of various how-to articles in mobile viewports using light mode"
